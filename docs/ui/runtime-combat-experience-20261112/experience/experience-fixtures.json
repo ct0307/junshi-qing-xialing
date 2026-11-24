@@ -1,0 +1,55 @@
+{
+    "Scope": "隔离表现契约夹具；不作为实关平衡、设备听感或人工乐趣证据",
+    "Sizes": [
+        "1280x720",
+        "1920x1080",
+        "2400x1080"
+    ],
+    "Fixtures": [
+        {
+            "Name": "fixture-wind-fire-stage1"
+        },
+        {
+            "Name": "fixture-wind-fire-stage2"
+        },
+        {
+            "Name": "fixture-wind-fire-stage3"
+        },
+        {
+            "Name": "fixture-link-created-hit-replaced"
+        },
+        {
+            "Name": "fixture-assist-stage3-two-arrows"
+        },
+        {
+            "Name": "fixture-assist-stage2-retarget"
+        },
+        {
+            "Name": "fixture-assist-stage3-retarget"
+        },
+        {
+            "Name": "fixture-burst-3"
+        },
+        {
+            "Name": "fixture-burst-6"
+        },
+        {
+            "Name": "fixture-burst-10"
+        },
+        {
+            "Name": "fixture-natural-old-action-times"
+        },
+        {
+            "Name": "fixture-natural-old-kill-retirement"
+        },
+        {
+            "Name": "fixture-natural-old-leak-retirement"
+        },
+        {
+            "Name": "fixture-boss-warning-with-fields"
+        },
+        {
+            "Name": "fixture-defeat-clear-status"
+        }
+    ]
+}

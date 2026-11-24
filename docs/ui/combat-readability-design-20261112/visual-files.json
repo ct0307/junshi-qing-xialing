@@ -1,0 +1,34 @@
+[
+  {
+    "Path": "docs/ui/combat-readability-design-20261112/battle-readability-concept.png",
+    "Size": [
+      1920,
+      1080
+    ],
+    "Sha256": "e37f121e7e7bb549d9881d6f76e359ed0ec7f4df9e0f31fa062aad9bc018c180"
+  },
+  {
+    "Path": "docs/ui/combat-readability-design-20261112/occlusion-diagnosis.png",
+    "Size": [
+      1600,
+      1230
+    ],
+    "Sha256": "31e224570e9832dbc66cacbdd198dceeb35c1d4f082e0bd03f71b4b76902e3f5"
+  },
+  {
+    "Path": "docs/ui/combat-readability-design-20261112/upgrade-feedback-storyboard.png",
+    "Size": [
+      1680,
+      910
+    ],
+    "Sha256": "07bf6131eac740f35176eed11afe997bb7badeb22f02a4b25da7d074c624c388"
+  },
+  {
+    "Path": "docs/ui/combat-readability-design-20261112/user-screenshot.png",
+    "Size": [
+      2509,
+      1372
+    ],
+    "Sha256": "fa9c58d9e65c89cac47b0b0f17ace18601822b904515d465ad6b81e38db460e8"
+  }
+]

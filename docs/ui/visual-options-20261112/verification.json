@@ -1,0 +1,116 @@
+{
+  "VerifiedAtUtc": "2026-11-12T00:54:39.688703+00:00",
+  "DeliveryChecksPassed": true,
+  "FormalSourceCount": 407,
+  "FormalSourceHashesUnchanged": true,
+  "InputSourceCount": 16,
+  "InputSourceHashesUnchanged": true,
+  "FontLicenseIncluded": true,
+  "Screenshots": [
+    {
+      "Path": "a-jade-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "e551526c67ae9039cbf7475787cb92b71bb7723426ef3e1dd8498846305c1e94"
+    },
+    {
+      "Path": "a-jade-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "6a2e2e829943c3354934a86772f45c6669452436242167d9241acfa99205432f"
+    },
+    {
+      "Path": "a-jade-shortage-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "3370bd37517cb4e8185cd3fba2d343b89104ee1b6a19bb21536b1dd22529576a"
+    },
+    {
+      "Path": "b-lacquer-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "d872de226315e9b636d08028bf6d8cd263a08354cdaed4a6d0c98fb916f97866"
+    },
+    {
+      "Path": "b-lacquer-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "41d6d32fe550e85249a6853f4c85bd4595429546b77b7317d53f8707a1638e27"
+    },
+    {
+      "Path": "b-lacquer-shortage-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "3ec5ebf18b54ae87131734862e449be60d5f1e280539652417329ec0789c29c8"
+    },
+    {
+      "Path": "c-scroll-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "5c1115b6b4ae33fe88e196cbd6e93da0e3adaf8ec437b965baf5f39c69e185c6"
+    },
+    {
+      "Path": "c-scroll-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "d7dca8da795c3c4adab9e4c3139da46cd3f2993060f3e9f3cd8748015d61c6e6"
+    },
+    {
+      "Path": "c-scroll-shortage-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "dd5e86c8fd96fe4352c5a152f6de47fc0620cf79220f7c42973c070edb15efee"
+    },
+    {
+      "Path": "overview.png",
+      "Size": [
+        1600,
+        1140
+      ],
+      "Sha256": "b2461a6a189792dd826df922f37b1218afccb1c769ad780681b0a18540745d7a"
+    },
+    {
+      "Path": "review-desktop-1280.png",
+      "Size": [
+        1264,
+        1347
+      ],
+      "Sha256": "f8c6e05b50eb3b64c836f43893f452829b263dcca5c520bcaeb8bb76a473ef3d"
+    },
+    {
+      "Path": "review-mobile-390.png",
+      "Size": [
+        374,
+        2228
+      ],
+      "Sha256": "774385e0006db03f1d42c815d936a88bf6ceb53a1dfde3289871d949e46d6b9c"
+    }
+  ],
+  "BrowserEvidence": "browser-checks.json",
+  "UiOnly": true,
+  "NewMapOrCharacterArtCreated": false,
+  "UnityVerifiedThisTurn": false,
+  "Pending": [
+    "用户选择方案",
+    "真正地图／人物重绘",
+    "Unity接入、触控及性能验证"
+  ]
+}

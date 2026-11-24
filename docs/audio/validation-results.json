@@ -1,0 +1,18 @@
+{
+  "Passed": true,
+  "Runs": [
+    {
+      "Command": "C:\\Users\\chentao\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -X utf8 tools/build_audio_content.py --verify-only",
+      "ExitCode": 0,
+      "Stdout": "{\n  \"Version\": 1,\n  \"Passed\": true,\n  \"CueCount\": 28,\n  \"MusicCount\": 9,\n  \"SfxCount\": 34,\n  \"FileCount\": 43,\n  \"UniqueSha256Count\": 43,\n  \"SourceSampleCount\": 25,\n  \"MasterCount\": 43,\n  \"MasterBitsPerSample\": 24,\n  \"Failures\": [],\n  \"HumanListening\": \"未进行人工听测；循环只验证采样边界，不代表主观听感通过。\"\n}\n\n",
+      "Stderr": ""
+    },
+    {
+      "Command": "C:\\Users\\chentao\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -X utf8 docs/audio/test_audio_content.py",
+      "ExitCode": 0,
+      "Stdout": "",
+      "Stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 7.163s\n\nOK\n"
+    }
+  ],
+  "HumanListening": "未进行人工听测"
+}

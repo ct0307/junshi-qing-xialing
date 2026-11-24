@@ -1,0 +1,2778 @@
+{
+  "Count": 346,
+  "BySize": {
+    "(1280, 720)": 109,
+    "(1920, 1080)": 133,
+    "(2400, 1080)": 104
+  },
+  "Files": [
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-army-rules-1280.png",
+      "Sha256": "fd053f5d18421a4684670208304390f352dac5847b0a3c029bda29e603fd9f89",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-army-rules-1920.png",
+      "Sha256": "86f9651b62f79b74a8bef5d0238054e2a566446b0707a755f9831da7c66e19b9",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-army-rules-2400.png",
+      "Sha256": "2c5c6eabe7f05792b74b9ff782466126c7bae1d05aceb74b0dadaedf50688e1a",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-attacks-tier2-1280.png",
+      "Sha256": "18de59da0e8eb254dfd4f83500859a44489334c043fc3d52f3105558bd129a8b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-attacks-tier2-1920.png",
+      "Sha256": "b96bfbceb41ef326688c339016b6d4fd635103d7b6de73c190a1bc0305826dfa",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-attacks-tier2-2400.png",
+      "Sha256": "f90248ca7fbf4e1f074c5e33226887e1c34bb16d98ec006aa8cc86aa61713f74",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-attacks-tier3-1280.png",
+      "Sha256": "6547420dab7042541bb0f1868278c4a46009da34bd1fae58280b7b8be38a6938",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-attacks-tier3-1920.png",
+      "Sha256": "7ad109a4838b7d62d59050de5b29dec230a1318e4a487cbc43637525341108c3",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-attacks-tier3-2400.png",
+      "Sha256": "cfb2e77a01f87582d648f27da25b12b22d9c68096bfb5386023ceea803bdc8e7",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier2-skill_cast-1280.png",
+      "Sha256": "72e594523ff8f5b675bd099ab0bbb3ec2116bc1bdadce27afb42eb71fb77735b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier2-skill_cast-1920.png",
+      "Sha256": "7c2fb667ca27e2b5603d5afc852a509a8b00d2b75d258285f1e0d37e6b40e5be",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier2-skill_cast-2400.png",
+      "Sha256": "e2f74f76f876dd13547471176be05add017274ec6ccbe500ec342edf457dd58a",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier2-skill_charge-1280.png",
+      "Sha256": "c2f9d413bdb35a9a98486b7a2f41aec460cb9ac68550d96736a5d5ded5ac9d68",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier2-skill_charge-1920.png",
+      "Sha256": "059896d384650c0dec9949b2f8f04df4beb64236d56f8e8178f39b5889041913",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier2-skill_charge-2400.png",
+      "Sha256": "0df34e36f6cd18f308819ca2f8c72d6c56f8ec880eecd9471c38966eec39808f",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier3-skill_cast-1280.png",
+      "Sha256": "c500f3ce9dd36baf110bd841b592bff564214a04a0f4f872d46fb52dbb9c4d22",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier3-skill_cast-1920.png",
+      "Sha256": "d854c9f29c2bbce17e7f2ca300cd5c816ce1cd5f613bb41b50589e1c523c1a66",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier3-skill_cast-2400.png",
+      "Sha256": "525c4e90abc7152386a2f625f60bb8272eded5277627335bcc36a180c991f05c",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier3-skill_charge-1280.png",
+      "Sha256": "bc82704039f47a40c270bf7e9e5e9c2259cc46306a4c77394bf62452c3e97d86",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier3-skill_charge-1920.png",
+      "Sha256": "8feea04556f0d232d8beaa41d4bf6b3a4f1c75a164376a471f8215df469285af",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-lv_bu-tier3-skill_charge-2400.png",
+      "Sha256": "a3226764fae6a5acc749a4eb60c4ea48dce1e15587205a83b37e2252b79e7635",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-paused-tier3-1280.png",
+      "Sha256": "4170ac6e3a520e25650fa7570b851c57cc67bd1ad04ef3d0aa233ac43c7e6819",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-paused-tier3-1920.png",
+      "Sha256": "d3d98d8540ec30db6aa16fe96de4fce9f5f00c3110a9c039fc3e5c6c3bd2e75c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-paused-tier3-2400.png",
+      "Sha256": "fbbd3e29d3cded279455e883c389548cfba2a503a4ea5fe8d914b1e509c27f54",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-ten-heroes-tier2-1280.png",
+      "Sha256": "dd2d45262082041714b804ffd568a152956e2cb4b63a979c9813289cbcc787ff",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-ten-heroes-tier2-1920.png",
+      "Sha256": "f17343e0dd7f1dd5971907e4ae0c16ef817305387cb98374a15a7832674a4844",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-ten-heroes-tier2-2400.png",
+      "Sha256": "7ccd549a009da80cde9c53247c88cbfa9e419de570ffdc63472418b93ae62d8b",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-yuan_shao-tier2-skill_cast-1280.png",
+      "Sha256": "c2f9d413bdb35a9a98486b7a2f41aec460cb9ac68550d96736a5d5ded5ac9d68",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-yuan_shao-tier2-skill_cast-1920.png",
+      "Sha256": "059896d384650c0dec9949b2f8f04df4beb64236d56f8e8178f39b5889041913",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-yuan_shao-tier2-skill_cast-2400.png",
+      "Sha256": "0df34e36f6cd18f308819ca2f8c72d6c56f8ec880eecd9471c38966eec39808f",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-yuan_shao-tier3-skill_cast-1280.png",
+      "Sha256": "0b969457c2e23430d86c605182a000f08e4e3596ba2d7dc36291e62cbf9bdfbd",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-yuan_shao-tier3-skill_cast-1920.png",
+      "Sha256": "12b3ad8f80489490d634a747bbbd15d690252cb178ff5b2e2abfe52c8e6573d9",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-yuan_shao-tier3-skill_cast-2400.png",
+      "Sha256": "17939eb2330a4b87fcabbcb850e65a6cb14ba792be857cd42a703579b5839a31",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-zhou_yu-tier2-skill_cast-1280.png",
+      "Sha256": "c2f9d413bdb35a9a98486b7a2f41aec460cb9ac68550d96736a5d5ded5ac9d68",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-zhou_yu-tier2-skill_cast-1920.png",
+      "Sha256": "059896d384650c0dec9949b2f8f04df4beb64236d56f8e8178f39b5889041913",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-zhou_yu-tier2-skill_cast-2400.png",
+      "Sha256": "0df34e36f6cd18f308819ca2f8c72d6c56f8ec880eecd9471c38966eec39808f",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-zhou_yu-tier3-skill_cast-1280.png",
+      "Sha256": "5e0660a4425ec7c7e3e97160cdd4f640a46de230832a5d46500c3274bc14f48d",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-zhou_yu-tier3-skill_cast-1920.png",
+      "Sha256": "511eef9602e1d4159cdfb2a58bf21eba4f284a275dce1749809e1f41818e0cec",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/fixture-zhou_yu-tier3-skill_cast-2400.png",
+      "Sha256": "01c2a0a879ea3da37ed81615b18d893627729ff4eb8d104930354fd69360e908",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/qun-before-recruit-impact-1280.png",
+      "Sha256": "15ca71e57bc34dab205a20a617e3fa46fa636451f03ed519925a639f66f1dab0",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/qun-before-recruit-impact-1920.png",
+      "Sha256": "b07a27ce7a32eecd491619827895f3adb274a84c28731d3dce350f60b9dfe23e",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/qun-before-recruit-impact-2400.png",
+      "Sha256": "26cf0a972abc626263ee914aad3f515c7903b623530ec376998020ed331c53db",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/audio-menu-1280.png",
+      "Sha256": "fe16bf4845afa8db98fb228511120ca6a87520666546e980bb8837cbb1b1e77b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/audio-menu-1920.png",
+      "Sha256": "756ee9ada52d24554ce5325f407f75c980d13b8131522b8fb00afdbfcf3121e2",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/audio-menu-2400.png",
+      "Sha256": "d3c9c4537093b1c5e53f2f6428726e0dc374d222d23a98f368dc1ff6de20ef94",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/audio-paused-1280.png",
+      "Sha256": "b13f3458d508069bc5518d2ff78015c113e8ef02c6b570e0c940bade3d3f77eb",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/audio-paused-1920.png",
+      "Sha256": "627f693231efee1f45eb19e5da9303719b8c15cf81f80398e5fd10015c24b445",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/audio-paused-2400.png",
+      "Sha256": "34cb8036df81fdf2d75ade60626415f05f037a6ded58a2369de51cffc0f1c9b6",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/content-error-1280.png",
+      "Sha256": "d905e2c1d6b0c5ba06f90829b8e52458a50927f7001d55ca8a252083924cd72b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/content-error-1920.png",
+      "Sha256": "bb0b0fef31eb4b57713bfbc62c7f04d7763b42f3823d24411a1065537d40c675",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/content-error-2400.png",
+      "Sha256": "960589c2304fca93ccfc26db1ef3de378e67dc8bb32571c5005bb994973a1851",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-chibi-1280.png",
+      "Sha256": "4ceea048b5ab20bde9dc1c9e2630fcd07a2b34ad14e4a2a2d50c1280046350e1",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-chibi-1920.png",
+      "Sha256": "b799a7b44a799493e12ba8fe8bdc412c67f5dfd9adfa11c50e1b7b25727b8e1a",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-chibi-2400.png",
+      "Sha256": "83d7a0b8c665198cd6cad95bd6193645faf0e18b3d6f51ae729e895859c69d6a",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-finale-1280.png",
+      "Sha256": "6dc25bd08db9bf3d1357b660d7d0fb0d3cbc800ee8d5cfed6225ecbe9af35349",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-finale-1920.png",
+      "Sha256": "d775509ef8f665912d2c7655d590edc5797b9fb0aa8b6760d3dc5b1f194b54c1",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-finale-2400.png",
+      "Sha256": "3879f9d4866e1d79ee8b668e3e96c6ef9807b0c8025f1c145c7611818026e697",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-guandu-1280.png",
+      "Sha256": "185a3fdcf2756519e2fe9182c34720e3556d7e9632af677ed8209820dba281de",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-guandu-1920.png",
+      "Sha256": "9844d77ad724ff47beea9bad8c23fa1b4794f6ab76d03894460e863e4f9cffb9",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-guandu-2400.png",
+      "Sha256": "3c3dd59303c165df632150163e52dca07dbc4c416ce8ef45e635586e383f8247",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-huangjin-1280.png",
+      "Sha256": "6d925d227f7130a7805ec398d4aa406110b5d65fcccad7496c980c36fa93dc7c",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-huangjin-1920.png",
+      "Sha256": "a60d95641f068532abc86e34ece0bb10bf17be473fa36ec5c9a290bd28795554",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-huangjin-2400.png",
+      "Sha256": "f26e4ada662a7ebed611353f33ab6c49b5be239daa378cacac1e4b86890db095",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-hulao-1280.png",
+      "Sha256": "1359b116f20f022db547b1cf374efbd5bbcc2647a2646840d80b68ac1d69f25d",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-hulao-1920.png",
+      "Sha256": "9c301cd39ad11d5be55b1947cb1f56d9ef79a2ef71c53e6067ff84523c325cad",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/intel-hulao-2400.png",
+      "Sha256": "555b0ff88a03a4f19030e84d95c42626f03c7766900f8f7f19f7b632bb4efd5f",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/levels-1280.png",
+      "Sha256": "f3aacf3b772ae55b4534200ad3a739b0e85220f9f87e388560ce72241acecf36",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/levels-1920.png",
+      "Sha256": "7a2bb81776e115060427ff00904ad42434d4dae21692648ad78d156d1dd4ed95",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/levels-2400.png",
+      "Sha256": "ac8508eae50968b3f1c1bfb271baf4881cfa02e437a41e517434efc3931d1390",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/long-intel-fixture-1280.png",
+      "Sha256": "33191c2ee595c01518bbac7d907d398471ba0cd76acab82a610943dae84be048",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/long-intel-fixture-1920.png",
+      "Sha256": "68da991487d16806b17a8bce79d4873ef3c4d8cf4b5fc0ea19cc21b56939311e",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/long-intel-fixture-2400.png",
+      "Sha256": "10d28e05c370449ea2bd4a65be22c4ad507ba34ec2f1770680913aad2e2aef90",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/main-1280.png",
+      "Sha256": "2cdf96d21d56fbf43c81f19396df14f4d696f71934c1ada80d6f97544549f261",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/main-1920.png",
+      "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/main-2400.png",
+      "Sha256": "e56dc3184b567c5ea495c13a0031fa3a23d8856ebe19e7858889e749c2532882",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/pause-1280.png",
+      "Sha256": "3436a4628ec9dbe3d15e4a258a7172c372630fd8e5ab2681fe7eed1291b74c5e",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/pause-1920.png",
+      "Sha256": "11f0a2e9ec585e184f8209042afe62737dce19e832455a6575f360cf67843b18",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/pause-2400.png",
+      "Sha256": "c91adad9df18a2e323972974755151673e0d446204581502e8e7477cc259ccf5",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/preparation-exit-1280.png",
+      "Sha256": "71bd9763b34190257e635d7ba8bd1195b8b502c2ff3076b1f7a1294bdbb06b5d",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/preparation-exit-1920.png",
+      "Sha256": "0e17874303b2af35a2c08c2f998cef1bf16eb8a56accaca473df5b26c51196b9",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/preparation-exit-2400.png",
+      "Sha256": "560992ccc8e966048237f587535ac3f989f1060182f4ab377b6600098557c45a",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/roster-empty-1280.png",
+      "Sha256": "2b5e104719b3d4afd799193938eba8290ecb94ed008be3193e4429b191415699",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/roster-empty-1920.png",
+      "Sha256": "41f38da2119ec035b9e0b86219b4711d779f801b56117872a46c3b2e4f8edbad",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/roster-empty-2400.png",
+      "Sha256": "ab1511fb7447352710bd9d0a1113a531aadef614980e87b2cb2ebf8b3b0a4f58",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/roster-selected-1280.png",
+      "Sha256": "72f1ad2bdcb3a89ed1e37e397687a52f07beda2f47a31219ada3c4d6275320e7",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/roster-selected-1920.png",
+      "Sha256": "a6aa6266da55074a06151f2c161f6885acad55b8913615627c97726227b27958",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/app/roster-selected-2400.png",
+      "Sha256": "0a2848410520ec46886cdf5de52ed622faf64043d3843f98c59af554255f39de",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-deployed-1280.png",
+      "Sha256": "faa4cb95ffe5abcc0bff85a6e205af85d23d770d3d7847f02a084a41ed6d9607",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-deployed-1920.png",
+      "Sha256": "23eba015f973a3adc25c2f94701553846635c9a0c15763293cb9a63df5c9bc90",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-deployed-2400.png",
+      "Sha256": "50e6dcab71741b0ddfbdaba495db9cf9aa88ca41f640d81036ae3fa98338c0d9",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-empty-1280.png",
+      "Sha256": "a452a2da2ff70219b6148c75c597400bd78615021ee983f1bcfe32dc134d2e2b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-empty-1920.png",
+      "Sha256": "41e095cbc0a92fddeab01fafca0540dc5dbfeab61b7382c3ea72d0a8488249a7",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-empty-2400.png",
+      "Sha256": "f164998962e6e8dcaee97ff225d2b64545dce110803993e688125406ee3ef6a5",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-placement-1280.png",
+      "Sha256": "5533a5a4a00642bdaf935e8c2985c743793be42d4ccc5668bb419b84ac0666cc",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-placement-1920.png",
+      "Sha256": "5983183f312a306cceb6921faec87655309c67bbe93712fc5c139d3afd856dee",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-placement-2400.png",
+      "Sha256": "618a49db376972de5202e4963e82aad0a4d26e4979899d744830ef5be0a3ed5d",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-rules-1280.png",
+      "Sha256": "20caabef2708280a1d542db7ba36e3125ba9802c519848e63297fd8aa03f3ddc",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-rules-1920.png",
+      "Sha256": "2538f1c6b6a9721b173f750c2a0f0cfb316caa33b5094a43b2ccf4baa895a2d9",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-rules-2400.png",
+      "Sha256": "16dccd8735c96ef518469c453e4b6eebd86ff3f894720ec7aed174d582b19125",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-running-1280.png",
+      "Sha256": "9d244d94f421b9cb72b8f49bde15ccb047af52f50febe53244130a52d8c267fb",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-running-1920.png",
+      "Sha256": "d38b48775f57eeb4759f01b647cbf927866e07fac2cb50a706fc2a9041ac9ef1",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-running-2400.png",
+      "Sha256": "c8d60c73430e8fe54fb1a2b2fed869073a463a692ae7963b4de2ae298810cf61",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-unaffordable-1280.png",
+      "Sha256": "5c4a008b69246a19a55176549af2afcecb85e71fc7ed86ce3b0ed17dbf76cca7",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-unaffordable-1920.png",
+      "Sha256": "7be07be112cc13e35f292a089f76e89f6424aa46e6ec9c19354342f266a9c9e5",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/battle-unaffordable-2400.png",
+      "Sha256": "73c2cac19eb3efa356c84715fea16dfcd78ef5e27d99f72b15667c37ed72d324",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/after-breach-paused-1280.png",
+      "Sha256": "2e3f61e88925f585b13d3144f777c2f5945482933eca5aba247491ba00518989",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/after-breach-paused-1920.png",
+      "Sha256": "a27366be88a2fe01c2cfc115b00f7fb11bd6ec98d8c09a79356a73a593fe05a7",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/after-breach-paused-2400.png",
+      "Sha256": "031828c18bff1027fd429022b81e064180c384c905761cdd403a4f137a0d968e",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/after-breach-reinforced-1280.png",
+      "Sha256": "4bbbd9d89a12617f6c82efde452a9f4c5adf751976e6dfce49ac83455a50aacd",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/after-breach-reinforced-1920.png",
+      "Sha256": "02fa176b57873de2990f2cb542e1b8677dbb6a7119b01991a8ada25de9679184",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/after-breach-reinforced-2400.png",
+      "Sha256": "fe45a29a64f99f3e4a4d46eec13046b0d0479aaec2f2070de0456cdb1f08485f",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/chibi-intel-1280.png",
+      "Sha256": "99d6d7cfd645cd5b208cafaa4248b42f92b9ab32b75f1e7ad9b3866ea37be77a",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/chibi-intel-1920.png",
+      "Sha256": "b799a7b44a799493e12ba8fe8bdc412c67f5dfd9adfa11c50e1b7b25727b8e1a",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/chibi-intel-2400.png",
+      "Sha256": "83d7a0b8c665198cd6cad95bd6193645faf0e18b3d6f51ae729e895859c69d6a",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/final-breach-victory-1280.png",
+      "Sha256": "572399cd92234e6741b96d3e84705ece63d8fb0b21092914d0d79c50c45ac1c4",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/final-breach-victory-1920.png",
+      "Sha256": "c8e9b3bb46cb1b36d9a2c441b696882af624d813a086b1f60fa4ed1dd69a6a86",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/final-breach-victory-2400.png",
+      "Sha256": "2a6fd2221c4b364bf06537ed417c64520a4afdd6bd339284d1f70f3552734c5f",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/finale-intel-1280.png",
+      "Sha256": "366084d2451dd7595625b1e701a23b1ba8fa236dd9b79eba3d87efb284a688c5",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/finale-intel-1920.png",
+      "Sha256": "d775509ef8f665912d2c7655d590edc5797b9fb0aa8b6760d3dc5b1f194b54c1",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/finale-intel-2400.png",
+      "Sha256": "3879f9d4866e1d79ee8b668e3e96c6ef9807b0c8025f1c145c7611818026e697",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/first-breach-continues-1280.png",
+      "Sha256": "9679329c96671192b9c7759e906643ee672dac1483ee732cdeeb9a006abfb4c0",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/first-breach-continues-1920.png",
+      "Sha256": "3b57db112e0556ded4676f843a7630d92ccb04b124781ff8d7210a119b25ed51",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/first-breach-continues-2400.png",
+      "Sha256": "dba0c5988adfb78a92d9e53c377982d5323b80f2b937b0beed59c1b4f018407c",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/guandu-intel-1280.png",
+      "Sha256": "d6f05870d93032193257c8467a4986e982d5a773901998ef4d06859e89cbedb9",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/guandu-intel-1920.png",
+      "Sha256": "9844d77ad724ff47beea9bad8c23fa1b4794f6ab76d03894460e863e4f9cffb9",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/guandu-intel-2400.png",
+      "Sha256": "3c3dd59303c165df632150163e52dca07dbc4c416ce8ef45e635586e383f8247",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/huangjin-intel-1280.png",
+      "Sha256": "f85542114c5cfadf067c65aed8867eba2e04db43ab1f2c3e34364bc910db3e35",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/huangjin-intel-1920.png",
+      "Sha256": "a60d95641f068532abc86e34ece0bb10bf17be473fa36ec5c9a290bd28795554",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/huangjin-intel-2400.png",
+      "Sha256": "f26e4ada662a7ebed611353f33ab6c49b5be239daa378cacac1e4b86890db095",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/hulao-intel-1280.png",
+      "Sha256": "b5911495f22a76f622e85560bbc9807ab4d23819b1c8e3bba366cb403fb9109f",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/hulao-intel-1920.png",
+      "Sha256": "9c301cd39ad11d5be55b1947cb1f56d9ef79a2ef71c53e6067ff84523c325cad",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/hulao-intel-2400.png",
+      "Sha256": "555b0ff88a03a4f19030e84d95c42626f03c7766900f8f7f19f7b632bb4efd5f",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/low-castle-defeat-1280.png",
+      "Sha256": "0ab6b27628e35e0e3bf16faf75ebd7c10841d784792fb941082ce80d7ef8af70",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/low-castle-defeat-1920.png",
+      "Sha256": "042240cc51140c4840116a485bd53e385e60bffe0b4028fbe19a069c54406a81",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/low-castle-defeat-2400.png",
+      "Sha256": "6189576ef64840ddbe378b4d015eb366719dfbd09466b3813b56518fe2717d7a",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/second-breach-defeat-1280.png",
+      "Sha256": "eadb5e30a4c7b299e21d0a26936a87965bd5178f76d872d7b36202f014e5848f",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/second-breach-defeat-1920.png",
+      "Sha256": "f719a238faa7c89503993fcdb6c3ed2f0e5cdaf2b7fa722c1530d72132572a41",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/boss-breach/second-breach-defeat-2400.png",
+      "Sha256": "c403467eefb72a4da42e27d78dc53bd72e39e3d843560c8c0618248e3b978138",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/chibi-deployed.png",
+      "Sha256": "da45120e15aa72163e01d8f0559dd1b1522d9052d0015d16f8bb5a5f5a83f655",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-assist-stage2-retarget-1280.png",
+      "Sha256": "0edf9d67b4016aec3962932cfbbc62cbe81ddb3863cb8ccfdba0138e7be4bf64",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-assist-stage2-retarget-1920.png",
+      "Sha256": "0bfcea3abca7d0589a146ce85568f553e18d86dabb4fd843fe03987e3d6dc64b",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-assist-stage2-retarget-2400.png",
+      "Sha256": "d1ddb52c6d316dabe096897fad9c31afc9c07213456ad3e6043911c951a6122b",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-assist-stage3-retarget-1280.png",
+      "Sha256": "cdf98f12536f7653d6074acdda298584a5a30a9a81d8ce3b2c948d9d180f5b43",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-assist-stage3-retarget-1920.png",
+      "Sha256": "3e7f466631ddb77c2396ae865fe3bcf65839accab999315a7e36c35bf9261f8c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-assist-stage3-retarget-2400.png",
+      "Sha256": "20502a9f6f9a2b5628c629fda94f123487bff36443ba3aaf3348cdf1971a53e3",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-assist-stage3-two-arrows-1280.png",
+      "Sha256": "186d442ec80e8031ff8091c8d5f4d1c6f122af268283d82eb00693a6586ccccd",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-assist-stage3-two-arrows-1920.png",
+      "Sha256": "933d15006910d6153f7323859e0441f8da149a746598373402823c84fb40fc5f",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-assist-stage3-two-arrows-2400.png",
+      "Sha256": "b62f21f740b753d883a67b12ddac52213e175136869f1228edcf378f9e82510d",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-boss-warning-with-fields-1280.png",
+      "Sha256": "f4fe64a224f3bbc067747c092758fde904ef70bd855662db60404a429e3fac61",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-boss-warning-with-fields-1920.png",
+      "Sha256": "8764cf9f1fb9b8afa49321768d97c029f0ece6c964c115c101a28bfd576b620c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-boss-warning-with-fields-2400.png",
+      "Sha256": "84038fb93966a74309d6b4d7e3c80182101936a6a9b140a503d794decd2b3984",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-burst-10-1280.png",
+      "Sha256": "4d58b5655ba31ae9e8cdcca73b8a420f642e1db32afa8853c3c57175d706554b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-burst-10-1920.png",
+      "Sha256": "9505aca6db11219dfd552117cf00f594b4a0b48ac640e670f6ef88264e4d344d",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-burst-10-2400.png",
+      "Sha256": "47a4e47e25d38dfcf2f7857f5d149138fe525c740cff54da4660032c3bb716c7",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-burst-3-1280.png",
+      "Sha256": "043d7eeedcc168e0d9ecd980dc1bb4c3bf6d586fbaf775ba7033bd9de6bfdd81",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-burst-3-1920.png",
+      "Sha256": "8aff059b5e756c8c9d5b2318968151fb3ee838a156b51e9160520c1bcebbda6f",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-burst-3-2400.png",
+      "Sha256": "c5d6b25119425a00371ab532b16025aac1b14be22f8a671cd227d86e492ee25b",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-burst-6-1280.png",
+      "Sha256": "c6db08237c7ed96e76b4e6d634034d5cc3700aefcd2e14c643084a2d39275182",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-burst-6-1920.png",
+      "Sha256": "414294d51b8bd7d79e3a0fffda47b5759b02ba84fd998a21827abdd55250af0c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-burst-6-2400.png",
+      "Sha256": "77bb39c8e572f143f5d3834ae37d910c1c120c3ef3257ad8fc85cf848b65e575",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-defeat-clear-status-1280.png",
+      "Sha256": "d97176b4d81c84f55576797d381a958dda69b9f24d25c8f81e53c65a9a8dd15b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-defeat-clear-status-1920.png",
+      "Sha256": "085afe08fb8fe8980fa24f429a195066dc2b2d571d3a8e0ef7f2814311a5d25a",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-defeat-clear-status-2400.png",
+      "Sha256": "49355f750d60f27d4fca79b22d5605664fa67548d1052618a2ff95c63211c28e",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-fields-terminal-1280.png",
+      "Sha256": "0f90e755cc1d2e38cdec9c25d23661bc9e1ed1e1b2b2e5821db55a3145f860ec",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-fields-terminal-1920.png",
+      "Sha256": "a8b452578a847002473b917de35862b3c91d70eb0450fcd3d575223f130d96c4",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-fields-terminal-2400.png",
+      "Sha256": "b1153a0d64b970fe5afefce4965f7cf2e61ca3dfc92f90cdcd881a3445a0432d",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-link-created-hit-1280.png",
+      "Sha256": "40e0cfa8b4fdb59c0ccb0800ef41c4cea65150797e081be15e37e0addbe2f46a",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-link-created-hit-1920.png",
+      "Sha256": "3205922198e6297bf155c7021b1353518af1d6d908a9dd6112e9bcaffccd1700",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-link-created-hit-2400.png",
+      "Sha256": "9ea8d330ec8093fb2f026e07b23492fcd783ef81d866035686da864127940c0b",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-link-replaced-1280.png",
+      "Sha256": "0b57036df2ed1e381be819ab5c6d6b97ae56ce3ffc705dc520c700d9b6745a98",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-link-replaced-1920.png",
+      "Sha256": "425d715c565396ce7aeb4f57b2a85539834641ee78774c26a741991f8c1b6931",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-link-replaced-2400.png",
+      "Sha256": "c96f1f60372dfd3fdf54bc45c15f3d4eb97bf5de3045f7aeb170ecb0e72f644d",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-wind-fire-stage1-1280.png",
+      "Sha256": "55388cc97c5c67fbe51147108fff942194f4db28dc14b629e345ec0b1196ae01",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-wind-fire-stage1-1920.png",
+      "Sha256": "5bcf71c5fa9445dea25c235c6c4eb06f31125727dcb5cb30358e8fae83e2bf93",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-wind-fire-stage1-2400.png",
+      "Sha256": "86be72bd8bdd96ae84fcff57f7c0c48179b6978853b92f7d01a531c6be269c09",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-wind-fire-stage2-1280.png",
+      "Sha256": "81a8a14f959e70bdacf5e47915500c9e3c4fc56582bcddcc0e908e239efb5a3e",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-wind-fire-stage2-1920.png",
+      "Sha256": "d333168304b6b40cbdb97ad1e30e2219534ff8dfc34a2d832ea612772760fe84",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-wind-fire-stage2-2400.png",
+      "Sha256": "1c4d2e5636fc049f14d6e2908b6af845627d5ab9470066b9b374157828242a86",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-wind-fire-stage3-1280.png",
+      "Sha256": "1daf6291d229a61e83ffdca7269ff724ac0db55e5d6f9b4070a0b0b29d3495e3",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-wind-fire-stage3-1920.png",
+      "Sha256": "b06d324065d63067ec60539342416e6a0f7510ab0b5ca0a29db5008e4b4f1bfb",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/experience/fixture-wind-fire-stage3-2400.png",
+      "Sha256": "c440cb7bbd184345bb5d820b7919621df6c0c3f9161649daa334ec162b3d6d8b",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/finale-deployed.png",
+      "Sha256": "f25065c19d28a6a5ab8394f33931a9c849db52abc4d59b35cd4a69b0fac77d18",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/flow-content-error.png",
+      "Sha256": "e60f1bbe2ac724342ca6be16b1b47dcc30a59b4aa2eccf4a9a1a27e8ce96d003",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/flow-defeat.png",
+      "Sha256": "3d9b2237b3d16a78480c6a4984445ad023ef602e16c02510047f5dfb878fa35c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/flow-intel.png",
+      "Sha256": "a60d95641f068532abc86e34ece0bb10bf17be473fa36ec5c9a290bd28795554",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/flow-levels.png",
+      "Sha256": "7a2bb81776e115060427ff00904ad42434d4dae21692648ad78d156d1dd4ed95",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/flow-main.png",
+      "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/flow-pause.png",
+      "Sha256": "11f0a2e9ec585e184f8209042afe62737dce19e832455a6575f360cf67843b18",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/flow-preparation-exit.png",
+      "Sha256": "643d63585ab549c38c1ab3d567d68fffdfd30486d02c6a71b4c644bdf4161d77",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/flow-roster.png",
+      "Sha256": "11a5d909f1009500167e1ceaff74acedae356c0ece4559a79d7c9d539351f3c8",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/flow-victory.png",
+      "Sha256": "f531dca35aa714d4bda1d4ffe0186fc3414fc517a68e5dd9a7482eae9791b206",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/battle-info-deployed.png",
+      "Sha256": "96484aaff3fc4ac7062ceff392d89c0b55e44827fc781f6c921acd20247e0c6d",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/battle-info-lv_bu.png",
+      "Sha256": "61b8db8c8f0c04a65162d00f5f6ed60cd30c6960926f2dc18a1bc49e4837a7d8",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/battle-info-lv_meng.png",
+      "Sha256": "272b516740ed31fcbd32deced73930830b16d89c3614a5a2ff85d446ca92e586",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/battle-info-xun_yu.png",
+      "Sha256": "55863414e1aa438afc7230e5514bbd540181b2ba1eeb90a06d4065fa015abd9a",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/battle-info-zhang_fei.png",
+      "Sha256": "e2d51d3064020b78007631ded5c9f6fed89002b2877b106c36bd609ac6f8c63f",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/defeat-1280.png",
+      "Sha256": "38ecb3276744c47be95982c5dfc36c874e521e15bc36b955559e398329675e7f",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/defeat-1920.png",
+      "Sha256": "3d9b2237b3d16a78480c6a4984445ad023ef602e16c02510047f5dfb878fa35c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/defeat-2400.png",
+      "Sha256": "9557b1f8ceeff1637c64c0dc49ae383916364ff6592342e207289286f2dc998f",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/guide-preparation-1280.png",
+      "Sha256": "a452a2da2ff70219b6148c75c597400bd78615021ee983f1bcfe32dc134d2e2b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/guide-preparation-2400.png",
+      "Sha256": "f164998962e6e8dcaee97ff225d2b64545dce110803993e688125406ee3ef6a5",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/guide-wave-1.png",
+      "Sha256": "cbcc50f5ce9025feff70ff2f766a4d398d40e8d81ae34041de950d6e3847a765",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/guide-wave-2.png",
+      "Sha256": "2b095788679adfcbba4a32ce35f20177f4e52622955142a93c737273c1b62c15",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/guide-wave-3.png",
+      "Sha256": "00e8f6edf020c59a7ef7cea7dcde3a967b24fff3ec8bf98fbf8fca058109b4e3",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/guide-wave-4.png",
+      "Sha256": "131eac12d843338bc514f2132af8d8106ac0e3e29f1c163b251cfd50ed0cfda2",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/hero-lv_bu.png",
+      "Sha256": "19f9820ec484d946467cf544e122cfff7d9cf74e4911a0d9de54302dc89423ad",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/hero-lv_meng.png",
+      "Sha256": "d03452ee0812e4a6393d879c86df338b0ec0dbaa19e13cfac3cfc085ff71eb5c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/hero-xun_yu.png",
+      "Sha256": "62f0594180750e3c0b8a340b6ad762ec01f514a109ff034e9408e7f894248092",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/hero-zhang_fei.png",
+      "Sha256": "b0ef9bd50b0b7c85c790450fd0b8fef93cc9bdc6add662747b49ec83d335494f",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/levels-1280.png",
+      "Sha256": "9bb63ce1970553d7e42d8ac575aac7cd763376f420952505b40e9e8b7664a299",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/move-1280.png",
+      "Sha256": "3bcd51b2170770c162e5e9a02b7b9b2798ce6523aa85d12c55b1800374435376",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/move-1920.png",
+      "Sha256": "15b670a87bfc82fafaf95e5f70f7fbb358c65410a366ff4109336f9fafe94200",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/gameplay/move-2400.png",
+      "Sha256": "4155d5df62ce40431619a8391dbb994f1e2a3091bbdd425bac6027430227ad2c",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/battle-loss-continues-1280.png",
+      "Sha256": "95ab4970d018bd96ecd428b11f4d580658b6a848a90fd14e9a4595e393f903b3",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/battle-loss-continues-1920.png",
+      "Sha256": "ea72e573a02053972d0f5df04da83c608eaaf6dcd3c6c607bef4d50d451dc16c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/battle-loss-continues-2400.png",
+      "Sha256": "8c44883338c7750d56a678107312bbb0b5282061762b51ea94f2af76576344ba",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/growth-full-details-1280.png",
+      "Sha256": "e954f5ad3bb309ce8db19206e34356cfd48880de324fa68117c7444f65a86a6a",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/growth-full-details-1920.png",
+      "Sha256": "15a17eab8effdeaf5e0d1dba85b9499d8a23646b2e1d6860ceb5c645eb6e7b4f",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/growth-full-details-2400.png",
+      "Sha256": "1e799d01bf79f2448ce968674b94b209392fa3931fb1339e8a6afc0b5eaf6993",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/levels-empty-records-1280.png",
+      "Sha256": "9bb63ce1970553d7e42d8ac575aac7cd763376f420952505b40e9e8b7664a299",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/levels-empty-records-1920.png",
+      "Sha256": "7a2bb81776e115060427ff00904ad42434d4dae21692648ad78d156d1dd4ed95",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/levels-empty-records-2400.png",
+      "Sha256": "ac8508eae50968b3f1c1bfb271baf4881cfa02e437a41e517434efc3931d1390",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/menu-1280.png",
+      "Sha256": "43dea4eea84b2c0c5df94145271f70c6fa760e34003bfa2dbb97772e8abc7a8b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/menu-1920.png",
+      "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/menu-2400.png",
+      "Sha256": "e56dc3184b567c5ea495c13a0031fa3a23d8856ebe19e7858889e749c2532882",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/paused-clock-1280.png",
+      "Sha256": "20b97bfe0d2c78e8cc95a736cb5aaf3e23c5ef79f5df1438539fd7351b36de30",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/paused-clock-1920.png",
+      "Sha256": "aecb3389e719c256e12ac32b282e8514542117f71d60b8b97cf96719caba61c4",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/paused-clock-2400.png",
+      "Sha256": "c2cc6d479f04f241291ace030a6d89ae79dd51ed5f03932022e31dac85ce2ae7",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-defeat-unchanged-1280.png",
+      "Sha256": "319c46eaa7e13ac937d7ef6ecdf8cb9e806266329bacdbcabd1a5b07838a6314",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-defeat-unchanged-1920.png",
+      "Sha256": "8d01207a8ed2ec13682249147fbf726fccd116217ca9530706e96d3a3e2b4581",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-defeat-unchanged-2400.png",
+      "Sha256": "f7bf9346bf0b9ce45835d2103715e7aa7b42e2464c4a57f53effff5486a1c757",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-first-1280.png",
+      "Sha256": "149cf20a9cc0a6b4b31f0e14f759d962a25fbd6526903784deec9acdec9c36f3",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-first-1920.png",
+      "Sha256": "191360fb9df125eb22422a9b912faa0211682735e59a661f53cf2519a8b9b51c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-first-2400.png",
+      "Sha256": "859ec51f30cbc52e4763bcce05b00092c2663e99e3c1393373fb3e9a21c42867",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-improved-1280.png",
+      "Sha256": "817c5df8b5c335d50d884e310ae85707c693a5110dd85cc05be9b282b2e6520d",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-improved-1920.png",
+      "Sha256": "71fa3ec2044bed0c7fe5a7947a9fe733277a3d7a30918b26b08dd42ce9b10d63",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-improved-2400.png",
+      "Sha256": "4131b42e9f98dc4f37062d35408278eae8693e351a3b991d3dc234c4ba6578fd",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-slower-keeps-best-1280.png",
+      "Sha256": "effe571fa8a1b88e5ac3040a0f1cdb080c3ba7f555ec9a18c3b99ea7ef5b4bf8",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-slower-keeps-best-1920.png",
+      "Sha256": "bb5bb41cebf37e2464ff42c013802a1f260209253cc3854ea78f8e16efc2abfb",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/record-slower-keeps-best-2400.png",
+      "Sha256": "8572c21b6d1695dd07198c0e8700b8e03ef0f1695a5cfc5ef2313bcb880f1af4",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/roster-details-do-not-select-1280.png",
+      "Sha256": "f9d276b2f702f7b9147545587dd1e110e0695c118ed2d8394e54da1cb7b11479",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/roster-details-do-not-select-1920.png",
+      "Sha256": "6a7bccbb9ddc220b64010817fcb329814911f88c58a5d26e59ccea3b937b121e",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/roster-details-do-not-select-2400.png",
+      "Sha256": "5b0788ead460916bf51bdee09e1f4ff29adbff2fcc1ab6bba2185936bdcbf4da",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/shape-lv-bu-tier-1-to-2-1280.png",
+      "Sha256": "20c99105de2a00bd29fb354078e18c48b4fab7bb7cac186960b32986532c518a",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/shape-lv-bu-tier-1-to-2-1920.png",
+      "Sha256": "352d75e9221ce64f023a08cc03e11bfb779344510be01b64ad93c982997ee868",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/shape-lv-bu-tier-1-to-2-2400.png",
+      "Sha256": "c59925e68acd6ecafc154666fd9158124b1aa749b37724a7e0228082a00bce96",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/shape-lv-bu-tier-2-to-3-1280.png",
+      "Sha256": "a665a848551a6f8503ff7fd1385f287409c2cb2203a480b8f0ef0b190c1b57e6",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/shape-lv-bu-tier-2-to-3-1920.png",
+      "Sha256": "3129030ce9b45a3a6a6ffc7599847991bb54f372adb6c7047e6561ce89dfb613",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/shape-lv-bu-tier-2-to-3-2400.png",
+      "Sha256": "20d69b19d737b4e94c86675c1e0b35fbbd846d4954220acecb273f3a23ad0daa",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/shape-zhao-yun-tier-1-to-2-1280.png",
+      "Sha256": "bbee700a69601185da4d31cb59b985a5c095dffc75fb0ee15c3a3d488349b211",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/shape-zhao-yun-tier-1-to-2-1920.png",
+      "Sha256": "ea147059af1207f062c470706390d57743b6625e3193c76b31502c00045a7ebc",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/shape-zhao-yun-tier-1-to-2-2400.png",
+      "Sha256": "e207f2a353e670d37195beb49469963d44315cb582ad2e5bfe6fa441fff6924d",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-supply-advance-1280.png",
+      "Sha256": "0c0c8244e1a7f6fdfce9f270328592decc0496a1a379cdef04538541b2a958e2",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-supply-advance-1920.png",
+      "Sha256": "fb74d58c4962194a7d913800f29f92100780c68e96d5dd713201359558c686a3",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-supply-advance-2400.png",
+      "Sha256": "09c877bc73eca3d6032f61fd2714db183eff19a8088be50f7ea00e4b9247c8c7",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-tier-1-1280.png",
+      "Sha256": "468741074144ff12aa47c7b56f8cfac42d42f0e6e9448cfac4b04a6e154fc584",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-tier-1-1920.png",
+      "Sha256": "e528f6696ed4ee6a38fca66a7e302a36bd168297d6cf468e638b1b5c107d0057",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-tier-1-2400.png",
+      "Sha256": "256eec891cd403276aced6da716ec43e0cafb6304bcf4190dc7d949e993bad08",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-tier-2-1280.png",
+      "Sha256": "0de02701d581ea0843053b38c2613a191489a7f5cc56856c3a3c8070e42ff11b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-tier-2-1920.png",
+      "Sha256": "d18dc280f3bfbe56b55152f74a13c2f6b31f43f88e9952bc09c0d7acc1142d44",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-tier-2-2400.png",
+      "Sha256": "999644f3ca5002d992bbd9ec2dbdb5dc02ecff45436f771a76fb01ff7d5419d5",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-tier-3-1280.png",
+      "Sha256": "0e949a199c428e161c6b3bdc313d8527ff97ca539e4006355a05b496c7a69d57",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-tier-3-1920.png",
+      "Sha256": "24e1b489363d2f49e51cee64a9350c7c5c1932fbdd4557259447458654573e31",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-tier-3-2400.png",
+      "Sha256": "47acd4c6502c1657aa7031a630d3de004150f5826b5164b41eac7831badc8579",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-unaffordable-1280.png",
+      "Sha256": "a31732ea6ff8bbc05a6daf2ce64eb257416746ffcfbe7256988f2c1bef45c5f7",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-unaffordable-1920.png",
+      "Sha256": "a62b058a06f71d3ed70c4cea85ed54e2dbbf1ab680aec68f5ed1fa8cfc1f4e56",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/growth/upgrade-unaffordable-2400.png",
+      "Sha256": "059753d0766d83d5d30bbabed350f3bfddf2cf80e5de47ec0be0c8580043f375",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/guandu-deployed.png",
+      "Sha256": "5dce472317683c7ea510d1780b51c3bf3074e21f042375ecc4a796e6192123ce",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-between-waves.png",
+      "Sha256": "560a65057f3fc23396b65dfc7bf2b2a401d8d7fb0b43be74d5fd469e0c22a29a",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-boss-warning.png",
+      "Sha256": "f0988d2b46fbc329999d593782eaa522831eef5df40601b9e503a461e25fd45f",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-boss.png",
+      "Sha256": "62167d969b64391e9661e70d3712d3229e6597a9bb583da54c6070176fe6a122",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-combat.png",
+      "Sha256": "d852b165d2e4dce07450139b9f09e2615ee8dd8f9921ee26bdf2691e44ba7699",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-defeat-result.png",
+      "Sha256": "8d9edba138647f3ef3a8808eb3769bfc7721145346ae1842b64b67e57bd4af30",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-density-1280.png",
+      "Sha256": "8c3ec826365e7cfff32e7bed5a5000249a9713cd9147e4be8091abc5ca889d5c",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-density-1920.png",
+      "Sha256": "d36146aeed9b342a332b4cd2fd040667546bb82f9f5ea8723e97160c473892a2",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-density-2400.png",
+      "Sha256": "1585752da1746484b9da83de4671ab579c3d0b4373da06c1b11c16acffc6deaf",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-deployed.png",
+      "Sha256": "22fc45d13d8d74c3750c7ce57172201926805d02d9cf8ba9f5f75c5b7427ffb0",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-empty-army.png",
+      "Sha256": "cc16dd6f66b66f9bed7476e5580f37860dfdda6ba2f2e8471e927f278a2564c5",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-empty.png",
+      "Sha256": "cc16dd6f66b66f9bed7476e5580f37860dfdda6ba2f2e8471e927f278a2564c5",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-max-level.png",
+      "Sha256": "9cc5a5973251341e61c3afa00c7dd5afc2f5eff735c177fd88157c01763effe0",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-mobile.png",
+      "Sha256": "76858d42bf0a4d6a9542312913d7ce5f9a4d1674a56a846a65a4b950a8b894a6",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-placement-preview.png",
+      "Sha256": "182c01ae361e7f84b5371e473a3e255ec800142c5df89146b38b5bac6551be67",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-victory-mobile.png",
+      "Sha256": "1b09c31450b0f6232f27704cbebbf6a96e7884f4b805d79fd0f55c7fd74dd1ad",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-victory-result.png",
+      "Sha256": "7602d81d9f09021df7025eb700fe9844248a9ffa5c6004125c3e1e5469cc06d8",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/huangjin-wide.png",
+      "Sha256": "e8e0c2dfe64895c08d36980d5bc9578bed1b8ed3c492ff645616d772d373b09a",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/hulao-deployed.png",
+      "Sha256": "b8b0cbb4e3791b49907d8138c815a55ee18eb6c4257acbc4bb66abc20733e164",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/lv_bu-attack-1280.png",
+      "Sha256": "2544728aff278adc3ef7d5d9196adb4b284c44ebf27c8df0ad159b26e304d9c6",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/lv_bu-attack-1920.png",
+      "Sha256": "249b9a58ecc6dafbad21cfa976a493bcfce3e156fc983090c6195d8802c539c0",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/lv_bu-attack-2400.png",
+      "Sha256": "4e5cd31ff82d40b15bca3b392f3f59315190ef9ca7910728b22e2bbc36ca4a6d",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/lv_bu-combo-1280.png",
+      "Sha256": "2544728aff278adc3ef7d5d9196adb4b284c44ebf27c8df0ad159b26e304d9c6",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/lv_bu-combo-1920.png",
+      "Sha256": "249b9a58ecc6dafbad21cfa976a493bcfce3e156fc983090c6195d8802c539c0",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/lv_bu-combo-2400.png",
+      "Sha256": "4e5cd31ff82d40b15bca3b392f3f59315190ef9ca7910728b22e2bbc36ca4a6d",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/zhao_yun-attack-1280.png",
+      "Sha256": "c56f9590133677033827faa3af84f4f26a4cc1584ad921d1b935b610012d4042",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/zhao_yun-attack-1920.png",
+      "Sha256": "4b0c35cad14d119ddb4907f6693da639e87319ee8c6b973494e248ec34b40ace",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/zhao_yun-attack-2400.png",
+      "Sha256": "d525c1624a28ff5c0df21e192d85c200fd585dd0986533711c88479bcd9ee83e",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/zhao_yun-combo-1280.png",
+      "Sha256": "c56f9590133677033827faa3af84f4f26a4cc1584ad921d1b935b610012d4042",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/zhao_yun-combo-1920.png",
+      "Sha256": "4b0c35cad14d119ddb4907f6693da639e87319ee8c6b973494e248ec34b40ace",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/impact/zhao_yun-combo-2400.png",
+      "Sha256": "d525c1624a28ff5c0df21e192d85c200fd585dd0986533711c88479bcd9ee83e",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/levels-1280.png",
+      "Sha256": "9bb63ce1970553d7e42d8ac575aac7cd763376f420952505b40e9e8b7664a299",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/levels-1920.png",
+      "Sha256": "7a2bb81776e115060427ff00904ad42434d4dae21692648ad78d156d1dd4ed95",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/levels-2400.png",
+      "Sha256": "ac8508eae50968b3f1c1bfb271baf4881cfa02e437a41e517434efc3931d1390",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/main-1280.png",
+      "Sha256": "d9904f01c00596cc7ed8a462292de42da0a42e427eff46023fcb549f81d81f1a",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/main-1920.png",
+      "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/main-2400.png",
+      "Sha256": "e56dc3184b567c5ea495c13a0031fa3a23d8856ebe19e7858889e749c2532882",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/name/main-1280.png",
+      "Sha256": "43dea4eea84b2c0c5df94145271f70c6fa760e34003bfa2dbb97772e8abc7a8b",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/name/main-1920.png",
+      "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/name/main-2400.png",
+      "Sha256": "e56dc3184b567c5ea495c13a0031fa3a23d8856ebe19e7858889e749c2532882",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-defeat-default-1280.png",
+      "Sha256": "481417e54029366d489e00f6da3ea96956b856bbfaa762e3f53c59f57cc623f5",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-defeat-default-1920.png",
+      "Sha256": "eec414cf9943dd266b82bfdef4cd5021032232592159ed4a5693b132a889ec6c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-defeat-default-2400.png",
+      "Sha256": "6ade5453ab253f223d2fa2e1da9dfe8117efb452f08671302d2428a40cc78d70",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-defeat-details-1280.png",
+      "Sha256": "7415e1c03a95bd042e87b597e41d9603c90021d9fd71d2e7d28f35a60b1b4df5",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-defeat-details-1920.png",
+      "Sha256": "2f05b82372d8df4ea75346c7a54b885514ed6d5367abe7114aa2903b3469cd12",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-defeat-details-2400.png",
+      "Sha256": "b37915a4b98db02915061ecca2114f2b4db26d7b2df77a06f68f09e1f0676c64",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-equal-default-1280.png",
+      "Sha256": "e9f01c0e734f411d984ac14079af4e5be822ec33554a0f8e38579f6992c65957",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-equal-default-1920.png",
+      "Sha256": "92acbd9ae84cf700b8d64a1ec8cd439e072ad46f0f7714fd50ed10e4195f1a9a",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-equal-default-2400.png",
+      "Sha256": "4d99344ce9658ba7cc983a63d07df9ff62cde97ac8201fa28a051da110ac1656",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-equal-details-1280.png",
+      "Sha256": "d2b13de4620f33772f2fd758d1bdab8157bee7bf957b057fe960917cf8ce0e52",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-equal-details-1920.png",
+      "Sha256": "a35b5084cac8dfbe4265e83ab5c3e6dc47b71deaccf2629604004b48b38a7027",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-equal-details-2400.png",
+      "Sha256": "c1743baaa85393827828d6f6b11190dbbf285e907bbba8071d425018447eef12",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-first-default-1280.png",
+      "Sha256": "53ad163ffe1b4153729f188f30087e251c7d7ea3fda9b965df6ccb8bdc342412",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-first-default-1920.png",
+      "Sha256": "ac9906deec1d9bc15d6aef253e86d693309bdb7af8cc6a113458186ebbcb9611",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-first-default-2400.png",
+      "Sha256": "69a74efec2fe7b25939650eb8d1a21b231c065fae018c3297710f5c885b4d3f5",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-first-details-1280.png",
+      "Sha256": "506d5ff642c0f39c4f6e573e174598b0b5d557835bee10ae2d4e21fe1f55cb96",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-first-details-1920.png",
+      "Sha256": "611c0e3d1ebd61156bc210806342a5bdeb07fa98d991dfa3b69e52ee4bce1672",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-first-details-2400.png",
+      "Sha256": "6e68c9b9df8e39507b9ce744f8ca2ad460b07d6c8c6d3bc4c2d7ef06f608d705",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-improved-default-1280.png",
+      "Sha256": "7ce903985e863aa7a1236855853e58aa56d9903ab7425e8f2bd514be3edd7bc3",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-improved-default-1920.png",
+      "Sha256": "46973bd393f4533d4b106c95ed44766df016e8f6ddf92f96305d1e3b31c74a03",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-improved-default-2400.png",
+      "Sha256": "3a85aeb904949cef70da9a8eff14731c9cbeec2c4506fb96893235a90ee8caa6",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-improved-details-1280.png",
+      "Sha256": "ad86ec406bae6fd0534b6a8c0b0ea675fca5ded6477ec253b220eba674618ed5",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-improved-details-1920.png",
+      "Sha256": "c293b886af25ba349a7be20616546238e5f2279a49fd3fbbf97140ef2e286549",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-improved-details-2400.png",
+      "Sha256": "15c915059afe8be9477536b5765a24368a1950a5c004e825c2a60b01c71bb44a",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-slower-default-1280.png",
+      "Sha256": "944410f092fd454f3f891914b098371aa66869bd95ff32922e5889cff94a19bf",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-slower-default-1920.png",
+      "Sha256": "d9b7a21cc4636abe2ba0e84d10141ebf0077d9a61adf11687b322c7b57b3a3b2",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-slower-default-2400.png",
+      "Sha256": "7ad65098d34b21e2b854bd09df4e271d5ac30d48c840f9dd78758d27ca573a51",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-slower-details-1280.png",
+      "Sha256": "9c895908519c2857e700a8c2aff9d61d60a7914f3786b0afa5eae9d632985639",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-slower-details-1920.png",
+      "Sha256": "276aa73cd65ce206114e60c5a8a3f3f8d20e91eecdf4ff7b1b467f9dc1f3379c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/results/result-slower-details-2400.png",
+      "Sha256": "61ba7c41bc8093936b0e7b986222d4315f3bd65bb675f5f37dd4053ef8c773b1",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/roster-empty-1280.png",
+      "Sha256": "c3fd7b5d790f25ed519a705088ede7cce6133aefa9658df2c41a7fe9574b58d5",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/roster-empty-1920.png",
+      "Sha256": "41f38da2119ec035b9e0b86219b4711d779f801b56117872a46c3b2e4f8edbad",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/roster-empty-2400.png",
+      "Sha256": "ab1511fb7447352710bd9d0a1113a531aadef614980e87b2cb2ebf8b3b0a4f58",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/roster-focus-1280.png",
+      "Sha256": "b704834a780767a4de6d03c525d85d7ca969723763e9be4cff5d260f9588b3b7",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/roster-focus-1920.png",
+      "Sha256": "91256cb3c5874b9f8609da3117433ea9fd6dce141d7c0e9a9eb76989fec3003c",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/regression/roster-focus-2400.png",
+      "Sha256": "fe32980f1594d34f1bd90556a6ce88bcb0a0213d4dc8352a29a278b8a888f2a4",
+      "Size": [
+        2400,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/roster-faction-preview-1280.png",
+      "Sha256": "857a6d973455c0ca4ece5ab07a0b57645892e0b62ad51282ded6149fc02f7323",
+      "Size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/roster-faction-preview-1920.png",
+      "Sha256": "a83d18b21123af7b2ad004cdb552c9f06da334dcf59983d2235ee4882b18e7f2",
+      "Size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "Path": "docs/ui/runtime-faction-army-20261112/roster-faction-preview-2400.png",
+      "Sha256": "4a6fb1ef2463bf24fc672dce3d66ae855a7d7e9dc1f5b633f3fa254b797e8336",
+      "Size": [
+        2400,
+        1080
+      ]
+    }
+  ]
+}

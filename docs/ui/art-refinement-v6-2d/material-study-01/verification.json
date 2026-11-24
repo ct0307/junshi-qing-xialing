@@ -1,0 +1,86 @@
+{
+  "Stage": "局部材质研究，未达到最终美术",
+  "Crop": [
+    290,
+    242,
+    1000,
+    582
+  ],
+  "SourceCoordinates": "正式1920×1080地图坐标",
+  "Projection": {
+    "VerticalScale": 0.67,
+    "PreviewScale": 0.6666666666666666
+  },
+  "Layout": {
+    "RoutePointCount": 70,
+    "SlotCount": 32,
+    "Decorations": [
+      {
+        "Name": "金稻主丛",
+        "Bounds": [
+          335,
+          365,
+          525,
+          446
+        ]
+      },
+      {
+        "Name": "金稻小丛",
+        "Bounds": [
+          617,
+          368,
+          726,
+          440
+        ]
+      },
+      {
+        "Name": "菜垄",
+        "Bounds": [
+          848,
+          369,
+          970,
+          427
+        ]
+      }
+    ]
+  },
+  "Inputs": {
+    "UnityGame\\Assets\\Resources\\Game\\Maps\\huangjin.png": "c7a75c6958c94b9b19f2f854a2be71e03b6c64dba20e167b94c8298d37adfffc",
+    "UnityGame\\Assets\\Resources\\Game\\database.json": "2ce213decc99263dc6338afc004822f177fb1358b5f1b9bce48ab9776876c55a",
+    "UnityGame\\Assets\\Resources\\Game\\Fonts\\Chinese.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "docs\\ui\\terrain_art_v2.py": "5fff91031f23144bcc6dd096b1b1480120759e9204ee2ddf6bff8d4b9ab43e65",
+    "docs\\ui\\art-refinement-v6-2d\\v07\\huangjin.png": "6753b93a88ed185b139a89b6a62fc18bbdf1f1b1344ae7d8aa65a27814443c8c",
+    "tools\\art2d\\material_study.py": "cb9818757844c3b4a110872cd2f4dda34a617b04834840a6dff4ea5b3336cb95"
+  },
+  "Files": [
+    {
+      "Path": "comparison.png",
+      "Size": [
+        1500,
+        1010
+      ],
+      "Sha256": "57d2f7603ffdb55744c2c3f8b358496ef2a166236327beaa3a45761789812404"
+    },
+    {
+      "Path": "material-patch-1280.png",
+      "Size": [
+        473,
+        152
+      ],
+      "Sha256": "8f0583f6e549f8afe08b9e48432235082c497eef155777e5f721de48c2047ba7"
+    },
+    {
+      "Path": "material-patch.png",
+      "Size": [
+        710,
+        340
+      ],
+      "Sha256": "6cd2f83b13765d86ddc690b9c9d6b114ed8710c6c76cf8097d1bd8af294fa83e"
+    }
+  ],
+  "FormalSourceFilesUnchanged": 407,
+  "RuntimeTested": false,
+  "FormalResourcesWritten": false,
+  "AiImageGenerationUsed": false,
+  "NewDependenciesInstalled": false
+}

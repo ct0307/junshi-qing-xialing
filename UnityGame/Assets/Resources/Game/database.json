@@ -1,0 +1,7155 @@
+{
+  "SchemaVersion": 1,
+  "Heroes": [
+    {
+      "Id": "guan_yu",
+      "Name": "关羽",
+      "Faction": "shu",
+      "Title": "美髯公",
+      "Role": "定点破阵",
+      "Description": "连续攻击同一目标积累刀势，转移目标后重置。",
+      "Skill": "focus",
+      "SpriteId": "Game/Characters/guan_yu",
+      "Accent": "#527C61",
+      "Cost": 130,
+      "Range": 215,
+      "Damage": 25,
+      "AttackInterval": 0.95,
+      "BasicAttackInterval": 0.525,
+      "BasicDamageScale": 0.5,
+      "SkillCooldown": 3.0,
+      "SkillDamageScale": 2.53
+    },
+    {
+      "Id": "huang_zhong",
+      "Name": "黄忠",
+      "Faction": "shu",
+      "Title": "定军神射",
+      "Role": "定点破阵",
+      "Description": "超远程点射，优先攻击最接近城门的敌人。",
+      "Skill": "sniper",
+      "SpriteId": "Game/Characters/huang_zhong",
+      "Accent": "#AC9568",
+      "Cost": 110,
+      "Range": 330,
+      "Damage": 30,
+      "AttackInterval": 1.35,
+      "BasicAttackInterval": 0.665,
+      "BasicDamageScale": 0.4,
+      "SkillCooldown": 3.5,
+      "SkillDamageScale": 2.07
+    },
+    {
+      "Id": "xu_chu",
+      "Name": "许褚",
+      "Faction": "wei",
+      "Title": "虎痴",
+      "Role": "定点破阵",
+      "Description": "范围内单敌时重击，多敌时挥动重锤横扫。",
+      "Skill": "duelist",
+      "SpriteId": "Game/Characters/xu_chu",
+      "Accent": "#9B7A54",
+      "Cost": 125,
+      "Range": 170,
+      "Damage": 32,
+      "AttackInterval": 1.15,
+      "BasicAttackInterval": 0.665,
+      "BasicDamageScale": 0.4,
+      "SkillCooldown": 3.5,
+      "SkillDamageScale": 2.43
+    },
+    {
+      "Id": "taishi_ci",
+      "Name": "太史慈",
+      "Faction": "wu",
+      "Title": "双弦雄风",
+      "Role": "定点破阵",
+      "Description": "双弦分射两个目标，分担两路小股敌军。",
+      "Skill": "twin",
+      "SpriteId": "Game/Characters/taishi_ci",
+      "Accent": "#9F8250",
+      "Cost": 120,
+      "Range": 265,
+      "Damage": 18,
+      "AttackInterval": 1.15,
+      "BasicAttackInterval": 0.49,
+      "BasicDamageScale": 0.35,
+      "SkillCooldown": 3.0,
+      "SkillDamageScale": 2.09
+    },
+    {
+      "Id": "lv_bu",
+      "Name": "吕布",
+      "Faction": "qun",
+      "Title": "飞将",
+      "Role": "定点破阵",
+      "Description": "持续普攻并独立蓄力，挥动画戟发动近距重斩。",
+      "Skill": "cleave",
+      "SpriteId": "Game/Characters/lv_bu",
+      "Accent": "#AF6F5B",
+      "Cost": 160,
+      "Range": 200,
+      "Damage": 46,
+      "AttackInterval": 1.8,
+      "BasicAttackInterval": 0.7,
+      "BasicDamageScale": 0.32,
+      "SkillCooldown": 4.8,
+      "SkillDamageScale": 0.66
+    },
+    {
+      "Id": "zhao_yun",
+      "Name": "赵云",
+      "Faction": "shu",
+      "Title": "常山龙胆",
+      "Role": "群体清场",
+      "Description": "枪势沿目标方向穿透排成一线的敌军。",
+      "Skill": "pierce",
+      "SpriteId": "Game/Characters/zhao_yun",
+      "Accent": "#9DB9AF",
+      "Cost": 120,
+      "Range": 245,
+      "Damage": 23,
+      "AttackInterval": 1.1,
+      "BasicAttackInterval": 0.455,
+      "BasicDamageScale": 0.35,
+      "SkillCooldown": 3.2,
+      "SkillDamageScale": 2.33
+    },
+    {
+      "Id": "zhou_yu",
+      "Name": "周瑜",
+      "Faction": "wu",
+      "Title": "江东都督",
+      "Role": "群体清场",
+      "Description": "火攻留下短暂燃烧区，适合压制密集慢兵。",
+      "Skill": "fire",
+      "SpriteId": "Game/Characters/zhou_yu",
+      "Accent": "#AE6C5D",
+      "Cost": 135,
+      "Range": 245,
+      "Damage": 17,
+      "AttackInterval": 1.3,
+      "BasicAttackInterval": 0.63,
+      "BasicDamageScale": 0.3,
+      "SkillCooldown": 3.2,
+      "SkillDamageScale": 1.97
+    },
+    {
+      "Id": "lu_xun",
+      "Name": "陆逊",
+      "Faction": "wu",
+      "Title": "儒将火计",
+      "Role": "群体清场",
+      "Description": "点燃目标；目标倒下后，火种传给附近敌军。",
+      "Skill": "spread_fire",
+      "SpriteId": "Game/Characters/lu_xun",
+      "Accent": "#76966F",
+      "Cost": 115,
+      "Range": 250,
+      "Damage": 18,
+      "AttackInterval": 1.15,
+      "BasicAttackInterval": 0.595,
+      "BasicDamageScale": 0.3,
+      "SkillCooldown": 3.5,
+      "SkillDamageScale": 2.43
+    },
+    {
+      "Id": "yuan_shao",
+      "Name": "袁绍",
+      "Faction": "qun",
+      "Title": "四世三公",
+      "Role": "群体清场",
+      "Description": "周期箭雨覆盖小片区域，兼顾并行敌群。",
+      "Skill": "rain",
+      "SpriteId": "Game/Characters/yuan_shao",
+      "Accent": "#8F7C98",
+      "Cost": 145,
+      "Range": 290,
+      "Damage": 23,
+      "AttackInterval": 1.65,
+      "BasicAttackInterval": 0.77,
+      "BasicDamageScale": 0.3,
+      "SkillCooldown": 4.5,
+      "SkillDamageScale": 1.21
+    },
+    {
+      "Id": "guo_jia",
+      "Name": "郭嘉",
+      "Faction": "wei",
+      "Title": "奇佐",
+      "Role": "群体清场",
+      "Description": "留下延迟爆裂印记，目标倒下时提前引爆。",
+      "Skill": "mark",
+      "SpriteId": "Game/Characters/guo_jia",
+      "Accent": "#8BA1A3",
+      "Cost": 115,
+      "Range": 255,
+      "Damage": 20,
+      "AttackInterval": 1.3,
+      "BasicAttackInterval": 0.7,
+      "BasicDamageScale": 0.3,
+      "SkillCooldown": 3.5,
+      "SkillDamageScale": 1.12
+    },
+    {
+      "Id": "zhang_fei",
+      "Name": "张飞",
+      "Faction": "shu",
+      "Title": "燕人",
+      "Role": "路线拦截",
+      "Description": "周期怒喝短暂震慑敌群，Boss 受到较短控制。",
+      "Skill": "stun",
+      "SpriteId": "Game/Characters/zhang_fei",
+      "Accent": "#586A61",
+      "Cost": 120,
+      "Range": 185,
+      "Damage": 24,
+      "AttackInterval": 1.15,
+      "BasicAttackInterval": 0.63,
+      "BasicDamageScale": 0.35,
+      "SkillCooldown": 4.5,
+      "SkillDamageScale": 0.9
+    },
+    {
+      "Id": "zhuge_liang",
+      "Name": "诸葛亮",
+      "Faction": "shu",
+      "Title": "卧龙",
+      "Role": "路线拦截",
+      "Description": "八阵风场持续减速，延长同伴有效输出时间。",
+      "Skill": "slow",
+      "SpriteId": "Game/Characters/zhuge_liang",
+      "Accent": "#9CAF94",
+      "Cost": 135,
+      "Range": 255,
+      "Damage": 12,
+      "AttackInterval": 1.25,
+      "BasicAttackInterval": 0.735,
+      "BasicDamageScale": 0.25,
+      "SkillCooldown": 3.5,
+      "SkillDamageScale": 2.24
+    },
+    {
+      "Id": "ma_chao",
+      "Name": "马超",
+      "Faction": "shu",
+      "Title": "锦马超",
+      "Role": "路线拦截",
+      "Description": "蓄力枪击击退普通敌人，Boss 仅受到伤害。",
+      "Skill": "knockback",
+      "SpriteId": "Game/Characters/ma_chao",
+      "Accent": "#B9B9A6",
+      "Cost": 125,
+      "Range": 210,
+      "Damage": 28,
+      "AttackInterval": 1.3,
+      "BasicAttackInterval": 0.525,
+      "BasicDamageScale": 0.4,
+      "SkillCooldown": 3.5,
+      "SkillDamageScale": 0.92
+    },
+    {
+      "Id": "zhang_jiao",
+      "Name": "张角",
+      "Faction": "qun",
+      "Title": "太平道人",
+      "Role": "路线拦截",
+      "Description": "雷光在邻近敌人间跳跃，造成极短停顿。",
+      "Skill": "chain",
+      "SpriteId": "Game/Characters/zhang_jiao",
+      "Accent": "#BBA45C",
+      "Cost": 130,
+      "Range": 255,
+      "Damage": 22,
+      "AttackInterval": 1.4,
+      "BasicAttackInterval": 0.7,
+      "BasicDamageScale": 0.3,
+      "SkillCooldown": 3.5,
+      "SkillDamageScale": 2.0
+    },
+    {
+      "Id": "lv_meng",
+      "Name": "吕蒙",
+      "Faction": "wu",
+      "Title": "白衣渡江",
+      "Role": "路线拦截",
+      "Description": "敌军首次进入伏击区时受到额外袭击。",
+      "Skill": "ambush",
+      "SpriteId": "Game/Characters/lv_meng",
+      "Accent": "#A7B7A1",
+      "Cost": 105,
+      "Range": 210,
+      "Damage": 21,
+      "AttackInterval": 0.95,
+      "BasicAttackInterval": 0.525,
+      "BasicDamageScale": 0.35,
+      "SkillCooldown": 3.0,
+      "SkillDamageScale": 0.8
+    },
+    {
+      "Id": "cao_cao",
+      "Name": "曹操",
+      "Faction": "wei",
+      "Title": "魏武",
+      "Role": "协同谋略",
+      "Description": "提升附近武将伤害，增益不叠加到控制频率。",
+      "Skill": "buff",
+      "SpriteId": "Game/Characters/cao_cao",
+      "Accent": "#59727B",
+      "Cost": 130,
+      "Range": 240,
+      "Damage": 16,
+      "AttackInterval": 1.2,
+      "BasicAttackInterval": 0.7,
+      "BasicDamageScale": 0.35,
+      "SkillCooldown": 4.0,
+      "SkillDamageScale": 2.67
+    },
+    {
+      "Id": "diao_chan",
+      "Name": "貂蝉",
+      "Faction": "qun",
+      "Title": "月下离间",
+      "Role": "协同谋略",
+      "Description": "对强敌施加短时易伤，为同伴创造破阵机会。",
+      "Skill": "vulnerable",
+      "SpriteId": "Game/Characters/diao_chan",
+      "Accent": "#AA95AF",
+      "Cost": 100,
+      "Range": 250,
+      "Damage": 12,
+      "AttackInterval": 1.2,
+      "BasicAttackInterval": 0.665,
+      "BasicDamageScale": 0.3,
+      "SkillCooldown": 3.0,
+      "SkillDamageScale": 2.0
+    },
+    {
+      "Id": "pang_tong",
+      "Name": "庞统",
+      "Faction": "shu",
+      "Title": "凤雏",
+      "Role": "协同谋略",
+      "Description": "连环连接两个敌人，分担伤害且不循环触发。",
+      "Skill": "link",
+      "SpriteId": "Game/Characters/pang_tong",
+      "Accent": "#9C8769",
+      "Cost": 110,
+      "Range": 250,
+      "Damage": 16,
+      "AttackInterval": 1.25,
+      "BasicAttackInterval": 0.7,
+      "BasicDamageScale": 0.3,
+      "SkillCooldown": 3.5,
+      "SkillDamageScale": 2.24
+    },
+    {
+      "Id": "xun_yu",
+      "Name": "荀彧",
+      "Faction": "wei",
+      "Title": "王佐",
+      "Role": "协同谋略",
+      "Description": "附近同伴命中时触发独立冷却的协同箭击。",
+      "Skill": "assist",
+      "SpriteId": "Game/Characters/xun_yu",
+      "Accent": "#B6BDA6",
+      "Cost": 110,
+      "Range": 245,
+      "Damage": 12,
+      "AttackInterval": 1.15,
+      "BasicAttackInterval": 0.735,
+      "BasicDamageScale": 0.35,
+      "SkillCooldown": 1.5,
+      "SkillDamageScale": 0.8
+    },
+    {
+      "Id": "sima_yi",
+      "Name": "司马懿",
+      "Faction": "wei",
+      "Title": "鹰视",
+      "Role": "协同谋略",
+      "Description": "周期干扰敌军特殊技能，使其延后发动。",
+      "Skill": "disrupt",
+      "SpriteId": "Game/Characters/sima_yi",
+      "Accent": "#6E7B78",
+      "Cost": 125,
+      "Range": 260,
+      "Damage": 19,
+      "AttackInterval": 1.25,
+      "BasicAttackInterval": 0.735,
+      "BasicDamageScale": 0.3,
+      "SkillCooldown": 4.5,
+      "SkillDamageScale": 0.9
+    },
+    {
+      "Id": "sun_shangxiang",
+      "Name": "孙尚香",
+      "Faction": "wu",
+      "Title": "弓腰姬",
+      "Role": "灵活补位",
+      "Description": "优先攻击残血敌人，击退后迅速转火。",
+      "Skill": "execute",
+      "SpriteId": "Game/Characters/sun_shangxiang",
+      "Accent": "#B57568",
+      "Cost": 100,
+      "Range": 270,
+      "Damage": 20,
+      "AttackInterval": 0.9,
+      "BasicAttackInterval": 0.42,
+      "BasicDamageScale": 0.4,
+      "SkillCooldown": 2.5,
+      "SkillDamageScale": 2.22
+    },
+    {
+      "Id": "zhang_liao",
+      "Name": "张辽",
+      "Faction": "wei",
+      "Title": "威震逍遥",
+      "Role": "灵活补位",
+      "Description": "攻击队首，并向其身后造成扇形溅射。",
+      "Skill": "splash",
+      "SpriteId": "Game/Characters/zhang_liao",
+      "Accent": "#A96A5C",
+      "Cost": 120,
+      "Range": 225,
+      "Damage": 26,
+      "AttackInterval": 1.15,
+      "BasicAttackInterval": 0.56,
+      "BasicDamageScale": 0.35,
+      "SkillCooldown": 3.0,
+      "SkillDamageScale": 2.09
+    },
+    {
+      "Id": "jiang_wei",
+      "Name": "姜维",
+      "Faction": "shu",
+      "Title": "幼麟",
+      "Role": "灵活补位",
+      "Description": "自动交替近距枪阵与远程弓阵，应对距离变化。",
+      "Skill": "adaptive",
+      "SpriteId": "Game/Characters/jiang_wei",
+      "Accent": "#6A9387",
+      "Cost": 120,
+      "Range": 245,
+      "Damage": 23,
+      "AttackInterval": 1.05,
+      "BasicAttackInterval": 0.49,
+      "BasicDamageScale": 0.4,
+      "SkillCooldown": 3.0,
+      "SkillDamageScale": 2.29
+    },
+    {
+      "Id": "hua_tuo",
+      "Name": "华佗",
+      "Faction": "qun",
+      "Title": "青囊",
+      "Role": "灵活补位",
+      "Description": "每波结束恢复少量城防，整局恢复设有上限。",
+      "Skill": "heal",
+      "SpriteId": "Game/Characters/hua_tuo",
+      "Accent": "#9CAF95",
+      "Cost": 90,
+      "Range": 220,
+      "Damage": 12,
+      "AttackInterval": 1.2,
+      "BasicAttackInterval": 0.77,
+      "BasicDamageScale": 0.32,
+      "SkillCooldown": 4.0,
+      "SkillDamageScale": 2.67
+    },
+    {
+      "Id": "lu_su",
+      "Name": "鲁肃",
+      "Faction": "wu",
+      "Title": "江东粮台",
+      "Role": "灵活补位",
+      "Description": "每波结束补充少量军饷，整局收益设有上限。",
+      "Skill": "supply",
+      "SpriteId": "Game/Characters/lu_su",
+      "Accent": "#B19C74",
+      "Cost": 90,
+      "Range": 225,
+      "Damage": 12,
+      "AttackInterval": 1.15,
+      "BasicAttackInterval": 0.77,
+      "BasicDamageScale": 0.32,
+      "SkillCooldown": 4.0,
+      "SkillDamageScale": 2.78
+    }
+  ],
+  "Enemies": [
+    {
+      "Id": "infantry",
+      "Name": "执矛步兵",
+      "CharacterId": "",
+      "SpriteId": "Game/Enemies/infantry",
+      "Skill": "normal",
+      "MaxHealth": 66,
+      "Speed": 53,
+      "Armor": 0,
+      "CastleDamage": 1,
+      "GoldReward": 7,
+      "IsBoss": false
+    },
+    {
+      "Id": "shield",
+      "Name": "持盾甲兵",
+      "CharacterId": "",
+      "SpriteId": "Game/Enemies/shield",
+      "Skill": "shield",
+      "MaxHealth": 108,
+      "Speed": 43,
+      "Armor": 0.18,
+      "CastleDamage": 1,
+      "GoldReward": 10,
+      "IsBoss": false
+    },
+    {
+      "Id": "cavalry",
+      "Name": "轻骑先锋",
+      "CharacterId": "",
+      "SpriteId": "Game/Enemies/cavalry",
+      "Skill": "runner",
+      "MaxHealth": 76,
+      "Speed": 82,
+      "Armor": 0,
+      "CastleDamage": 2,
+      "GoldReward": 10,
+      "IsBoss": false
+    },
+    {
+      "Id": "archer",
+      "Name": "弓手",
+      "CharacterId": "",
+      "SpriteId": "Game/Enemies/archer",
+      "Skill": "normal",
+      "MaxHealth": 58,
+      "Speed": 58,
+      "Armor": 0,
+      "CastleDamage": 1,
+      "GoldReward": 8,
+      "IsBoss": false
+    },
+    {
+      "Id": "elite",
+      "Name": "重甲精锐",
+      "CharacterId": "",
+      "SpriteId": "Game/Enemies/elite",
+      "Skill": "armored",
+      "MaxHealth": 190,
+      "Speed": 39,
+      "Armor": 0.28,
+      "CastleDamage": 2,
+      "GoldReward": 16,
+      "IsBoss": false
+    },
+    {
+      "Id": "healer",
+      "Name": "军医旗兵",
+      "CharacterId": "",
+      "SpriteId": "Game/Enemies/healer",
+      "Skill": "healer",
+      "MaxHealth": 92,
+      "Speed": 45,
+      "Armor": 0.05,
+      "CastleDamage": 1,
+      "GoldReward": 12,
+      "IsBoss": false
+    },
+    {
+      "Id": "boss_zhang_liao",
+      "Name": "张辽",
+      "CharacterId": "zhang_liao",
+      "SpriteId": "Game/Bosses/zhang_liao",
+      "Skill": "charge",
+      "MaxHealth": 1500,
+      "Speed": 42,
+      "Armor": 0.1,
+      "CastleDamage": 15,
+      "GoldReward": 130,
+      "IsBoss": true
+    },
+    {
+      "Id": "boss_lv_bu",
+      "Name": "吕布",
+      "CharacterId": "lv_bu",
+      "SpriteId": "Game/Bosses/lv_bu",
+      "Skill": "charge",
+      "MaxHealth": 2800,
+      "Speed": 36,
+      "Armor": 0.12,
+      "CastleDamage": 15,
+      "GoldReward": 240,
+      "IsBoss": true
+    },
+    {
+      "Id": "boss_zhang_jiao",
+      "Name": "张角",
+      "CharacterId": "zhang_jiao",
+      "SpriteId": "Game/Bosses/zhang_jiao",
+      "Skill": "summon",
+      "MaxHealth": 2350,
+      "Speed": 36,
+      "Armor": 0.05,
+      "CastleDamage": 15,
+      "GoldReward": 220,
+      "IsBoss": true
+    },
+    {
+      "Id": "boss_yuan_shao",
+      "Name": "袁绍",
+      "CharacterId": "yuan_shao",
+      "SpriteId": "Game/Bosses/yuan_shao",
+      "Skill": "summon",
+      "MaxHealth": 3000,
+      "Speed": 39,
+      "Armor": 0.1,
+      "CastleDamage": 15,
+      "GoldReward": 260,
+      "IsBoss": true
+    },
+    {
+      "Id": "boss_xu_chu",
+      "Name": "许褚",
+      "CharacterId": "xu_chu",
+      "SpriteId": "Game/Bosses/xu_chu",
+      "Skill": "guard",
+      "MaxHealth": 2500,
+      "Speed": 32,
+      "Armor": 0.25,
+      "CastleDamage": 15,
+      "GoldReward": 180,
+      "IsBoss": true
+    },
+    {
+      "Id": "boss_cao_cao",
+      "Name": "曹操",
+      "CharacterId": "cao_cao",
+      "SpriteId": "Game/Bosses/cao_cao",
+      "Skill": "guard",
+      "MaxHealth": 3300,
+      "Speed": 36,
+      "Armor": 0.15,
+      "CastleDamage": 15,
+      "GoldReward": 270,
+      "IsBoss": true
+    },
+    {
+      "Id": "boss_guan_yu",
+      "Name": "关羽",
+      "CharacterId": "guan_yu",
+      "SpriteId": "Game/Bosses/guan_yu",
+      "Skill": "rage",
+      "MaxHealth": 3300,
+      "Speed": 37,
+      "Armor": 0.14,
+      "CastleDamage": 15,
+      "GoldReward": 220,
+      "IsBoss": true
+    },
+    {
+      "Id": "boss_sima_yi",
+      "Name": "司马懿",
+      "CharacterId": "sima_yi",
+      "SpriteId": "Game/Bosses/sima_yi",
+      "Skill": "disrupt",
+      "MaxHealth": 3000,
+      "Speed": 34,
+      "Armor": 0.1,
+      "CastleDamage": 15,
+      "GoldReward": 260,
+      "IsBoss": true
+    }
+  ],
+  "Levels": [
+    {
+      "Id": "hulao",
+      "Name": "虎牢合战",
+      "Subtitle": "两路合流 · 关前列阵",
+      "Story": "山口战鼓再起。先以两翼消耗来敌，再于关前截住张辽与吕布。",
+      "Theme": "山口关城",
+      "MapResource": "Game/Maps/hulao",
+      "InitialGold": 330,
+      "IncomePerSecond": 2.3,
+      "CastleMaxHealth": 30,
+      "BossHeroIds": [
+        "zhang_liao",
+        "lv_bu"
+      ],
+      "RecommendedRoster": [
+        "guan_yu",
+        "zhao_yun",
+        "zhang_fei",
+        "huang_zhong",
+        "zhou_yu",
+        "zhuge_liang",
+        "sun_shangxiang",
+        "cao_cao",
+        "hua_tuo",
+        "lu_su"
+      ],
+      "Routes": [
+        {
+          "Id": "north",
+          "Points": [
+            {
+              "X": 65,
+              "Y": 350
+            },
+            {
+              "X": 297.0,
+              "Y": 350.0
+            },
+            {
+              "X": 302.351,
+              "Y": 350.086
+            },
+            {
+              "X": 307.654,
+              "Y": 350.346
+            },
+            {
+              "X": 312.91,
+              "Y": 350.778
+            },
+            {
+              "X": 318.117,
+              "Y": 351.383
+            },
+            {
+              "X": 323.277,
+              "Y": 352.16
+            },
+            {
+              "X": 328.388,
+              "Y": 353.111
+            },
+            {
+              "X": 333.452,
+              "Y": 354.235
+            },
+            {
+              "X": 338.468,
+              "Y": 355.531
+            },
+            {
+              "X": 343.436,
+              "Y": 357.0
+            },
+            {
+              "X": 348.356,
+              "Y": 358.642
+            },
+            {
+              "X": 353.229,
+              "Y": 360.457
+            },
+            {
+              "X": 358.053,
+              "Y": 362.444
+            },
+            {
+              "X": 362.83,
+              "Y": 364.605
+            },
+            {
+              "X": 367.558,
+              "Y": 366.938
+            },
+            {
+              "X": 372.239,
+              "Y": 369.444
+            },
+            {
+              "X": 376.872,
+              "Y": 372.123
+            },
+            {
+              "X": 453.128,
+              "Y": 417.877
+            },
+            {
+              "X": 457.761,
+              "Y": 420.556
+            },
+            {
+              "X": 462.442,
+              "Y": 423.062
+            },
+            {
+              "X": 467.17,
+              "Y": 425.395
+            },
+            {
+              "X": 471.947,
+              "Y": 427.556
+            },
+            {
+              "X": 476.771,
+              "Y": 429.543
+            },
+            {
+              "X": 481.644,
+              "Y": 431.358
+            },
+            {
+              "X": 486.564,
+              "Y": 433.0
+            },
+            {
+              "X": 491.532,
+              "Y": 434.469
+            },
+            {
+              "X": 496.548,
+              "Y": 435.765
+            },
+            {
+              "X": 501.612,
+              "Y": 436.889
+            },
+            {
+              "X": 506.723,
+              "Y": 437.84
+            },
+            {
+              "X": 511.883,
+              "Y": 438.617
+            },
+            {
+              "X": 517.09,
+              "Y": 439.222
+            },
+            {
+              "X": 522.346,
+              "Y": 439.654
+            },
+            {
+              "X": 527.649,
+              "Y": 439.914
+            },
+            {
+              "X": 533.0,
+              "Y": 440.0
+            },
+            {
+              "X": 737.0,
+              "Y": 440.0
+            },
+            {
+              "X": 742.357,
+              "Y": 440.075
+            },
+            {
+              "X": 747.679,
+              "Y": 440.3
+            },
+            {
+              "X": 752.965,
+              "Y": 440.676
+            },
+            {
+              "X": 758.216,
+              "Y": 441.202
+            },
+            {
+              "X": 763.432,
+              "Y": 441.878
+            },
+            {
+              "X": 768.612,
+              "Y": 442.704
+            },
+            {
+              "X": 773.756,
+              "Y": 443.681
+            },
+            {
+              "X": 778.865,
+              "Y": 444.808
+            },
+            {
+              "X": 783.939,
+              "Y": 446.085
+            },
+            {
+              "X": 788.977,
+              "Y": 447.512
+            },
+            {
+              "X": 793.979,
+              "Y": 449.089
+            },
+            {
+              "X": 798.946,
+              "Y": 450.817
+            },
+            {
+              "X": 803.878,
+              "Y": 452.695
+            },
+            {
+              "X": 808.774,
+              "Y": 454.723
+            },
+            {
+              "X": 813.635,
+              "Y": 456.902
+            },
+            {
+              "X": 818.46,
+              "Y": 459.23
+            },
+            {
+              "X": 861.54,
+              "Y": 480.77
+            },
+            {
+              "X": 866.365,
+              "Y": 483.098
+            },
+            {
+              "X": 871.226,
+              "Y": 485.277
+            },
+            {
+              "X": 876.122,
+              "Y": 487.305
+            },
+            {
+              "X": 881.054,
+              "Y": 489.183
+            },
+            {
+              "X": 886.021,
+              "Y": 490.911
+            },
+            {
+              "X": 891.023,
+              "Y": 492.488
+            },
+            {
+              "X": 896.061,
+              "Y": 493.915
+            },
+            {
+              "X": 901.135,
+              "Y": 495.192
+            },
+            {
+              "X": 906.244,
+              "Y": 496.319
+            },
+            {
+              "X": 911.388,
+              "Y": 497.296
+            },
+            {
+              "X": 916.568,
+              "Y": 498.122
+            },
+            {
+              "X": 921.784,
+              "Y": 498.798
+            },
+            {
+              "X": 927.035,
+              "Y": 499.324
+            },
+            {
+              "X": 932.321,
+              "Y": 499.7
+            },
+            {
+              "X": 937.643,
+              "Y": 499.925
+            },
+            {
+              "X": 943.0,
+              "Y": 500.0
+            },
+            {
+              "X": 1077.0,
+              "Y": 500.0
+            },
+            {
+              "X": 1082.364,
+              "Y": 500.059
+            },
+            {
+              "X": 1087.707,
+              "Y": 500.236
+            },
+            {
+              "X": 1093.029,
+              "Y": 500.531
+            },
+            {
+              "X": 1098.329,
+              "Y": 500.944
+            },
+            {
+              "X": 1103.608,
+              "Y": 501.474
+            },
+            {
+              "X": 1108.865,
+              "Y": 502.123
+            },
+            {
+              "X": 1114.101,
+              "Y": 502.89
+            },
+            {
+              "X": 1119.316,
+              "Y": 503.775
+            },
+            {
+              "X": 1124.509,
+              "Y": 504.777
+            },
+            {
+              "X": 1129.681,
+              "Y": 505.898
+            },
+            {
+              "X": 1134.831,
+              "Y": 507.136
+            },
+            {
+              "X": 1139.96,
+              "Y": 508.493
+            },
+            {
+              "X": 1145.068,
+              "Y": 509.967
+            },
+            {
+              "X": 1150.154,
+              "Y": 511.56
+            },
+            {
+              "X": 1155.219,
+              "Y": 513.27
+            },
+            {
+              "X": 1160.262,
+              "Y": 515.098
+            },
+            {
+              "X": 1239.738,
+              "Y": 544.902
+            },
+            {
+              "X": 1244.781,
+              "Y": 546.73
+            },
+            {
+              "X": 1249.846,
+              "Y": 548.44
+            },
+            {
+              "X": 1254.932,
+              "Y": 550.033
+            },
+            {
+              "X": 1260.04,
+              "Y": 551.507
+            },
+            {
+              "X": 1265.169,
+              "Y": 552.864
+            },
+            {
+              "X": 1270.319,
+              "Y": 554.102
+            },
+            {
+              "X": 1275.491,
+              "Y": 555.223
+            },
+            {
+              "X": 1280.684,
+              "Y": 556.225
+            },
+            {
+              "X": 1285.899,
+              "Y": 557.11
+            },
+            {
+              "X": 1291.135,
+              "Y": 557.877
+            },
+            {
+              "X": 1296.392,
+              "Y": 558.526
+            },
+            {
+              "X": 1301.671,
+              "Y": 559.056
+            },
+            {
+              "X": 1306.971,
+              "Y": 559.469
+            },
+            {
+              "X": 1312.293,
+              "Y": 559.764
+            },
+            {
+              "X": 1317.636,
+              "Y": 559.941
+            },
+            {
+              "X": 1323.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1517.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1522.375,
+              "Y": 560.0
+            },
+            {
+              "X": 1527.75,
+              "Y": 560.0
+            },
+            {
+              "X": 1533.125,
+              "Y": 560.0
+            },
+            {
+              "X": 1538.5,
+              "Y": 560.0
+            },
+            {
+              "X": 1543.875,
+              "Y": 560.0
+            },
+            {
+              "X": 1549.25,
+              "Y": 560.0
+            },
+            {
+              "X": 1554.625,
+              "Y": 560.0
+            },
+            {
+              "X": 1560.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1565.375,
+              "Y": 560.0
+            },
+            {
+              "X": 1570.75,
+              "Y": 560.0
+            },
+            {
+              "X": 1576.125,
+              "Y": 560.0
+            },
+            {
+              "X": 1581.5,
+              "Y": 560.0
+            },
+            {
+              "X": 1586.875,
+              "Y": 560.0
+            },
+            {
+              "X": 1592.25,
+              "Y": 560.0
+            },
+            {
+              "X": 1597.625,
+              "Y": 560.0
+            },
+            {
+              "X": 1603.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1678.16,
+              "Y": 560.0
+            },
+            {
+              "X": 1680.89,
+              "Y": 560.0
+            },
+            {
+              "X": 1683.62,
+              "Y": 560.0
+            },
+            {
+              "X": 1686.35,
+              "Y": 560.0
+            },
+            {
+              "X": 1689.08,
+              "Y": 560.0
+            },
+            {
+              "X": 1691.81,
+              "Y": 560.0
+            },
+            {
+              "X": 1694.54,
+              "Y": 560.0
+            },
+            {
+              "X": 1697.27,
+              "Y": 560.0
+            },
+            {
+              "X": 1700.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1702.73,
+              "Y": 560.0
+            },
+            {
+              "X": 1705.46,
+              "Y": 560.0
+            },
+            {
+              "X": 1708.19,
+              "Y": 560.0
+            },
+            {
+              "X": 1710.92,
+              "Y": 560.0
+            },
+            {
+              "X": 1713.65,
+              "Y": 560.0
+            },
+            {
+              "X": 1716.38,
+              "Y": 560.0
+            },
+            {
+              "X": 1719.11,
+              "Y": 560.0
+            },
+            {
+              "X": 1721.84,
+              "Y": 560.0
+            },
+            {
+              "X": 1752,
+              "Y": 560
+            }
+          ]
+        },
+        {
+          "Id": "south",
+          "Points": [
+            {
+              "X": 65,
+              "Y": 720
+            },
+            {
+              "X": 327.0,
+              "Y": 720.0
+            },
+            {
+              "X": 332.352,
+              "Y": 719.915
+            },
+            {
+              "X": 337.657,
+              "Y": 719.659
+            },
+            {
+              "X": 342.916,
+              "Y": 719.234
+            },
+            {
+              "X": 348.129,
+              "Y": 718.637
+            },
+            {
+              "X": 353.295,
+              "Y": 717.871
+            },
+            {
+              "X": 358.415,
+              "Y": 716.934
+            },
+            {
+              "X": 363.489,
+              "Y": 715.827
+            },
+            {
+              "X": 368.516,
+              "Y": 714.55
+            },
+            {
+              "X": 373.497,
+              "Y": 713.102
+            },
+            {
+              "X": 378.431,
+              "Y": 711.484
+            },
+            {
+              "X": 383.319,
+              "Y": 709.695
+            },
+            {
+              "X": 388.161,
+              "Y": 707.736
+            },
+            {
+              "X": 392.956,
+              "Y": 705.607
+            },
+            {
+              "X": 397.705,
+              "Y": 703.308
+            },
+            {
+              "X": 402.407,
+              "Y": 700.838
+            },
+            {
+              "X": 407.063,
+              "Y": 698.198
+            },
+            {
+              "X": 502.937,
+              "Y": 641.802
+            },
+            {
+              "X": 507.593,
+              "Y": 639.162
+            },
+            {
+              "X": 512.295,
+              "Y": 636.692
+            },
+            {
+              "X": 517.044,
+              "Y": 634.393
+            },
+            {
+              "X": 521.839,
+              "Y": 632.264
+            },
+            {
+              "X": 526.681,
+              "Y": 630.305
+            },
+            {
+              "X": 531.569,
+              "Y": 628.516
+            },
+            {
+              "X": 536.503,
+              "Y": 626.898
+            },
+            {
+              "X": 541.484,
+              "Y": 625.45
+            },
+            {
+              "X": 546.511,
+              "Y": 624.173
+            },
+            {
+              "X": 551.585,
+              "Y": 623.066
+            },
+            {
+              "X": 556.705,
+              "Y": 622.129
+            },
+            {
+              "X": 561.871,
+              "Y": 621.363
+            },
+            {
+              "X": 567.084,
+              "Y": 620.766
+            },
+            {
+              "X": 572.343,
+              "Y": 620.341
+            },
+            {
+              "X": 577.648,
+              "Y": 620.085
+            },
+            {
+              "X": 583.0,
+              "Y": 620.0
+            },
+            {
+              "X": 717.0,
+              "Y": 620.0
+            },
+            {
+              "X": 722.335,
+              "Y": 619.891
+            },
+            {
+              "X": 727.588,
+              "Y": 619.563
+            },
+            {
+              "X": 732.761,
+              "Y": 619.016
+            },
+            {
+              "X": 737.853,
+              "Y": 618.251
+            },
+            {
+              "X": 742.864,
+              "Y": 617.267
+            },
+            {
+              "X": 747.794,
+              "Y": 616.065
+            },
+            {
+              "X": 752.644,
+              "Y": 614.644
+            },
+            {
+              "X": 757.412,
+              "Y": 613.004
+            },
+            {
+              "X": 762.1,
+              "Y": 611.146
+            },
+            {
+              "X": 766.706,
+              "Y": 609.069
+            },
+            {
+              "X": 771.232,
+              "Y": 606.773
+            },
+            {
+              "X": 775.677,
+              "Y": 604.259
+            },
+            {
+              "X": 780.041,
+              "Y": 601.526
+            },
+            {
+              "X": 784.324,
+              "Y": 598.575
+            },
+            {
+              "X": 788.527,
+              "Y": 595.405
+            },
+            {
+              "X": 792.648,
+              "Y": 592.016
+            },
+            {
+              "X": 867.352,
+              "Y": 527.984
+            },
+            {
+              "X": 871.473,
+              "Y": 524.595
+            },
+            {
+              "X": 875.676,
+              "Y": 521.425
+            },
+            {
+              "X": 879.959,
+              "Y": 518.474
+            },
+            {
+              "X": 884.323,
+              "Y": 515.741
+            },
+            {
+              "X": 888.768,
+              "Y": 513.227
+            },
+            {
+              "X": 893.294,
+              "Y": 510.931
+            },
+            {
+              "X": 897.9,
+              "Y": 508.854
+            },
+            {
+              "X": 902.588,
+              "Y": 506.996
+            },
+            {
+              "X": 907.356,
+              "Y": 505.356
+            },
+            {
+              "X": 912.206,
+              "Y": 503.935
+            },
+            {
+              "X": 917.136,
+              "Y": 502.733
+            },
+            {
+              "X": 922.147,
+              "Y": 501.749
+            },
+            {
+              "X": 927.239,
+              "Y": 500.984
+            },
+            {
+              "X": 932.412,
+              "Y": 500.437
+            },
+            {
+              "X": 937.665,
+              "Y": 500.109
+            },
+            {
+              "X": 943.0,
+              "Y": 500.0
+            },
+            {
+              "X": 1077.0,
+              "Y": 500.0
+            },
+            {
+              "X": 1082.364,
+              "Y": 500.059
+            },
+            {
+              "X": 1087.707,
+              "Y": 500.236
+            },
+            {
+              "X": 1093.029,
+              "Y": 500.531
+            },
+            {
+              "X": 1098.329,
+              "Y": 500.944
+            },
+            {
+              "X": 1103.608,
+              "Y": 501.474
+            },
+            {
+              "X": 1108.865,
+              "Y": 502.123
+            },
+            {
+              "X": 1114.101,
+              "Y": 502.89
+            },
+            {
+              "X": 1119.316,
+              "Y": 503.775
+            },
+            {
+              "X": 1124.509,
+              "Y": 504.777
+            },
+            {
+              "X": 1129.681,
+              "Y": 505.898
+            },
+            {
+              "X": 1134.831,
+              "Y": 507.136
+            },
+            {
+              "X": 1139.96,
+              "Y": 508.493
+            },
+            {
+              "X": 1145.068,
+              "Y": 509.967
+            },
+            {
+              "X": 1150.154,
+              "Y": 511.56
+            },
+            {
+              "X": 1155.219,
+              "Y": 513.27
+            },
+            {
+              "X": 1160.262,
+              "Y": 515.098
+            },
+            {
+              "X": 1239.738,
+              "Y": 544.902
+            },
+            {
+              "X": 1244.781,
+              "Y": 546.73
+            },
+            {
+              "X": 1249.846,
+              "Y": 548.44
+            },
+            {
+              "X": 1254.932,
+              "Y": 550.033
+            },
+            {
+              "X": 1260.04,
+              "Y": 551.507
+            },
+            {
+              "X": 1265.169,
+              "Y": 552.864
+            },
+            {
+              "X": 1270.319,
+              "Y": 554.102
+            },
+            {
+              "X": 1275.491,
+              "Y": 555.223
+            },
+            {
+              "X": 1280.684,
+              "Y": 556.225
+            },
+            {
+              "X": 1285.899,
+              "Y": 557.11
+            },
+            {
+              "X": 1291.135,
+              "Y": 557.877
+            },
+            {
+              "X": 1296.392,
+              "Y": 558.526
+            },
+            {
+              "X": 1301.671,
+              "Y": 559.056
+            },
+            {
+              "X": 1306.971,
+              "Y": 559.469
+            },
+            {
+              "X": 1312.293,
+              "Y": 559.764
+            },
+            {
+              "X": 1317.636,
+              "Y": 559.941
+            },
+            {
+              "X": 1323.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1517.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1522.375,
+              "Y": 560.0
+            },
+            {
+              "X": 1527.75,
+              "Y": 560.0
+            },
+            {
+              "X": 1533.125,
+              "Y": 560.0
+            },
+            {
+              "X": 1538.5,
+              "Y": 560.0
+            },
+            {
+              "X": 1543.875,
+              "Y": 560.0
+            },
+            {
+              "X": 1549.25,
+              "Y": 560.0
+            },
+            {
+              "X": 1554.625,
+              "Y": 560.0
+            },
+            {
+              "X": 1560.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1565.375,
+              "Y": 560.0
+            },
+            {
+              "X": 1570.75,
+              "Y": 560.0
+            },
+            {
+              "X": 1576.125,
+              "Y": 560.0
+            },
+            {
+              "X": 1581.5,
+              "Y": 560.0
+            },
+            {
+              "X": 1586.875,
+              "Y": 560.0
+            },
+            {
+              "X": 1592.25,
+              "Y": 560.0
+            },
+            {
+              "X": 1597.625,
+              "Y": 560.0
+            },
+            {
+              "X": 1603.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1678.16,
+              "Y": 560.0
+            },
+            {
+              "X": 1680.89,
+              "Y": 560.0
+            },
+            {
+              "X": 1683.62,
+              "Y": 560.0
+            },
+            {
+              "X": 1686.35,
+              "Y": 560.0
+            },
+            {
+              "X": 1689.08,
+              "Y": 560.0
+            },
+            {
+              "X": 1691.81,
+              "Y": 560.0
+            },
+            {
+              "X": 1694.54,
+              "Y": 560.0
+            },
+            {
+              "X": 1697.27,
+              "Y": 560.0
+            },
+            {
+              "X": 1700.0,
+              "Y": 560.0
+            },
+            {
+              "X": 1702.73,
+              "Y": 560.0
+            },
+            {
+              "X": 1705.46,
+              "Y": 560.0
+            },
+            {
+              "X": 1708.19,
+              "Y": 560.0
+            },
+            {
+              "X": 1710.92,
+              "Y": 560.0
+            },
+            {
+              "X": 1713.65,
+              "Y": 560.0
+            },
+            {
+              "X": 1716.38,
+              "Y": 560.0
+            },
+            {
+              "X": 1719.11,
+              "Y": 560.0
+            },
+            {
+              "X": 1721.84,
+              "Y": 560.0
+            },
+            {
+              "X": 1752,
+              "Y": 560
+            }
+          ]
+        }
+      ],
+      "Slots": [
+        {
+          "Id": 1,
+          "Position": {
+            "X": 190,
+            "Y": 250
+          }
+        },
+        {
+          "Id": 2,
+          "Position": {
+            "X": 365,
+            "Y": 250
+          }
+        },
+        {
+          "Id": 3,
+          "Position": {
+            "X": 550,
+            "Y": 280
+          }
+        },
+        {
+          "Id": 4,
+          "Position": {
+            "X": 715,
+            "Y": 290
+          }
+        },
+        {
+          "Id": 5,
+          "Position": {
+            "X": 895,
+            "Y": 270
+          }
+        },
+        {
+          "Id": 6,
+          "Position": {
+            "X": 1080,
+            "Y": 280
+          }
+        },
+        {
+          "Id": 7,
+          "Position": {
+            "X": 1250,
+            "Y": 295
+          }
+        },
+        {
+          "Id": 8,
+          "Position": {
+            "X": 1430,
+            "Y": 290
+          }
+        },
+        {
+          "Id": 9,
+          "Position": {
+            "X": 1555,
+            "Y": 340
+          }
+        },
+        {
+          "Id": 10,
+          "Position": {
+            "X": 200,
+            "Y": 460
+          }
+        },
+        {
+          "Id": 11,
+          "Position": {
+            "X": 345,
+            "Y": 470
+          }
+        },
+        {
+          "Id": 12,
+          "Position": {
+            "X": 525,
+            "Y": 520
+          }
+        },
+        {
+          "Id": 13,
+          "Position": {
+            "X": 655,
+            "Y": 520
+          }
+        },
+        {
+          "Id": 14,
+          "Position": {
+            "X": 850,
+            "Y": 400
+          }
+        },
+        {
+          "Id": 15,
+          "Position": {
+            "X": 1100,
+            "Y": 600
+          }
+        },
+        {
+          "Id": 16,
+          "Position": {
+            "X": 1250,
+            "Y": 690
+          }
+        },
+        {
+          "Id": 17,
+          "Position": {
+            "X": 1395,
+            "Y": 695
+          }
+        },
+        {
+          "Id": 18,
+          "Position": {
+            "X": 1515,
+            "Y": 780
+          }
+        },
+        {
+          "Id": 19,
+          "Position": {
+            "X": 1705,
+            "Y": 740
+          }
+        },
+        {
+          "Id": 20,
+          "Position": {
+            "X": 1830,
+            "Y": 735
+          }
+        },
+        {
+          "Id": 21,
+          "Position": {
+            "X": 200,
+            "Y": 620
+          }
+        },
+        {
+          "Id": 22,
+          "Position": {
+            "X": 300,
+            "Y": 615
+          }
+        },
+        {
+          "Id": 23,
+          "Position": {
+            "X": 430,
+            "Y": 600
+          }
+        },
+        {
+          "Id": 24,
+          "Position": {
+            "X": 200,
+            "Y": 810
+          }
+        },
+        {
+          "Id": 25,
+          "Position": {
+            "X": 365,
+            "Y": 820
+          }
+        },
+        {
+          "Id": 26,
+          "Position": {
+            "X": 535,
+            "Y": 765
+          }
+        },
+        {
+          "Id": 27,
+          "Position": {
+            "X": 680,
+            "Y": 780
+          }
+        },
+        {
+          "Id": 28,
+          "Position": {
+            "X": 830,
+            "Y": 745
+          }
+        },
+        {
+          "Id": 29,
+          "Position": {
+            "X": 990,
+            "Y": 735
+          }
+        },
+        {
+          "Id": 30,
+          "Position": {
+            "X": 1120,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 31,
+          "Position": {
+            "X": 1030,
+            "Y": 407
+          }
+        },
+        {
+          "Id": 32,
+          "Position": {
+            "X": 1365,
+            "Y": 458
+          }
+        },
+        {
+          "Id": 33,
+          "Position": {
+            "X": 810,
+            "Y": 560
+          }
+        },
+        {
+          "Id": 34,
+          "Position": {
+            "X": 1585,
+            "Y": 690
+          }
+        }
+      ],
+      "Waves": [
+        {
+          "Name": "前哨试探",
+          "StartDelay": 2,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "north",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.0,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "south",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.0,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "左右鸣鼓",
+          "StartDelay": 12,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "north",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.075,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "south",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.075,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "盾列推进",
+          "StartDelay": 12,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "north",
+              "Count": 7,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.15,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "south",
+              "Count": 7,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.15,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "快马传锋",
+          "StartDelay": 12,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "north",
+              "Count": 7,
+              "Interval": 1.35,
+              "Delay": 0.0,
+              "HealthScale": 1.225,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "south",
+              "Count": 7,
+              "Interval": 1.35,
+              "Delay": 3.5,
+              "HealthScale": 1.225,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "中军压阵",
+          "StartDelay": 12,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "north",
+              "Count": 8,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.3,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "south",
+              "Count": 8,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.3,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "boss_zhang_liao",
+              "RouteId": "north",
+              "Count": 1,
+              "Interval": 1.65,
+              "Delay": 8,
+              "HealthScale": 1,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "整备再战",
+          "StartDelay": 12,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "north",
+              "Count": 8,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.375,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "north",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.306,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "south",
+              "Count": 8,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.375,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "south",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.306,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "弓盾相随",
+          "StartDelay": 12,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "north",
+              "Count": 9,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.45,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "north",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.377,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "south",
+              "Count": 9,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.45,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "south",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.377,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "精锐突阵",
+          "StartDelay": 12,
+          "Groups": [
+            {
+              "EnemyId": "elite",
+              "RouteId": "north",
+              "Count": 9,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.525,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "north",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.449,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "elite",
+              "RouteId": "south",
+              "Count": 9,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.525,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "south",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.449,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "三鼓齐进",
+          "StartDelay": 12,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "north",
+              "Count": 10,
+              "Interval": 1.35,
+              "Delay": 0.0,
+              "HealthScale": 1.6,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "north",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.52,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "south",
+              "Count": 10,
+              "Interval": 1.35,
+              "Delay": 3.5,
+              "HealthScale": 1.6,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "south",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.52,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "主将临关",
+          "StartDelay": 12,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "north",
+              "Count": 10,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.675,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "north",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.591,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "south",
+              "Count": 10,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.675,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "south",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.591,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "boss_lv_bu",
+              "RouteId": "north",
+              "Count": 1,
+              "Interval": 1.65,
+              "Delay": 12,
+              "HealthScale": 1,
+              "SpeedScale": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "huangjin",
+      "Name": "黄巾演武",
+      "Subtitle": "单路回转 · 长线牵制",
+      "Story": "黄旗穿过郊野，法坛守着回转长路。把握往返两段的共同覆盖，破除张角的纸兵阵势。",
+      "Theme": "黄土郊野",
+      "MapResource": "Game/Maps/huangjin",
+      "InitialGold": 345,
+      "IncomePerSecond": 2.3,
+      "CastleMaxHealth": 30,
+      "BossHeroIds": [
+        "zhang_jiao"
+      ],
+      "RecommendedRoster": [
+        "guan_yu",
+        "huang_zhong",
+        "zhao_yun",
+        "zhou_yu",
+        "lu_xun",
+        "zhang_fei",
+        "zhuge_liang",
+        "ma_chao",
+        "hua_tuo",
+        "lu_su"
+      ],
+      "Routes": [
+        {
+          "Id": "u_road",
+          "Points": [
+            {
+              "X": 70,
+              "Y": 300
+            },
+            {
+              "X": 1427.0,
+              "Y": 300.0
+            },
+            {
+              "X": 1432.357,
+              "Y": 300.075
+            },
+            {
+              "X": 1437.679,
+              "Y": 300.3
+            },
+            {
+              "X": 1442.965,
+              "Y": 300.676
+            },
+            {
+              "X": 1448.216,
+              "Y": 301.202
+            },
+            {
+              "X": 1453.432,
+              "Y": 301.878
+            },
+            {
+              "X": 1458.612,
+              "Y": 302.704
+            },
+            {
+              "X": 1463.756,
+              "Y": 303.681
+            },
+            {
+              "X": 1468.865,
+              "Y": 304.808
+            },
+            {
+              "X": 1473.939,
+              "Y": 306.085
+            },
+            {
+              "X": 1478.977,
+              "Y": 307.512
+            },
+            {
+              "X": 1483.979,
+              "Y": 309.089
+            },
+            {
+              "X": 1488.946,
+              "Y": 310.817
+            },
+            {
+              "X": 1493.878,
+              "Y": 312.695
+            },
+            {
+              "X": 1498.774,
+              "Y": 314.723
+            },
+            {
+              "X": 1503.635,
+              "Y": 316.902
+            },
+            {
+              "X": 1508.46,
+              "Y": 319.23
+            },
+            {
+              "X": 1661.54,
+              "Y": 395.77
+            },
+            {
+              "X": 1666.197,
+              "Y": 398.266
+            },
+            {
+              "X": 1670.554,
+              "Y": 400.949
+            },
+            {
+              "X": 1674.61,
+              "Y": 403.817
+            },
+            {
+              "X": 1678.366,
+              "Y": 406.871
+            },
+            {
+              "X": 1681.821,
+              "Y": 410.11
+            },
+            {
+              "X": 1684.976,
+              "Y": 413.535
+            },
+            {
+              "X": 1687.831,
+              "Y": 417.146
+            },
+            {
+              "X": 1690.385,
+              "Y": 420.942
+            },
+            {
+              "X": 1692.638,
+              "Y": 424.925
+            },
+            {
+              "X": 1694.592,
+              "Y": 429.093
+            },
+            {
+              "X": 1696.244,
+              "Y": 433.446
+            },
+            {
+              "X": 1697.596,
+              "Y": 437.986
+            },
+            {
+              "X": 1698.648,
+              "Y": 442.711
+            },
+            {
+              "X": 1699.399,
+              "Y": 447.621
+            },
+            {
+              "X": 1699.85,
+              "Y": 452.718
+            },
+            {
+              "X": 1700.0,
+              "Y": 458.0
+            },
+            {
+              "X": 1700.0,
+              "Y": 562.0
+            },
+            {
+              "X": 1699.858,
+              "Y": 567.297
+            },
+            {
+              "X": 1699.432,
+              "Y": 572.438
+            },
+            {
+              "X": 1698.723,
+              "Y": 577.422
+            },
+            {
+              "X": 1697.73,
+              "Y": 582.25
+            },
+            {
+              "X": 1696.452,
+              "Y": 586.923
+            },
+            {
+              "X": 1694.891,
+              "Y": 591.439
+            },
+            {
+              "X": 1693.047,
+              "Y": 595.798
+            },
+            {
+              "X": 1690.918,
+              "Y": 600.002
+            },
+            {
+              "X": 1688.506,
+              "Y": 604.049
+            },
+            {
+              "X": 1685.81,
+              "Y": 607.94
+            },
+            {
+              "X": 1682.83,
+              "Y": 611.675
+            },
+            {
+              "X": 1679.566,
+              "Y": 615.254
+            },
+            {
+              "X": 1676.018,
+              "Y": 618.677
+            },
+            {
+              "X": 1672.187,
+              "Y": 621.943
+            },
+            {
+              "X": 1668.072,
+              "Y": 625.053
+            },
+            {
+              "X": 1663.673,
+              "Y": 628.007
+            },
+            {
+              "X": 1586.327,
+              "Y": 676.993
+            },
+            {
+              "X": 1581.76,
+              "Y": 679.779
+            },
+            {
+              "X": 1577.141,
+              "Y": 682.385
+            },
+            {
+              "X": 1572.47,
+              "Y": 684.812
+            },
+            {
+              "X": 1567.747,
+              "Y": 687.058
+            },
+            {
+              "X": 1562.971,
+              "Y": 689.125
+            },
+            {
+              "X": 1558.143,
+              "Y": 691.013
+            },
+            {
+              "X": 1553.264,
+              "Y": 692.72
+            },
+            {
+              "X": 1548.332,
+              "Y": 694.248
+            },
+            {
+              "X": 1543.348,
+              "Y": 695.596
+            },
+            {
+              "X": 1538.312,
+              "Y": 696.765
+            },
+            {
+              "X": 1533.223,
+              "Y": 697.753
+            },
+            {
+              "X": 1528.083,
+              "Y": 698.562
+            },
+            {
+              "X": 1522.89,
+              "Y": 699.191
+            },
+            {
+              "X": 1517.646,
+              "Y": 699.641
+            },
+            {
+              "X": 1512.349,
+              "Y": 699.91
+            },
+            {
+              "X": 1507.0,
+              "Y": 700.0
+            },
+            {
+              "X": 180,
+              "Y": 700
+            }
+          ]
+        }
+      ],
+      "Slots": [
+        {
+          "Id": 1,
+          "Position": {
+            "X": 170,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 2,
+          "Position": {
+            "X": 340,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 3,
+          "Position": {
+            "X": 510,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 4,
+          "Position": {
+            "X": 680,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 5,
+          "Position": {
+            "X": 850,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 6,
+          "Position": {
+            "X": 1020,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 7,
+          "Position": {
+            "X": 1190,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 8,
+          "Position": {
+            "X": 1400,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 9,
+          "Position": {
+            "X": 1650,
+            "Y": 250
+          }
+        },
+        {
+          "Id": 10,
+          "Position": {
+            "X": 1480,
+            "Y": 420
+          }
+        },
+        {
+          "Id": 11,
+          "Position": {
+            "X": 1800,
+            "Y": 465
+          }
+        },
+        {
+          "Id": 12,
+          "Position": {
+            "X": 1540,
+            "Y": 595
+          }
+        },
+        {
+          "Id": 13,
+          "Position": {
+            "X": 1740,
+            "Y": 720
+          }
+        },
+        {
+          "Id": 14,
+          "Position": {
+            "X": 1600,
+            "Y": 795
+          }
+        },
+        {
+          "Id": 15,
+          "Position": {
+            "X": 1410,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 16,
+          "Position": {
+            "X": 1210,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 17,
+          "Position": {
+            "X": 1010,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 18,
+          "Position": {
+            "X": 810,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 19,
+          "Position": {
+            "X": 610,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 20,
+          "Position": {
+            "X": 410,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 21,
+          "Position": {
+            "X": 240,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 22,
+          "Position": {
+            "X": 430,
+            "Y": 590
+          }
+        },
+        {
+          "Id": 23,
+          "Position": {
+            "X": 690,
+            "Y": 590
+          }
+        },
+        {
+          "Id": 24,
+          "Position": {
+            "X": 950,
+            "Y": 590
+          }
+        },
+        {
+          "Id": 25,
+          "Position": {
+            "X": 1210,
+            "Y": 590
+          }
+        },
+        {
+          "Id": 26,
+          "Position": {
+            "X": 300,
+            "Y": 410
+          }
+        },
+        {
+          "Id": 27,
+          "Position": {
+            "X": 560,
+            "Y": 410
+          }
+        },
+        {
+          "Id": 28,
+          "Position": {
+            "X": 820,
+            "Y": 410
+          }
+        },
+        {
+          "Id": 29,
+          "Position": {
+            "X": 1080,
+            "Y": 410
+          }
+        },
+        {
+          "Id": 30,
+          "Position": {
+            "X": 1340,
+            "Y": 410
+          }
+        }
+      ],
+      "Waves": [
+        {
+          "Name": "前哨试探",
+          "StartDelay": 2,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "u_road",
+              "Count": 10,
+              "Interval": 1.6,
+              "Delay": 0.0,
+              "HealthScale": 1.17,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "盾列推进",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "u_road",
+              "Count": 11,
+              "Interval": 1.6,
+              "Delay": 0.0,
+              "HealthScale": 1.32,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "快马传锋",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "u_road",
+              "Count": 11,
+              "Interval": 1.35,
+              "Delay": 0.0,
+              "HealthScale": 1.395,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "中军压阵",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 0.0,
+              "HealthScale": 1.47,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 5.316667,
+              "HealthScale": 1.47,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 10.633333,
+              "HealthScale": 1.47,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 15.95,
+              "HealthScale": 1.47,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "弓盾相随",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 0.0,
+              "HealthScale": 1.62,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 5.85,
+              "HealthScale": 1.62,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 11.7,
+              "HealthScale": 1.62,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 17.55,
+              "HealthScale": 1.62,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.539,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "精锐突阵",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "elite",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 0.0,
+              "HealthScale": 1.695,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "elite",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 5.85,
+              "HealthScale": 1.695,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "elite",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 11.7,
+              "HealthScale": 1.695,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "elite",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 17.55,
+              "HealthScale": 1.695,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.61,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "三鼓齐进",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 0.0,
+              "HealthScale": 1.77,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 5.3,
+              "HealthScale": 1.77,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 10.6,
+              "HealthScale": 1.77,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 15.9,
+              "HealthScale": 1.77,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.681,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "主将临关",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 0.0,
+              "HealthScale": 1.845,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "u_road",
+              "Count": 3,
+              "Interval": 0.55,
+              "Delay": 6.383333,
+              "HealthScale": 1.845,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 12.766667,
+              "HealthScale": 1.845,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 0.55,
+              "Delay": 19.15,
+              "HealthScale": 1.845,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "u_road",
+              "Count": 4,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.753,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "boss_zhang_jiao",
+              "RouteId": "u_road",
+              "Count": 1,
+              "Interval": 1.65,
+              "Delay": 12,
+              "HealthScale": 1,
+              "SpeedScale": 1
+            }
+          ]
+        }
+      ],
+      "CombatRuleVersion": "sensation-hj-mn-v1"
+    },
+    {
+      "Id": "guandu",
+      "Name": "官渡沙盘",
+      "Subtitle": "长短双弧 · 分路预备",
+      "Story": "粮营与浅河之间，两股来军分走长短道路。预留后段军饷，迎击袁绍的援军。",
+      "Theme": "浅河粮营",
+      "MapResource": "Game/Maps/guandu",
+      "InitialGold": 360,
+      "IncomePerSecond": 2.3,
+      "CastleMaxHealth": 30,
+      "BossHeroIds": [
+        "yuan_shao"
+      ],
+      "RecommendedRoster": [
+        "guan_yu",
+        "huang_zhong",
+        "taishi_ci",
+        "zhao_yun",
+        "zhou_yu",
+        "lu_xun",
+        "zhuge_liang",
+        "lv_meng",
+        "pang_tong",
+        "lu_su"
+      ],
+      "Routes": [
+        {
+          "Id": "long_arc",
+          "Points": [
+            {
+              "X": 70,
+              "Y": 500
+            },
+            {
+              "X": 305.447,
+              "Y": 325.595
+            },
+            {
+              "X": 309.799,
+              "Y": 322.481
+            },
+            {
+              "X": 314.215,
+              "Y": 319.537
+            },
+            {
+              "X": 318.696,
+              "Y": 316.764
+            },
+            {
+              "X": 323.241,
+              "Y": 314.161
+            },
+            {
+              "X": 327.851,
+              "Y": 311.728
+            },
+            {
+              "X": 332.526,
+              "Y": 309.466
+            },
+            {
+              "X": 337.266,
+              "Y": 307.375
+            },
+            {
+              "X": 342.07,
+              "Y": 305.454
+            },
+            {
+              "X": 346.939,
+              "Y": 303.703
+            },
+            {
+              "X": 351.873,
+              "Y": 302.123
+            },
+            {
+              "X": 356.871,
+              "Y": 300.713
+            },
+            {
+              "X": 361.934,
+              "Y": 299.474
+            },
+            {
+              "X": 367.062,
+              "Y": 298.405
+            },
+            {
+              "X": 372.255,
+              "Y": 297.506
+            },
+            {
+              "X": 377.512,
+              "Y": 296.778
+            },
+            {
+              "X": 382.834,
+              "Y": 296.221
+            },
+            {
+              "X": 637.166,
+              "Y": 273.779
+            },
+            {
+              "X": 642.521,
+              "Y": 273.331
+            },
+            {
+              "X": 647.876,
+              "Y": 272.931
+            },
+            {
+              "X": 653.233,
+              "Y": 272.579
+            },
+            {
+              "X": 658.589,
+              "Y": 272.275
+            },
+            {
+              "X": 663.947,
+              "Y": 272.019
+            },
+            {
+              "X": 669.306,
+              "Y": 271.812
+            },
+            {
+              "X": 674.665,
+              "Y": 271.652
+            },
+            {
+              "X": 680.025,
+              "Y": 271.541
+            },
+            {
+              "X": 685.386,
+              "Y": 271.478
+            },
+            {
+              "X": 690.748,
+              "Y": 271.463
+            },
+            {
+              "X": 696.11,
+              "Y": 271.496
+            },
+            {
+              "X": 701.473,
+              "Y": 271.578
+            },
+            {
+              "X": 706.837,
+              "Y": 271.707
+            },
+            {
+              "X": 712.202,
+              "Y": 271.885
+            },
+            {
+              "X": 717.567,
+              "Y": 272.111
+            },
+            {
+              "X": 722.934,
+              "Y": 272.385
+            },
+            {
+              "X": 997.066,
+              "Y": 287.615
+            },
+            {
+              "X": 1002.431,
+              "Y": 287.929
+            },
+            {
+              "X": 1007.793,
+              "Y": 288.274
+            },
+            {
+              "X": 1013.152,
+              "Y": 288.652
+            },
+            {
+              "X": 1018.507,
+              "Y": 289.061
+            },
+            {
+              "X": 1023.859,
+              "Y": 289.502
+            },
+            {
+              "X": 1029.208,
+              "Y": 289.974
+            },
+            {
+              "X": 1034.553,
+              "Y": 290.478
+            },
+            {
+              "X": 1039.895,
+              "Y": 291.014
+            },
+            {
+              "X": 1045.234,
+              "Y": 291.582
+            },
+            {
+              "X": 1050.57,
+              "Y": 292.181
+            },
+            {
+              "X": 1055.902,
+              "Y": 292.812
+            },
+            {
+              "X": 1061.231,
+              "Y": 293.474
+            },
+            {
+              "X": 1066.557,
+              "Y": 294.169
+            },
+            {
+              "X": 1071.88,
+              "Y": 294.895
+            },
+            {
+              "X": 1077.199,
+              "Y": 295.652
+            },
+            {
+              "X": 1082.515,
+              "Y": 296.442
+            },
+            {
+              "X": 1327.485,
+              "Y": 333.558
+            },
+            {
+              "X": 1332.773,
+              "Y": 334.432
+            },
+            {
+              "X": 1338.009,
+              "Y": 335.441
+            },
+            {
+              "X": 1343.191,
+              "Y": 336.586
+            },
+            {
+              "X": 1348.322,
+              "Y": 337.867
+            },
+            {
+              "X": 1353.399,
+              "Y": 339.285
+            },
+            {
+              "X": 1358.424,
+              "Y": 340.838
+            },
+            {
+              "X": 1363.396,
+              "Y": 342.527
+            },
+            {
+              "X": 1368.316,
+              "Y": 344.353
+            },
+            {
+              "X": 1373.183,
+              "Y": 346.314
+            },
+            {
+              "X": 1377.997,
+              "Y": 348.411
+            },
+            {
+              "X": 1382.759,
+              "Y": 350.645
+            },
+            {
+              "X": 1387.468,
+              "Y": 353.014
+            },
+            {
+              "X": 1392.125,
+              "Y": 355.52
+            },
+            {
+              "X": 1396.728,
+              "Y": 358.161
+            },
+            {
+              "X": 1401.28,
+              "Y": 360.939
+            },
+            {
+              "X": 1405.778,
+              "Y": 363.852
+            },
+            {
+              "X": 1544.222,
+              "Y": 456.148
+            },
+            {
+              "X": 1548.72,
+              "Y": 459.065
+            },
+            {
+              "X": 1553.269,
+              "Y": 461.854
+            },
+            {
+              "X": 1557.87,
+              "Y": 464.514
+            },
+            {
+              "X": 1562.522,
+              "Y": 467.045
+            },
+            {
+              "X": 1567.226,
+              "Y": 469.448
+            },
+            {
+              "X": 1571.981,
+              "Y": 471.722
+            },
+            {
+              "X": 1576.788,
+              "Y": 473.867
+            },
+            {
+              "X": 1581.646,
+              "Y": 475.884
+            },
+            {
+              "X": 1586.555,
+              "Y": 477.772
+            },
+            {
+              "X": 1591.516,
+              "Y": 479.532
+            },
+            {
+              "X": 1596.528,
+              "Y": 481.163
+            },
+            {
+              "X": 1601.592,
+              "Y": 482.665
+            },
+            {
+              "X": 1606.707,
+              "Y": 484.039
+            },
+            {
+              "X": 1611.873,
+              "Y": 485.284
+            },
+            {
+              "X": 1617.091,
+              "Y": 486.401
+            },
+            {
+              "X": 1622.36,
+              "Y": 487.388
+            },
+            {
+              "X": 1752,
+              "Y": 510
+            }
+          ]
+        },
+        {
+          "Id": "short_arc",
+          "Points": [
+            {
+              "X": 70,
+              "Y": 500
+            },
+            {
+              "X": 351.54,
+              "Y": 640.77
+            },
+            {
+              "X": 356.364,
+              "Y": 643.111
+            },
+            {
+              "X": 361.224,
+              "Y": 645.326
+            },
+            {
+              "X": 366.118,
+              "Y": 647.415
+            },
+            {
+              "X": 371.046,
+              "Y": 649.379
+            },
+            {
+              "X": 376.009,
+              "Y": 651.217
+            },
+            {
+              "X": 381.007,
+              "Y": 652.929
+            },
+            {
+              "X": 386.039,
+              "Y": 654.516
+            },
+            {
+              "X": 391.106,
+              "Y": 655.977
+            },
+            {
+              "X": 396.208,
+              "Y": 657.312
+            },
+            {
+              "X": 401.344,
+              "Y": 658.522
+            },
+            {
+              "X": 406.514,
+              "Y": 659.605
+            },
+            {
+              "X": 411.719,
+              "Y": 660.563
+            },
+            {
+              "X": 416.959,
+              "Y": 661.395
+            },
+            {
+              "X": 422.233,
+              "Y": 662.102
+            },
+            {
+              "X": 427.542,
+              "Y": 662.683
+            },
+            {
+              "X": 432.885,
+              "Y": 663.138
+            },
+            {
+              "X": 757.115,
+              "Y": 686.862
+            },
+            {
+              "X": 762.475,
+              "Y": 687.223
+            },
+            {
+              "X": 767.834,
+              "Y": 687.523
+            },
+            {
+              "X": 773.191,
+              "Y": 687.762
+            },
+            {
+              "X": 778.548,
+              "Y": 687.938
+            },
+            {
+              "X": 783.904,
+              "Y": 688.053
+            },
+            {
+              "X": 789.258,
+              "Y": 688.106
+            },
+            {
+              "X": 794.611,
+              "Y": 688.098
+            },
+            {
+              "X": 799.963,
+              "Y": 688.028
+            },
+            {
+              "X": 805.314,
+              "Y": 687.897
+            },
+            {
+              "X": 810.663,
+              "Y": 687.704
+            },
+            {
+              "X": 816.012,
+              "Y": 687.449
+            },
+            {
+              "X": 821.359,
+              "Y": 687.133
+            },
+            {
+              "X": 826.705,
+              "Y": 686.755
+            },
+            {
+              "X": 832.05,
+              "Y": 686.315
+            },
+            {
+              "X": 837.394,
+              "Y": 685.814
+            },
+            {
+              "X": 842.737,
+              "Y": 685.251
+            },
+            {
+              "X": 1117.263,
+              "Y": 654.749
+            },
+            {
+              "X": 1122.602,
+              "Y": 654.135
+            },
+            {
+              "X": 1127.933,
+              "Y": 653.482
+            },
+            {
+              "X": 1133.258,
+              "Y": 652.789
+            },
+            {
+              "X": 1138.576,
+              "Y": 652.056
+            },
+            {
+              "X": 1143.888,
+              "Y": 651.283
+            },
+            {
+              "X": 1149.192,
+              "Y": 650.47
+            },
+            {
+              "X": 1154.489,
+              "Y": 649.617
+            },
+            {
+              "X": 1159.78,
+              "Y": 648.725
+            },
+            {
+              "X": 1165.064,
+              "Y": 647.793
+            },
+            {
+              "X": 1170.34,
+              "Y": 646.821
+            },
+            {
+              "X": 1175.61,
+              "Y": 645.809
+            },
+            {
+              "X": 1180.873,
+              "Y": 644.757
+            },
+            {
+              "X": 1186.13,
+              "Y": 643.665
+            },
+            {
+              "X": 1191.379,
+              "Y": 642.534
+            },
+            {
+              "X": 1196.621,
+              "Y": 641.362
+            },
+            {
+              "X": 1201.857,
+              "Y": 640.151
+            },
+            {
+              "X": 1458.143,
+              "Y": 579.849
+            },
+            {
+              "X": 1463.375,
+              "Y": 578.617
+            },
+            {
+              "X": 1468.607,
+              "Y": 577.385
+            },
+            {
+              "X": 1473.838,
+              "Y": 576.152
+            },
+            {
+              "X": 1479.07,
+              "Y": 574.917
+            },
+            {
+              "X": 1484.301,
+              "Y": 573.682
+            },
+            {
+              "X": 1489.532,
+              "Y": 572.447
+            },
+            {
+              "X": 1494.763,
+              "Y": 571.21
+            },
+            {
+              "X": 1499.993,
+              "Y": 569.972
+            },
+            {
+              "X": 1505.224,
+              "Y": 568.734
+            },
+            {
+              "X": 1510.454,
+              "Y": 567.494
+            },
+            {
+              "X": 1515.684,
+              "Y": 566.254
+            },
+            {
+              "X": 1520.914,
+              "Y": 565.013
+            },
+            {
+              "X": 1526.143,
+              "Y": 563.771
+            },
+            {
+              "X": 1531.373,
+              "Y": 562.529
+            },
+            {
+              "X": 1536.602,
+              "Y": 561.285
+            },
+            {
+              "X": 1541.831,
+              "Y": 560.04
+            },
+            {
+              "X": 1752,
+              "Y": 510
+            }
+          ]
+        }
+      ],
+      "Slots": [
+        {
+          "Id": 1,
+          "Position": {
+            "X": 150,
+            "Y": 350
+          }
+        },
+        {
+          "Id": 2,
+          "Position": {
+            "X": 350,
+            "Y": 195
+          }
+        },
+        {
+          "Id": 3,
+          "Position": {
+            "X": 540,
+            "Y": 185
+          }
+        },
+        {
+          "Id": 4,
+          "Position": {
+            "X": 730,
+            "Y": 175
+          }
+        },
+        {
+          "Id": 5,
+          "Position": {
+            "X": 920,
+            "Y": 185
+          }
+        },
+        {
+          "Id": 6,
+          "Position": {
+            "X": 1120,
+            "Y": 205
+          }
+        },
+        {
+          "Id": 7,
+          "Position": {
+            "X": 1320,
+            "Y": 235
+          }
+        },
+        {
+          "Id": 8,
+          "Position": {
+            "X": 1515,
+            "Y": 300
+          }
+        },
+        {
+          "Id": 9,
+          "Position": {
+            "X": 1690,
+            "Y": 375
+          }
+        },
+        {
+          "Id": 10,
+          "Position": {
+            "X": 180,
+            "Y": 610
+          }
+        },
+        {
+          "Id": 11,
+          "Position": {
+            "X": 315,
+            "Y": 735
+          }
+        },
+        {
+          "Id": 12,
+          "Position": {
+            "X": 500,
+            "Y": 770
+          }
+        },
+        {
+          "Id": 13,
+          "Position": {
+            "X": 700,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 14,
+          "Position": {
+            "X": 900,
+            "Y": 780
+          }
+        },
+        {
+          "Id": 15,
+          "Position": {
+            "X": 1100,
+            "Y": 750
+          }
+        },
+        {
+          "Id": 16,
+          "Position": {
+            "X": 1300,
+            "Y": 705
+          }
+        },
+        {
+          "Id": 17,
+          "Position": {
+            "X": 1510,
+            "Y": 670
+          }
+        },
+        {
+          "Id": 18,
+          "Position": {
+            "X": 1690,
+            "Y": 640
+          }
+        },
+        {
+          "Id": 19,
+          "Position": {
+            "X": 370,
+            "Y": 425
+          }
+        },
+        {
+          "Id": 20,
+          "Position": {
+            "X": 560,
+            "Y": 410
+          }
+        },
+        {
+          "Id": 21,
+          "Position": {
+            "X": 750,
+            "Y": 405
+          }
+        },
+        {
+          "Id": 22,
+          "Position": {
+            "X": 940,
+            "Y": 420
+          }
+        },
+        {
+          "Id": 23,
+          "Position": {
+            "X": 1130,
+            "Y": 445
+          }
+        },
+        {
+          "Id": 24,
+          "Position": {
+            "X": 1320,
+            "Y": 470
+          }
+        },
+        {
+          "Id": 25,
+          "Position": {
+            "X": 1490,
+            "Y": 350
+          }
+        },
+        {
+          "Id": 26,
+          "Position": {
+            "X": 1590,
+            "Y": 650
+          }
+        },
+        {
+          "Id": 27,
+          "Position": {
+            "X": 390,
+            "Y": 550
+          }
+        },
+        {
+          "Id": 28,
+          "Position": {
+            "X": 590,
+            "Y": 570
+          }
+        },
+        {
+          "Id": 29,
+          "Position": {
+            "X": 790,
+            "Y": 575
+          }
+        },
+        {
+          "Id": 30,
+          "Position": {
+            "X": 990,
+            "Y": 555
+          }
+        },
+        {
+          "Id": 31,
+          "Position": {
+            "X": 1190,
+            "Y": 550
+          }
+        },
+        {
+          "Id": 32,
+          "Position": {
+            "X": 1410,
+            "Y": 520
+          }
+        },
+        {
+          "Id": 33,
+          "Position": {
+            "X": 1800,
+            "Y": 735
+          }
+        },
+        {
+          "Id": 34,
+          "Position": {
+            "X": 1650,
+            "Y": 785
+          }
+        },
+        {
+          "Id": 35,
+          "Position": {
+            "X": 1430,
+            "Y": 800
+          }
+        },
+        {
+          "Id": 36,
+          "Position": {
+            "X": 1180,
+            "Y": 815
+          }
+        }
+      ],
+      "Waves": [
+        {
+          "Name": "前哨试探",
+          "StartDelay": 2,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "long_arc",
+              "Count": 8,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.139,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "short_arc",
+              "Count": 8,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.139,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "盾列推进",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "long_arc",
+              "Count": 9,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.266,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "short_arc",
+              "Count": 9,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.266,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "快马传锋",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "long_arc",
+              "Count": 9,
+              "Interval": 1.35,
+              "Delay": 0.0,
+              "HealthScale": 1.33,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "short_arc",
+              "Count": 9,
+              "Interval": 1.35,
+              "Delay": 3.5,
+              "HealthScale": 1.33,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "中军压阵",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "long_arc",
+              "Count": 10,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.394,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "short_arc",
+              "Count": 10,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.394,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "整备再战",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "long_arc",
+              "Count": 10,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.458,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "long_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.385,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "short_arc",
+              "Count": 10,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.458,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "short_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.385,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "弓盾相随",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "long_arc",
+              "Count": 11,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.522,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "long_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.445,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "short_arc",
+              "Count": 11,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.522,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "short_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.445,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "healer",
+              "RouteId": "short_arc",
+              "Count": 2,
+              "Interval": 6,
+              "Delay": 8,
+              "HealthScale": 1.522,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "精锐突阵",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "elite",
+              "RouteId": "long_arc",
+              "Count": 11,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.585,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "long_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.506,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "elite",
+              "RouteId": "short_arc",
+              "Count": 11,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.585,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "short_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.506,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "三鼓齐进",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "long_arc",
+              "Count": 12,
+              "Interval": 1.35,
+              "Delay": 0.0,
+              "HealthScale": 1.649,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "long_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.567,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "short_arc",
+              "Count": 12,
+              "Interval": 1.35,
+              "Delay": 3.5,
+              "HealthScale": 1.649,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "short_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.567,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "healer",
+              "RouteId": "short_arc",
+              "Count": 2,
+              "Interval": 6,
+              "Delay": 8,
+              "HealthScale": 1.649,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "主将临关",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "long_arc",
+              "Count": 12,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.713,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "long_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.627,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "short_arc",
+              "Count": 12,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.713,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "short_arc",
+              "Count": 5,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.627,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "boss_yuan_shao",
+              "RouteId": "long_arc",
+              "Count": 1,
+              "Interval": 1.65,
+              "Delay": 12,
+              "HealthScale": 0.75,
+              "SpeedScale": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "chibi",
+      "Name": "赤壁两岸",
+      "Subtitle": "两岸并进 · 中台支援",
+      "Story": "江面隔开两岸，栈桥把来军导向同一座城。先破许褚重甲，再拆曹操护卫的援护。",
+      "Theme": "江岸水寨",
+      "MapResource": "Game/Maps/chibi",
+      "InitialGold": 375,
+      "IncomePerSecond": 2.3,
+      "CastleMaxHealth": 30,
+      "BossHeroIds": [
+        "xu_chu",
+        "cao_cao"
+      ],
+      "RecommendedRoster": [
+        "guan_yu",
+        "huang_zhong",
+        "taishi_ci",
+        "zhao_yun",
+        "zhou_yu",
+        "zhuge_liang",
+        "ma_chao",
+        "diao_chan",
+        "sima_yi",
+        "hua_tuo"
+      ],
+      "Routes": [
+        {
+          "Id": "north_bank",
+          "Points": [
+            {
+              "X": 70,
+              "Y": 335
+            },
+            {
+              "X": 397.0,
+              "Y": 335.0
+            },
+            {
+              "X": 402.375,
+              "Y": 334.991
+            },
+            {
+              "X": 407.749,
+              "Y": 334.965
+            },
+            {
+              "X": 413.123,
+              "Y": 334.921
+            },
+            {
+              "X": 418.496,
+              "Y": 334.859
+            },
+            {
+              "X": 423.869,
+              "Y": 334.779
+            },
+            {
+              "X": 429.242,
+              "Y": 334.682
+            },
+            {
+              "X": 434.614,
+              "Y": 334.567
+            },
+            {
+              "X": 439.985,
+              "Y": 334.435
+            },
+            {
+              "X": 445.356,
+              "Y": 334.285
+            },
+            {
+              "X": 450.727,
+              "Y": 334.117
+            },
+            {
+              "X": 456.097,
+              "Y": 333.932
+            },
+            {
+              "X": 461.467,
+              "Y": 333.729
+            },
+            {
+              "X": 466.836,
+              "Y": 333.508
+            },
+            {
+              "X": 472.204,
+              "Y": 333.27
+            },
+            {
+              "X": 477.573,
+              "Y": 333.014
+            },
+            {
+              "X": 482.941,
+              "Y": 332.74
+            },
+            {
+              "X": 777.059,
+              "Y": 317.26
+            },
+            {
+              "X": 782.427,
+              "Y": 316.995
+            },
+            {
+              "X": 787.795,
+              "Y": 316.764
+            },
+            {
+              "X": 793.162,
+              "Y": 316.567
+            },
+            {
+              "X": 798.53,
+              "Y": 316.405
+            },
+            {
+              "X": 803.898,
+              "Y": 316.278
+            },
+            {
+              "X": 809.266,
+              "Y": 316.185
+            },
+            {
+              "X": 814.634,
+              "Y": 316.126
+            },
+            {
+              "X": 820.001,
+              "Y": 316.102
+            },
+            {
+              "X": 825.369,
+              "Y": 316.112
+            },
+            {
+              "X": 830.737,
+              "Y": 316.157
+            },
+            {
+              "X": 836.105,
+              "Y": 316.236
+            },
+            {
+              "X": 841.474,
+              "Y": 316.349
+            },
+            {
+              "X": 846.842,
+              "Y": 316.497
+            },
+            {
+              "X": 852.21,
+              "Y": 316.679
+            },
+            {
+              "X": 857.578,
+              "Y": 316.896
+            },
+            {
+              "X": 862.946,
+              "Y": 317.147
+            },
+            {
+              "X": 1177.054,
+              "Y": 332.853
+            },
+            {
+              "X": 1182.419,
+              "Y": 333.147
+            },
+            {
+              "X": 1187.777,
+              "Y": 333.495
+            },
+            {
+              "X": 1193.128,
+              "Y": 333.895
+            },
+            {
+              "X": 1198.472,
+              "Y": 334.348
+            },
+            {
+              "X": 1203.809,
+              "Y": 334.854
+            },
+            {
+              "X": 1209.14,
+              "Y": 335.413
+            },
+            {
+              "X": 1214.464,
+              "Y": 336.024
+            },
+            {
+              "X": 1219.781,
+              "Y": 336.688
+            },
+            {
+              "X": 1225.091,
+              "Y": 337.405
+            },
+            {
+              "X": 1230.394,
+              "Y": 338.174
+            },
+            {
+              "X": 1235.69,
+              "Y": 338.997
+            },
+            {
+              "X": 1240.98,
+              "Y": 339.872
+            },
+            {
+              "X": 1246.262,
+              "Y": 340.799
+            },
+            {
+              "X": 1251.538,
+              "Y": 341.78
+            },
+            {
+              "X": 1256.807,
+              "Y": 342.813
+            },
+            {
+              "X": 1262.069,
+              "Y": 343.899
+            },
+            {
+              "X": 1437.931,
+              "Y": 381.101
+            },
+            {
+              "X": 1443.152,
+              "Y": 382.288
+            },
+            {
+              "X": 1448.299,
+              "Y": 383.627
+            },
+            {
+              "X": 1453.37,
+              "Y": 385.115
+            },
+            {
+              "X": 1458.367,
+              "Y": 386.754
+            },
+            {
+              "X": 1463.289,
+              "Y": 388.544
+            },
+            {
+              "X": 1468.136,
+              "Y": 390.484
+            },
+            {
+              "X": 1472.909,
+              "Y": 392.575
+            },
+            {
+              "X": 1477.606,
+              "Y": 394.816
+            },
+            {
+              "X": 1482.229,
+              "Y": 397.207
+            },
+            {
+              "X": 1486.777,
+              "Y": 399.749
+            },
+            {
+              "X": 1491.25,
+              "Y": 402.442
+            },
+            {
+              "X": 1495.649,
+              "Y": 405.285
+            },
+            {
+              "X": 1499.973,
+              "Y": 408.278
+            },
+            {
+              "X": 1504.221,
+              "Y": 411.422
+            },
+            {
+              "X": 1508.395,
+              "Y": 414.717
+            },
+            {
+              "X": 1512.495,
+              "Y": 418.162
+            },
+            {
+              "X": 1597.505,
+              "Y": 491.838
+            },
+            {
+              "X": 1601.608,
+              "Y": 495.248
+            },
+            {
+              "X": 1605.793,
+              "Y": 498.438
+            },
+            {
+              "X": 1610.06,
+              "Y": 501.409
+            },
+            {
+              "X": 1614.409,
+              "Y": 504.159
+            },
+            {
+              "X": 1618.84,
+              "Y": 506.689
+            },
+            {
+              "X": 1623.354,
+              "Y": 508.999
+            },
+            {
+              "X": 1627.949,
+              "Y": 511.089
+            },
+            {
+              "X": 1632.626,
+              "Y": 512.959
+            },
+            {
+              "X": 1637.386,
+              "Y": 514.61
+            },
+            {
+              "X": 1642.227,
+              "Y": 516.04
+            },
+            {
+              "X": 1647.151,
+              "Y": 517.25
+            },
+            {
+              "X": 1652.157,
+              "Y": 518.24
+            },
+            {
+              "X": 1657.244,
+              "Y": 519.01
+            },
+            {
+              "X": 1662.414,
+              "Y": 519.56
+            },
+            {
+              "X": 1667.666,
+              "Y": 519.89
+            },
+            {
+              "X": 1673.0,
+              "Y": 520.0
+            },
+            {
+              "X": 1752,
+              "Y": 520
+            }
+          ]
+        },
+        {
+          "Id": "south_bank",
+          "Points": [
+            {
+              "X": 70,
+              "Y": 700
+            },
+            {
+              "X": 387.017,
+              "Y": 691.194
+            },
+            {
+              "X": 392.39,
+              "Y": 691.049
+            },
+            {
+              "X": 397.763,
+              "Y": 690.914
+            },
+            {
+              "X": 403.136,
+              "Y": 690.788
+            },
+            {
+              "X": 408.509,
+              "Y": 690.672
+            },
+            {
+              "X": 413.883,
+              "Y": 690.564
+            },
+            {
+              "X": 419.256,
+              "Y": 690.466
+            },
+            {
+              "X": 424.63,
+              "Y": 690.378
+            },
+            {
+              "X": 430.004,
+              "Y": 690.298
+            },
+            {
+              "X": 435.378,
+              "Y": 690.229
+            },
+            {
+              "X": 440.752,
+              "Y": 690.168
+            },
+            {
+              "X": 446.127,
+              "Y": 690.117
+            },
+            {
+              "X": 451.501,
+              "Y": 690.075
+            },
+            {
+              "X": 456.876,
+              "Y": 690.042
+            },
+            {
+              "X": 462.25,
+              "Y": 690.019
+            },
+            {
+              "X": 467.625,
+              "Y": 690.005
+            },
+            {
+              "X": 473.0,
+              "Y": 690.0
+            },
+            {
+              "X": 747.0,
+              "Y": 690.0
+            },
+            {
+              "X": 752.375,
+              "Y": 689.996
+            },
+            {
+              "X": 757.75,
+              "Y": 689.983
+            },
+            {
+              "X": 763.125,
+              "Y": 689.961
+            },
+            {
+              "X": 768.499,
+              "Y": 689.931
+            },
+            {
+              "X": 773.874,
+              "Y": 689.892
+            },
+            {
+              "X": 779.248,
+              "Y": 689.845
+            },
+            {
+              "X": 784.622,
+              "Y": 689.789
+            },
+            {
+              "X": 789.996,
+              "Y": 689.724
+            },
+            {
+              "X": 795.371,
+              "Y": 689.651
+            },
+            {
+              "X": 800.744,
+              "Y": 689.569
+            },
+            {
+              "X": 806.118,
+              "Y": 689.479
+            },
+            {
+              "X": 811.492,
+              "Y": 689.38
+            },
+            {
+              "X": 816.866,
+              "Y": 689.272
+            },
+            {
+              "X": 822.239,
+              "Y": 689.156
+            },
+            {
+              "X": 827.613,
+              "Y": 689.031
+            },
+            {
+              "X": 832.986,
+              "Y": 688.898
+            },
+            {
+              "X": 1137.014,
+              "Y": 681.102
+            },
+            {
+              "X": 1142.386,
+              "Y": 680.947
+            },
+            {
+              "X": 1147.755,
+              "Y": 680.758
+            },
+            {
+              "X": 1153.122,
+              "Y": 680.533
+            },
+            {
+              "X": 1158.486,
+              "Y": 680.274
+            },
+            {
+              "X": 1163.847,
+              "Y": 679.981
+            },
+            {
+              "X": 1169.205,
+              "Y": 679.653
+            },
+            {
+              "X": 1174.561,
+              "Y": 679.291
+            },
+            {
+              "X": 1179.914,
+              "Y": 678.894
+            },
+            {
+              "X": 1185.265,
+              "Y": 678.462
+            },
+            {
+              "X": 1190.613,
+              "Y": 677.996
+            },
+            {
+              "X": 1195.958,
+              "Y": 677.495
+            },
+            {
+              "X": 1201.3,
+              "Y": 676.959
+            },
+            {
+              "X": 1206.64,
+              "Y": 676.39
+            },
+            {
+              "X": 1211.977,
+              "Y": 675.785
+            },
+            {
+              "X": 1217.311,
+              "Y": 675.146
+            },
+            {
+              "X": 1222.643,
+              "Y": 674.472
+            },
+            {
+              "X": 1407.357,
+              "Y": 650.528
+            },
+            {
+              "X": 1412.659,
+              "Y": 649.763
+            },
+            {
+              "X": 1417.903,
+              "Y": 648.849
+            },
+            {
+              "X": 1423.091,
+              "Y": 647.787
+            },
+            {
+              "X": 1428.221,
+              "Y": 646.576
+            },
+            {
+              "X": 1433.294,
+              "Y": 645.218
+            },
+            {
+              "X": 1438.309,
+              "Y": 643.71
+            },
+            {
+              "X": 1443.268,
+              "Y": 642.054
+            },
+            {
+              "X": 1448.169,
+              "Y": 640.25
+            },
+            {
+              "X": 1453.013,
+              "Y": 638.298
+            },
+            {
+              "X": 1457.8,
+              "Y": 636.196
+            },
+            {
+              "X": 1462.529,
+              "Y": 633.947
+            },
+            {
+              "X": 1467.202,
+              "Y": 631.549
+            },
+            {
+              "X": 1471.817,
+              "Y": 629.003
+            },
+            {
+              "X": 1476.375,
+              "Y": 626.308
+            },
+            {
+              "X": 1480.875,
+              "Y": 623.465
+            },
+            {
+              "X": 1485.319,
+              "Y": 620.473
+            },
+            {
+              "X": 1594.681,
+              "Y": 544.527
+            },
+            {
+              "X": 1599.126,
+              "Y": 541.557
+            },
+            {
+              "X": 1603.631,
+              "Y": 538.778
+            },
+            {
+              "X": 1608.196,
+              "Y": 536.192
+            },
+            {
+              "X": 1612.821,
+              "Y": 533.796
+            },
+            {
+              "X": 1617.506,
+              "Y": 531.593
+            },
+            {
+              "X": 1622.25,
+              "Y": 529.581
+            },
+            {
+              "X": 1627.055,
+              "Y": 527.761
+            },
+            {
+              "X": 1631.92,
+              "Y": 526.132
+            },
+            {
+              "X": 1636.845,
+              "Y": 524.695
+            },
+            {
+              "X": 1641.83,
+              "Y": 523.449
+            },
+            {
+              "X": 1646.875,
+              "Y": 522.395
+            },
+            {
+              "X": 1651.98,
+              "Y": 521.533
+            },
+            {
+              "X": 1657.145,
+              "Y": 520.862
+            },
+            {
+              "X": 1662.37,
+              "Y": 520.383
+            },
+            {
+              "X": 1667.655,
+              "Y": 520.096
+            },
+            {
+              "X": 1673.0,
+              "Y": 520.0
+            },
+            {
+              "X": 1752,
+              "Y": 520
+            }
+          ]
+        }
+      ],
+      "Slots": [
+        {
+          "Id": 1,
+          "Position": {
+            "X": 170,
+            "Y": 230
+          }
+        },
+        {
+          "Id": 2,
+          "Position": {
+            "X": 350,
+            "Y": 230
+          }
+        },
+        {
+          "Id": 3,
+          "Position": {
+            "X": 540,
+            "Y": 220
+          }
+        },
+        {
+          "Id": 4,
+          "Position": {
+            "X": 730,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 5,
+          "Position": {
+            "X": 920,
+            "Y": 215
+          }
+        },
+        {
+          "Id": 6,
+          "Position": {
+            "X": 1110,
+            "Y": 225
+          }
+        },
+        {
+          "Id": 7,
+          "Position": {
+            "X": 1300,
+            "Y": 245
+          }
+        },
+        {
+          "Id": 8,
+          "Position": {
+            "X": 1490,
+            "Y": 285
+          }
+        },
+        {
+          "Id": 9,
+          "Position": {
+            "X": 1685,
+            "Y": 360
+          }
+        },
+        {
+          "Id": 10,
+          "Position": {
+            "X": 170,
+            "Y": 800
+          }
+        },
+        {
+          "Id": 11,
+          "Position": {
+            "X": 365,
+            "Y": 800
+          }
+        },
+        {
+          "Id": 12,
+          "Position": {
+            "X": 560,
+            "Y": 800
+          }
+        },
+        {
+          "Id": 13,
+          "Position": {
+            "X": 755,
+            "Y": 800
+          }
+        },
+        {
+          "Id": 14,
+          "Position": {
+            "X": 950,
+            "Y": 795
+          }
+        },
+        {
+          "Id": 15,
+          "Position": {
+            "X": 1145,
+            "Y": 790
+          }
+        },
+        {
+          "Id": 16,
+          "Position": {
+            "X": 1340,
+            "Y": 755
+          }
+        },
+        {
+          "Id": 17,
+          "Position": {
+            "X": 1535,
+            "Y": 735
+          }
+        },
+        {
+          "Id": 18,
+          "Position": {
+            "X": 1730,
+            "Y": 655
+          }
+        },
+        {
+          "Id": 19,
+          "Position": {
+            "X": 205,
+            "Y": 435
+          }
+        },
+        {
+          "Id": 20,
+          "Position": {
+            "X": 420,
+            "Y": 435
+          }
+        },
+        {
+          "Id": 21,
+          "Position": {
+            "X": 625,
+            "Y": 425
+          }
+        },
+        {
+          "Id": 22,
+          "Position": {
+            "X": 830,
+            "Y": 425
+          }
+        },
+        {
+          "Id": 23,
+          "Position": {
+            "X": 1040,
+            "Y": 435
+          }
+        },
+        {
+          "Id": 24,
+          "Position": {
+            "X": 1250,
+            "Y": 445
+          }
+        },
+        {
+          "Id": 25,
+          "Position": {
+            "X": 1460,
+            "Y": 495
+          }
+        },
+        {
+          "Id": 26,
+          "Position": {
+            "X": 210,
+            "Y": 590
+          }
+        },
+        {
+          "Id": 27,
+          "Position": {
+            "X": 425,
+            "Y": 590
+          }
+        },
+        {
+          "Id": 28,
+          "Position": {
+            "X": 640,
+            "Y": 585
+          }
+        },
+        {
+          "Id": 29,
+          "Position": {
+            "X": 850,
+            "Y": 585
+          }
+        },
+        {
+          "Id": 30,
+          "Position": {
+            "X": 1060,
+            "Y": 575
+          }
+        },
+        {
+          "Id": 31,
+          "Position": {
+            "X": 1270,
+            "Y": 565
+          }
+        },
+        {
+          "Id": 32,
+          "Position": {
+            "X": 770,
+            "Y": 505
+          }
+        },
+        {
+          "Id": 33,
+          "Position": {
+            "X": 950,
+            "Y": 505
+          }
+        },
+        {
+          "Id": 34,
+          "Position": {
+            "X": 1130,
+            "Y": 505
+          }
+        },
+        {
+          "Id": 35,
+          "Position": {
+            "X": 1815,
+            "Y": 760
+          }
+        },
+        {
+          "Id": 36,
+          "Position": {
+            "X": 1810,
+            "Y": 270
+          }
+        }
+      ],
+      "Waves": [
+        {
+          "Name": "前哨试探",
+          "StartDelay": 2,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "north_bank",
+              "Count": 9,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.087,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "south_bank",
+              "Count": 9,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.087,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "盾列推进",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "north_bank",
+              "Count": 10,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.195,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "south_bank",
+              "Count": 10,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.195,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "快马传锋",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "north_bank",
+              "Count": 10,
+              "Interval": 1.35,
+              "Delay": 0.0,
+              "HealthScale": 1.249,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "south_bank",
+              "Count": 10,
+              "Interval": 1.35,
+              "Delay": 3.5,
+              "HealthScale": 1.249,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "中军压阵",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "north_bank",
+              "Count": 11,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.303,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "south_bank",
+              "Count": 11,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.303,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "boss_xu_chu",
+              "RouteId": "south_bank",
+              "Count": 1,
+              "Interval": 1.65,
+              "Delay": 8,
+              "HealthScale": 0.52,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "弓盾相随",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "north_bank",
+              "Count": 12,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.411,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "north_bank",
+              "Count": 6,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.341,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "south_bank",
+              "Count": 12,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.411,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "south_bank",
+              "Count": 6,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.341,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "healer",
+              "RouteId": "south_bank",
+              "Count": 2,
+              "Interval": 6,
+              "Delay": 8,
+              "HealthScale": 1.411,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "精锐突阵",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "elite",
+              "RouteId": "north_bank",
+              "Count": 12,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.465,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "north_bank",
+              "Count": 6,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.392,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "elite",
+              "RouteId": "south_bank",
+              "Count": 12,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.465,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "south_bank",
+              "Count": 6,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.392,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "三鼓齐进",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "north_bank",
+              "Count": 13,
+              "Interval": 1.35,
+              "Delay": 0.0,
+              "HealthScale": 1.519,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "north_bank",
+              "Count": 6,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.443,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "south_bank",
+              "Count": 13,
+              "Interval": 1.35,
+              "Delay": 3.5,
+              "HealthScale": 1.519,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "south_bank",
+              "Count": 6,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.443,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "healer",
+              "RouteId": "south_bank",
+              "Count": 2,
+              "Interval": 6,
+              "Delay": 8,
+              "HealthScale": 1.519,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "主将临关",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "north_bank",
+              "Count": 13,
+              "Interval": 1.8,
+              "Delay": 0.0,
+              "HealthScale": 1.573,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "north_bank",
+              "Count": 6,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.495,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "south_bank",
+              "Count": 13,
+              "Interval": 1.8,
+              "Delay": 3.5,
+              "HealthScale": 1.573,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "south_bank",
+              "Count": 6,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.495,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "boss_cao_cao",
+              "RouteId": "north_bank",
+              "Count": 1,
+              "Interval": 1.65,
+              "Delay": 12,
+              "HealthScale": 0.52,
+              "SpeedScale": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "finale",
+      "Name": "群雄终局",
+      "Subtitle": "三路围城 · 英杰同守",
+      "Story": "三方旌旗向中央城池汇聚。关羽先行压阵，终场吕布冲锋与司马懿援护交错而来。",
+      "Theme": "中央石城",
+      "MapResource": "Game/Maps/finale",
+      "InitialGold": 390,
+      "IncomePerSecond": 2.3,
+      "CastleMaxHealth": 30,
+      "BossHeroIds": [
+        "guan_yu",
+        "lv_bu",
+        "sima_yi"
+      ],
+      "RecommendedRoster": [
+        "huang_zhong",
+        "lu_xun",
+        "zhou_yu",
+        "cao_cao",
+        "guo_jia",
+        "taishi_ci",
+        "zhuge_liang",
+        "sun_shangxiang",
+        "zhao_yun",
+        "diao_chan"
+      ],
+      "Routes": [
+        {
+          "Id": "northwest",
+          "Points": [
+            {
+              "X": 70,
+              "Y": 270
+            },
+            {
+              "X": 427.0,
+              "Y": 270.0
+            },
+            {
+              "X": 432.366,
+              "Y": 270.053
+            },
+            {
+              "X": 437.716,
+              "Y": 270.212
+            },
+            {
+              "X": 443.047,
+              "Y": 270.478
+            },
+            {
+              "X": 448.362,
+              "Y": 270.85
+            },
+            {
+              "X": 453.66,
+              "Y": 271.328
+            },
+            {
+              "X": 458.94,
+              "Y": 271.912
+            },
+            {
+              "X": 464.203,
+              "Y": 272.603
+            },
+            {
+              "X": 469.448,
+              "Y": 273.399
+            },
+            {
+              "X": 474.677,
+              "Y": 274.302
+            },
+            {
+              "X": 479.888,
+              "Y": 275.312
+            },
+            {
+              "X": 485.082,
+              "Y": 276.427
+            },
+            {
+              "X": 490.259,
+              "Y": 277.649
+            },
+            {
+              "X": 495.418,
+              "Y": 278.977
+            },
+            {
+              "X": 500.561,
+              "Y": 280.411
+            },
+            {
+              "X": 505.686,
+              "Y": 281.951
+            },
+            {
+              "X": 510.793,
+              "Y": 283.598
+            },
+            {
+              "X": 669.207,
+              "Y": 336.402
+            },
+            {
+              "X": 674.29,
+              "Y": 338.135
+            },
+            {
+              "X": 679.344,
+              "Y": 339.935
+            },
+            {
+              "X": 684.366,
+              "Y": 341.801
+            },
+            {
+              "X": 689.358,
+              "Y": 343.734
+            },
+            {
+              "X": 694.32,
+              "Y": 345.733
+            },
+            {
+              "X": 699.25,
+              "Y": 347.799
+            },
+            {
+              "X": 704.15,
+              "Y": 349.932
+            },
+            {
+              "X": 709.02,
+              "Y": 352.131
+            },
+            {
+              "X": 713.858,
+              "Y": 354.397
+            },
+            {
+              "X": 718.667,
+              "Y": 356.73
+            },
+            {
+              "X": 723.444,
+              "Y": 359.129
+            },
+            {
+              "X": 728.191,
+              "Y": 361.595
+            },
+            {
+              "X": 732.907,
+              "Y": 364.127
+            },
+            {
+              "X": 737.593,
+              "Y": 366.726
+            },
+            {
+              "X": 742.248,
+              "Y": 369.391
+            },
+            {
+              "X": 746.872,
+              "Y": 372.123
+            },
+            {
+              "X": 823.128,
+              "Y": 417.877
+            },
+            {
+              "X": 827.751,
+              "Y": 420.613
+            },
+            {
+              "X": 832.401,
+              "Y": 423.291
+            },
+            {
+              "X": 837.079,
+              "Y": 425.912
+            },
+            {
+              "X": 841.785,
+              "Y": 428.474
+            },
+            {
+              "X": 846.519,
+              "Y": 430.978
+            },
+            {
+              "X": 851.28,
+              "Y": 433.425
+            },
+            {
+              "X": 856.068,
+              "Y": 435.813
+            },
+            {
+              "X": 860.885,
+              "Y": 438.143
+            },
+            {
+              "X": 865.729,
+              "Y": 440.415
+            },
+            {
+              "X": 870.6,
+              "Y": 442.629
+            },
+            {
+              "X": 875.5,
+              "Y": 444.785
+            },
+            {
+              "X": 880.427,
+              "Y": 446.883
+            },
+            {
+              "X": 885.381,
+              "Y": 448.923
+            },
+            {
+              "X": 890.364,
+              "Y": 450.905
+            },
+            {
+              "X": 895.374,
+              "Y": 452.829
+            },
+            {
+              "X": 900.411,
+              "Y": 454.695
+            },
+            {
+              "X": 1080,
+              "Y": 520
+            }
+          ]
+        },
+        {
+          "Id": "southwest",
+          "Points": [
+            {
+              "X": 70,
+              "Y": 750
+            },
+            {
+              "X": 427.0,
+              "Y": 750.0
+            },
+            {
+              "X": 432.368,
+              "Y": 749.951
+            },
+            {
+              "X": 437.721,
+              "Y": 749.804
+            },
+            {
+              "X": 443.06,
+              "Y": 749.56
+            },
+            {
+              "X": 448.384,
+              "Y": 749.218
+            },
+            {
+              "X": 453.693,
+              "Y": 748.777
+            },
+            {
+              "X": 458.988,
+              "Y": 748.239
+            },
+            {
+              "X": 464.268,
+              "Y": 747.604
+            },
+            {
+              "X": 469.534,
+              "Y": 746.87
+            },
+            {
+              "X": 474.786,
+              "Y": 746.039
+            },
+            {
+              "X": 480.022,
+              "Y": 745.109
+            },
+            {
+              "X": 485.244,
+              "Y": 744.082
+            },
+            {
+              "X": 490.452,
+              "Y": 742.958
+            },
+            {
+              "X": 495.645,
+              "Y": 741.735
+            },
+            {
+              "X": 500.824,
+              "Y": 740.414
+            },
+            {
+              "X": 505.988,
+              "Y": 738.996
+            },
+            {
+              "X": 511.137,
+              "Y": 737.48
+            },
+            {
+              "X": 658.863,
+              "Y": 692.52
+            },
+            {
+              "X": 663.991,
+              "Y": 690.921
+            },
+            {
+              "X": 669.089,
+              "Y": 689.254
+            },
+            {
+              "X": 674.158,
+              "Y": 687.52
+            },
+            {
+              "X": 679.199,
+              "Y": 685.718
+            },
+            {
+              "X": 684.21,
+              "Y": 683.847
+            },
+            {
+              "X": 689.192,
+              "Y": 681.909
+            },
+            {
+              "X": 694.145,
+              "Y": 679.904
+            },
+            {
+              "X": 699.068,
+              "Y": 677.83
+            },
+            {
+              "X": 703.963,
+              "Y": 675.689
+            },
+            {
+              "X": 708.829,
+              "Y": 673.48
+            },
+            {
+              "X": 713.665,
+              "Y": 671.203
+            },
+            {
+              "X": 718.473,
+              "Y": 668.858
+            },
+            {
+              "X": 723.251,
+              "Y": 666.445
+            },
+            {
+              "X": 728.0,
+              "Y": 663.965
+            },
+            {
+              "X": 732.72,
+              "Y": 661.416
+            },
+            {
+              "X": 737.411,
+              "Y": 658.8
+            },
+            {
+              "X": 812.589,
+              "Y": 616.2
+            },
+            {
+              "X": 817.279,
+              "Y": 613.58
+            },
+            {
+              "X": 821.996,
+              "Y": 611.023
+            },
+            {
+              "X": 826.74,
+              "Y": 608.526
+            },
+            {
+              "X": 831.511,
+              "Y": 606.092
+            },
+            {
+              "X": 836.31,
+              "Y": 603.718
+            },
+            {
+              "X": 841.135,
+              "Y": 601.406
+            },
+            {
+              "X": 845.988,
+              "Y": 599.156
+            },
+            {
+              "X": 850.868,
+              "Y": 596.967
+            },
+            {
+              "X": 855.774,
+              "Y": 594.84
+            },
+            {
+              "X": 860.708,
+              "Y": 592.774
+            },
+            {
+              "X": 865.669,
+              "Y": 590.769
+            },
+            {
+              "X": 870.658,
+              "Y": 588.826
+            },
+            {
+              "X": 875.673,
+              "Y": 586.945
+            },
+            {
+              "X": 880.715,
+              "Y": 585.125
+            },
+            {
+              "X": 885.785,
+              "Y": 583.366
+            },
+            {
+              "X": 890.881,
+              "Y": 581.669
+            },
+            {
+              "X": 1080,
+              "Y": 520
+            }
+          ]
+        },
+        {
+          "Id": "east",
+          "Points": [
+            {
+              "X": 1850,
+              "Y": 350
+            },
+            {
+              "X": 1613.0,
+              "Y": 350.0
+            },
+            {
+              "X": 1607.643,
+              "Y": 350.075
+            },
+            {
+              "X": 1602.321,
+              "Y": 350.3
+            },
+            {
+              "X": 1597.035,
+              "Y": 350.676
+            },
+            {
+              "X": 1591.784,
+              "Y": 351.202
+            },
+            {
+              "X": 1586.568,
+              "Y": 351.878
+            },
+            {
+              "X": 1581.388,
+              "Y": 352.704
+            },
+            {
+              "X": 1576.244,
+              "Y": 353.681
+            },
+            {
+              "X": 1571.135,
+              "Y": 354.808
+            },
+            {
+              "X": 1566.061,
+              "Y": 356.085
+            },
+            {
+              "X": 1561.023,
+              "Y": 357.512
+            },
+            {
+              "X": 1556.021,
+              "Y": 359.089
+            },
+            {
+              "X": 1551.054,
+              "Y": 360.817
+            },
+            {
+              "X": 1546.122,
+              "Y": 362.695
+            },
+            {
+              "X": 1541.226,
+              "Y": 364.723
+            },
+            {
+              "X": 1536.365,
+              "Y": 366.902
+            },
+            {
+              "X": 1531.54,
+              "Y": 369.23
+            },
+            {
+              "X": 1488.46,
+              "Y": 390.77
+            },
+            {
+              "X": 1483.69,
+              "Y": 393.223
+            },
+            {
+              "X": 1478.994,
+              "Y": 395.774
+            },
+            {
+              "X": 1474.373,
+              "Y": 398.424
+            },
+            {
+              "X": 1469.826,
+              "Y": 401.172
+            },
+            {
+              "X": 1465.354,
+              "Y": 404.018
+            },
+            {
+              "X": 1460.956,
+              "Y": 406.963
+            },
+            {
+              "X": 1456.633,
+              "Y": 410.006
+            },
+            {
+              "X": 1452.384,
+              "Y": 413.147
+            },
+            {
+              "X": 1448.21,
+              "Y": 416.386
+            },
+            {
+              "X": 1444.11,
+              "Y": 419.724
+            },
+            {
+              "X": 1440.084,
+              "Y": 423.161
+            },
+            {
+              "X": 1436.133,
+              "Y": 426.695
+            },
+            {
+              "X": 1432.257,
+              "Y": 430.328
+            },
+            {
+              "X": 1428.455,
+              "Y": 434.06
+            },
+            {
+              "X": 1424.728,
+              "Y": 437.889
+            },
+            {
+              "X": 1421.075,
+              "Y": 441.817
+            },
+            {
+              "X": 1378.925,
+              "Y": 488.183
+            },
+            {
+              "X": 1375.254,
+              "Y": 492.035
+            },
+            {
+              "X": 1371.474,
+              "Y": 495.64
+            },
+            {
+              "X": 1367.583,
+              "Y": 498.996
+            },
+            {
+              "X": 1363.583,
+              "Y": 502.103
+            },
+            {
+              "X": 1359.472,
+              "Y": 504.961
+            },
+            {
+              "X": 1355.252,
+              "Y": 507.571
+            },
+            {
+              "X": 1350.922,
+              "Y": 509.933
+            },
+            {
+              "X": 1346.481,
+              "Y": 512.046
+            },
+            {
+              "X": 1341.931,
+              "Y": 513.91
+            },
+            {
+              "X": 1337.271,
+              "Y": 515.526
+            },
+            {
+              "X": 1332.5,
+              "Y": 516.893
+            },
+            {
+              "X": 1327.62,
+              "Y": 518.011
+            },
+            {
+              "X": 1322.63,
+              "Y": 518.881
+            },
+            {
+              "X": 1317.53,
+              "Y": 519.503
+            },
+            {
+              "X": 1312.32,
+              "Y": 519.876
+            },
+            {
+              "X": 1307.0,
+              "Y": 520.0
+            },
+            {
+              "X": 1080,
+              "Y": 520
+            }
+          ]
+        }
+      ],
+      "Slots": [
+        {
+          "Id": 1,
+          "Position": {
+            "X": 160,
+            "Y": 180
+          }
+        },
+        {
+          "Id": 2,
+          "Position": {
+            "X": 350,
+            "Y": 180
+          }
+        },
+        {
+          "Id": 3,
+          "Position": {
+            "X": 540,
+            "Y": 180
+          }
+        },
+        {
+          "Id": 4,
+          "Position": {
+            "X": 730,
+            "Y": 230
+          }
+        },
+        {
+          "Id": 5,
+          "Position": {
+            "X": 920,
+            "Y": 285
+          }
+        },
+        {
+          "Id": 6,
+          "Position": {
+            "X": 1110,
+            "Y": 300
+          }
+        },
+        {
+          "Id": 7,
+          "Position": {
+            "X": 1300,
+            "Y": 285
+          }
+        },
+        {
+          "Id": 8,
+          "Position": {
+            "X": 1490,
+            "Y": 250
+          }
+        },
+        {
+          "Id": 9,
+          "Position": {
+            "X": 1690,
+            "Y": 250
+          }
+        },
+        {
+          "Id": 10,
+          "Position": {
+            "X": 1810,
+            "Y": 470
+          }
+        },
+        {
+          "Id": 11,
+          "Position": {
+            "X": 160,
+            "Y": 370
+          }
+        },
+        {
+          "Id": 12,
+          "Position": {
+            "X": 350,
+            "Y": 370
+          }
+        },
+        {
+          "Id": 13,
+          "Position": {
+            "X": 540,
+            "Y": 390
+          }
+        },
+        {
+          "Id": 14,
+          "Position": {
+            "X": 700,
+            "Y": 445
+          }
+        },
+        {
+          "Id": 15,
+          "Position": {
+            "X": 825,
+            "Y": 535
+          }
+        },
+        {
+          "Id": 16,
+          "Position": {
+            "X": 1000,
+            "Y": 645
+          }
+        },
+        {
+          "Id": 17,
+          "Position": {
+            "X": 1190,
+            "Y": 645
+          }
+        },
+        {
+          "Id": 18,
+          "Position": {
+            "X": 1370,
+            "Y": 625
+          }
+        },
+        {
+          "Id": 19,
+          "Position": {
+            "X": 1540,
+            "Y": 550
+          }
+        },
+        {
+          "Id": 20,
+          "Position": {
+            "X": 1720,
+            "Y": 550
+          }
+        },
+        {
+          "Id": 21,
+          "Position": {
+            "X": 170,
+            "Y": 650
+          }
+        },
+        {
+          "Id": 22,
+          "Position": {
+            "X": 350,
+            "Y": 650
+          }
+        },
+        {
+          "Id": 23,
+          "Position": {
+            "X": 530,
+            "Y": 620
+          }
+        },
+        {
+          "Id": 24,
+          "Position": {
+            "X": 700,
+            "Y": 575
+          }
+        },
+        {
+          "Id": 25,
+          "Position": {
+            "X": 850,
+            "Y": 680
+          }
+        },
+        {
+          "Id": 26,
+          "Position": {
+            "X": 1030,
+            "Y": 765
+          }
+        },
+        {
+          "Id": 27,
+          "Position": {
+            "X": 1220,
+            "Y": 765
+          }
+        },
+        {
+          "Id": 28,
+          "Position": {
+            "X": 1410,
+            "Y": 740
+          }
+        },
+        {
+          "Id": 29,
+          "Position": {
+            "X": 1600,
+            "Y": 710
+          }
+        },
+        {
+          "Id": 30,
+          "Position": {
+            "X": 1790,
+            "Y": 620
+          }
+        },
+        {
+          "Id": 31,
+          "Position": {
+            "X": 160,
+            "Y": 820
+          }
+        },
+        {
+          "Id": 32,
+          "Position": {
+            "X": 360,
+            "Y": 820
+          }
+        },
+        {
+          "Id": 33,
+          "Position": {
+            "X": 560,
+            "Y": 820
+          }
+        },
+        {
+          "Id": 34,
+          "Position": {
+            "X": 740,
+            "Y": 785
+          }
+        },
+        {
+          "Id": 35,
+          "Position": {
+            "X": 1060,
+            "Y": 200
+          }
+        },
+        {
+          "Id": 36,
+          "Position": {
+            "X": 1250,
+            "Y": 190
+          }
+        },
+        {
+          "Id": 37,
+          "Position": {
+            "X": 1440,
+            "Y": 180
+          }
+        },
+        {
+          "Id": 38,
+          "Position": {
+            "X": 1460,
+            "Y": 650
+          }
+        },
+        {
+          "Id": 39,
+          "Position": {
+            "X": 1610,
+            "Y": 450
+          }
+        },
+        {
+          "Id": 40,
+          "Position": {
+            "X": 1850,
+            "Y": 610
+          }
+        }
+      ],
+      "Waves": [
+        {
+          "Name": "前哨试探",
+          "StartDelay": 2,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "northwest",
+              "Count": 4,
+              "Interval": 1.8,
+              "Delay": 0,
+              "HealthScale": 0.941,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "southwest",
+              "Count": 4,
+              "Interval": 1.8,
+              "Delay": 10,
+              "HealthScale": 0.941,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "east",
+              "Count": 4,
+              "Interval": 1.8,
+              "Delay": 20,
+              "HealthScale": 0.941,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "盾列推进",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "northwest",
+              "Count": 4,
+              "Interval": 1.8,
+              "Delay": 0,
+              "HealthScale": 1.098,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "southwest",
+              "Count": 4,
+              "Interval": 1.8,
+              "Delay": 10,
+              "HealthScale": 1.098,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "east",
+              "Count": 4,
+              "Interval": 1.8,
+              "Delay": 20,
+              "HealthScale": 1.098,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "快马传锋",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "northwest",
+              "Count": 5,
+              "Interval": 1.35,
+              "Delay": 0,
+              "HealthScale": 1.143,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "southwest",
+              "Count": 5,
+              "Interval": 1.35,
+              "Delay": 10,
+              "HealthScale": 1.143,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "east",
+              "Count": 5,
+              "Interval": 1.35,
+              "Delay": 20,
+              "HealthScale": 1.143,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "中军压阵",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "northwest",
+              "Count": 5,
+              "Interval": 1.8,
+              "Delay": 0,
+              "HealthScale": 1.188,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "southwest",
+              "Count": 5,
+              "Interval": 1.8,
+              "Delay": 10,
+              "HealthScale": 1.188,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "east",
+              "Count": 5,
+              "Interval": 1.8,
+              "Delay": 20,
+              "HealthScale": 1.188,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "boss_guan_yu",
+              "RouteId": "northwest",
+              "Count": 1,
+              "Interval": 1.65,
+              "Delay": 9,
+              "HealthScale": 0.32,
+              "SpeedScale": 0.8
+            }
+          ]
+        },
+        {
+          "Name": "弓盾相随",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "shield",
+              "RouteId": "northwest",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 0,
+              "HealthScale": 1.278,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "northwest",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.214,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "southwest",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 10,
+              "HealthScale": 1.278,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "southwest",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.214,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "shield",
+              "RouteId": "east",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 20,
+              "HealthScale": 1.278,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "east",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 16,
+              "HealthScale": 1.214,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "healer",
+              "RouteId": "east",
+              "Count": 2,
+              "Interval": 6,
+              "Delay": 8,
+              "HealthScale": 1.278,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "精锐突阵",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "elite",
+              "RouteId": "northwest",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 0,
+              "HealthScale": 1.323,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "northwest",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.257,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "elite",
+              "RouteId": "southwest",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 10,
+              "HealthScale": 1.323,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "southwest",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.257,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "elite",
+              "RouteId": "east",
+              "Count": 6,
+              "Interval": 1.8,
+              "Delay": 20,
+              "HealthScale": 1.323,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "east",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 16,
+              "HealthScale": 1.257,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "三鼓齐进",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "northwest",
+              "Count": 6,
+              "Interval": 1.35,
+              "Delay": 0,
+              "HealthScale": 1.368,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "northwest",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.3,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "southwest",
+              "Count": 6,
+              "Interval": 1.35,
+              "Delay": 10,
+              "HealthScale": 1.368,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "southwest",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.3,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "cavalry",
+              "RouteId": "east",
+              "Count": 6,
+              "Interval": 1.35,
+              "Delay": 20,
+              "HealthScale": 1.368,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "east",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 16,
+              "HealthScale": 1.3,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "healer",
+              "RouteId": "east",
+              "Count": 2,
+              "Interval": 6,
+              "Delay": 8,
+              "HealthScale": 1.368,
+              "SpeedScale": 1
+            }
+          ]
+        },
+        {
+          "Name": "主将临关",
+          "StartDelay": 8,
+          "Groups": [
+            {
+              "EnemyId": "infantry",
+              "RouteId": "northwest",
+              "Count": 7,
+              "Interval": 1.8,
+              "Delay": 0,
+              "HealthScale": 1.413,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "northwest",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 12,
+              "HealthScale": 1.342,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "southwest",
+              "Count": 7,
+              "Interval": 1.8,
+              "Delay": 10,
+              "HealthScale": 1.413,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "southwest",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 14,
+              "HealthScale": 1.342,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "infantry",
+              "RouteId": "east",
+              "Count": 7,
+              "Interval": 1.8,
+              "Delay": 20,
+              "HealthScale": 1.413,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "archer",
+              "RouteId": "east",
+              "Count": 3,
+              "Interval": 2.4,
+              "Delay": 16,
+              "HealthScale": 1.342,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "boss_lv_bu",
+              "RouteId": "northwest",
+              "Count": 1,
+              "Interval": 1.65,
+              "Delay": 12,
+              "HealthScale": 0.75,
+              "SpeedScale": 1
+            },
+            {
+              "EnemyId": "boss_sima_yi",
+              "RouteId": "east",
+              "Count": 1,
+              "Interval": 1.65,
+              "Delay": 22,
+              "HealthScale": 0.6,
+              "SpeedScale": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

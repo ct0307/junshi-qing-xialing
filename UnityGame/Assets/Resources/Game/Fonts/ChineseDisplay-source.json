@@ -1,0 +1,64 @@
+{
+  "FetchedAtUtc": "2026-11-12T01:34:57.681844+00:00",
+  "OfficialRepository": "https://github.com/adobe-fonts/source-han-serif",
+  "RepositoryRef": "release",
+  "FontVersion": "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0",
+  "OfficialFontPath": "SubsetOTF/CN/SourceHanSerifCN-Medium.otf",
+  "OriginalFileName": "SourceHanSerifCN-Medium.otf",
+  "DownloadUrl": "https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-serif@release/SubsetOTF/CN/SourceHanSerifCN-Medium.otf",
+  "LicenseUrl": "https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-serif@release/LICENSE.txt",
+  "OfficialFontUrl": "https://github.com/adobe-fonts/source-han-serif/blob/release/SubsetOTF/CN/SourceHanSerifCN-Medium.otf",
+  "OfficialLicenseUrl": "https://github.com/adobe-fonts/source-han-serif/blob/release/LICENSE.txt",
+  "Sha256": "f7906890686d17e122980efd2d6097d1caefed76312994baeaf220819e818f3a",
+  "LicenseSha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+  "Bytes": 11734704,
+  "License": "SIL Open Font License 1.1",
+  "ReservedFontName": "Source",
+  "FontModified": false,
+  "Names": {
+    "0": [
+      "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+    ],
+    "1": [
+      "Source Han Serif CN Medium",
+      "思源宋体 CN Medium"
+    ],
+    "2": [
+      "Regular"
+    ],
+    "4": [
+      "Source Han Serif CN Medium",
+      "思源宋体 CN Medium"
+    ],
+    "5": [
+      "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0"
+    ],
+    "6": [
+      "SourceHanSerifCN-Medium"
+    ],
+    "8": [
+      "Adobe"
+    ],
+    "13": [
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+    ],
+    "14": [
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  "UnitsPerEm": 1000,
+  "HheaMetrics": [
+    1151,
+    -286,
+    0
+  ],
+  "Os2TypoMetrics": [
+    880,
+    -120,
+    0
+  ],
+  "EmbeddingFlags": 0,
+  "CmapGlyphs": 30930,
+  "DatabaseChineseCharactersChecked": 440,
+  "MissingDatabaseChineseCharacters": []
+}

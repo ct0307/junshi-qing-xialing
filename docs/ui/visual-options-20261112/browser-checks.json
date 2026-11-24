@@ -1,0 +1,139 @@
+{
+  "VerifiedAtUtc": "2026-11-12T00:51:25.356Z",
+  "Method": "真实浏览器页面与按钮交互；仅HTML设计提案",
+  "NormalAndEdgeStates": [
+    {
+      "variant": "a-jade",
+      "initial": {
+        "brokenImages": [],
+        "gold": "240",
+        "height": 720,
+        "heroes": 5,
+        "slots": 32,
+        "width": 1280
+      },
+      "recruit": {
+        "gold": "120",
+        "status": "已上阵"
+      },
+      "moveHint": "赵云已免费调位。",
+      "shortageHint": "军饷不足，招募周瑜还差15。",
+      "emptySelectionUpgradeEnabled": false,
+      "rulesPaused": "paused",
+      "dialogVisible": true,
+      "resumed": "running",
+      "manualPaused": "paused"
+    },
+    {
+      "variant": "b-lacquer",
+      "initial": {
+        "brokenImages": [],
+        "gold": "240",
+        "height": 720,
+        "heroes": 5,
+        "slots": 32,
+        "width": 1280
+      },
+      "recruit": {
+        "gold": "120",
+        "status": "已上阵"
+      },
+      "moveHint": "赵云已免费调位。",
+      "shortageHint": "军饷不足，招募周瑜还差15。",
+      "emptySelectionUpgradeEnabled": false,
+      "rulesPaused": "paused",
+      "dialogVisible": true,
+      "resumed": "running",
+      "manualPaused": "paused"
+    },
+    {
+      "variant": "c-scroll",
+      "initial": {
+        "brokenImages": [],
+        "gold": "240",
+        "height": 720,
+        "heroes": 5,
+        "slots": 32,
+        "width": 1280
+      },
+      "recruit": {
+        "gold": "120",
+        "status": "已上阵"
+      },
+      "moveHint": "赵云已免费调位。",
+      "shortageHint": "军饷不足，招募周瑜还差15。",
+      "emptySelectionUpgradeEnabled": false,
+      "rulesPaused": "paused",
+      "dialogVisible": true,
+      "resumed": "running",
+      "manualPaused": "paused"
+    }
+  ],
+  "NarrowGallery": {
+    "height": 844,
+    "screenWidth": 351,
+    "scrollWidth": 375,
+    "tabCount": 3,
+    "width": 390
+  },
+  "WideArtboards": [
+    {
+      "variant": "a-jade",
+      "brokenImages": 0,
+      "height": 1080,
+      "slots": 32,
+      "width": 1920
+    },
+    {
+      "variant": "b-lacquer",
+      "brokenImages": 0,
+      "height": 1080,
+      "slots": 32,
+      "width": 1920
+    },
+    {
+      "variant": "c-scroll",
+      "brokenImages": 0,
+      "height": 1080,
+      "slots": 32,
+      "width": 1920
+    }
+  ],
+  "UpperSlotWithinField": {
+    "field": {
+      "bottom": 834,
+      "height": 693,
+      "left": 45,
+      "right": 1875,
+      "top": 141,
+      "width": 1830,
+      "x": 45,
+      "y": 141
+    },
+    "unit": {
+      "bottom": 225.25704956054688,
+      "height": 81.015625,
+      "left": 135.4765625,
+      "right": 216.4921875,
+      "top": 144.24142456054688,
+      "width": 81.015625,
+      "x": 135.4765625,
+      "y": 144.24142456054688
+    }
+  },
+  "GallerySwitching": [
+    "a-jade.html",
+    "b-lacquer.html",
+    "c-scroll.html"
+  ],
+  "GalleryWallet24": true,
+  "GalleryEmptySelection": true,
+  "ResultDialog": true,
+  "NotVerified": [
+    "新地图或人物重绘",
+    "Unity运行与游戏规则",
+    "手机触控与性能",
+    "真实存档",
+    "资源缺失错误的浏览器模拟"
+  ]
+}

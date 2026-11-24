@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Android自适应透明军令前景"><g transform="translate(512 512) scale(.95) translate(-512 -512)"><g id="command-token">
+<path d="M512 220 L720 344 L720 667 Q720 693 700 715 L636 780 L388 780 L324 715 Q304 693 304 667 L304 344 Z" fill="#D6B271"/>
+<path d="M512 248 L694 358 L694 663 Q694 682 680 696 L625 752 L399 752 L344 696 Q330 682 330 663 L330 358 Z" fill="#1C4A3D"/>
+<path d="M512 248 L694 358 L694 390 L512 280 L330 390 L330 358 Z" fill="#F1D79B" opacity=".75"/>
+<path d="M512 302 L547 323 L512 344 L477 323 Z" fill="#D6B271"/>
+<g fill="#F5E7BA">
+<path d="M498 362 L535 365 C503 408 464 448 401 474 L385 449 C437 421 473 392 498 362 Z"/>
+<path d="M526 371 C557 404 591 425 640 441 L622 478 C568 455 535 424 508 392 Z"/>
+<path d="M498 438 L532 449 L550 482 L514 477 Z"/>
+<path d="M412 503 L611 503 L611 535 L543 600 L509 581 L562 538 L412 538 Z"/>
+<path d="M483 584 L519 595 C538 610 555 628 568 654 L532 669 C519 636 504 611 483 584 Z"/>
+</g>
+<path d="M471 701 L492 680 L551 680 L572 701 L551 722 L492 722 Z" fill="#A94E38"/>
+<path d="M486 701 H557" fill="none" stroke="#F1D79B" stroke-width="7"/>
+<path d="M365 389 V652 M659 389 V652" fill="none" stroke="#D6B271" stroke-width="5" opacity=".45"/>
+</g></g></svg>

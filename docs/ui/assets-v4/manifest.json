@@ -1,0 +1,832 @@
+{
+  "version": 4,
+  "baseline": {
+    "battle-ui-concept-v3.png": "8bb067419141494eb4f9c3928399ff0a090f36226cc7fe2544ea4299806820c5",
+    "character-study-v3.png": "0dd02f1a2b922f88745388e88ff8b0c473128cde0784d6c6570ad996e8bcde04"
+  },
+  "state": "美术素材，尚未接入Android工程",
+  "format": "PNG RGBA，直通透明度，普通alpha混合；地图为不透明背景",
+  "lighting": "左上方",
+  "asset_count": 53,
+  "refined_characters": [
+    "关羽",
+    "张飞",
+    "赵云",
+    "周瑜",
+    "诸葛亮",
+    "黄忠",
+    "吕布"
+  ],
+  "not_completed": "其余18位角色素材、实际触控与动态时序、APK构建与手机实测",
+  "character_pivot": "固定方形画布，以台座中心设计坐标150,275对齐阵位；裁剪后使用时需重算锚点",
+  "sequences": [
+    {
+      "id": "recruit",
+      "label": "招募入阵",
+      "duration_ms": 480,
+      "loop": false,
+      "pivot": [
+        128,
+        200
+      ],
+      "atlas": "effects/recruit_atlas.png",
+      "frame_size": [
+        256,
+        256
+      ],
+      "frame_count": 8,
+      "frame_order": "从左到右",
+      "frame_duration_ms": 60.0,
+      "texture_filter": "linear",
+      "wrap": "clamp_to_edge"
+    },
+    {
+      "id": "slash",
+      "label": "青龙斩击",
+      "duration_ms": 240,
+      "loop": false,
+      "pivot": [
+        128,
+        128
+      ],
+      "atlas": "effects/slash_atlas.png",
+      "frame_size": [
+        256,
+        256
+      ],
+      "frame_count": 8,
+      "frame_order": "从左到右",
+      "frame_duration_ms": 30.0,
+      "texture_filter": "linear",
+      "wrap": "clamp_to_edge"
+    },
+    {
+      "id": "fire",
+      "label": "火攻余焰",
+      "duration_ms": 640,
+      "loop": true,
+      "pivot": [
+        128,
+        200
+      ],
+      "atlas": "effects/fire_atlas.png",
+      "frame_size": [
+        256,
+        256
+      ],
+      "frame_count": 8,
+      "frame_order": "从左到右",
+      "frame_duration_ms": 80.0,
+      "texture_filter": "linear",
+      "wrap": "clamp_to_edge"
+    },
+    {
+      "id": "boss_warning",
+      "label": "敌将入场",
+      "duration_ms": 800,
+      "loop": false,
+      "pivot": [
+        128,
+        200
+      ],
+      "atlas": "effects/boss_warning_atlas.png",
+      "frame_size": [
+        256,
+        256
+      ],
+      "frame_count": 8,
+      "frame_order": "从左到右",
+      "frame_duration_ms": 100.0,
+      "texture_filter": "linear",
+      "wrap": "clamp_to_edge"
+    }
+  ],
+  "assets": [
+    {
+      "path": "characters/guan_yu.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "sha256": "d5ed163a6dc328520124758e2bf70a820f888ccb38917176c97ba034ac49c80a",
+      "character": "关羽",
+      "enemy": false,
+      "pivot": [
+        360,
+        660
+      ],
+      "pivot_note": "台座中心设计坐标150,275，非可见像素边界",
+      "refined": true
+    },
+    {
+      "path": "portraits/guan_yu.png",
+      "size": [
+        320,
+        320
+      ],
+      "mode": "RGBA",
+      "sha256": "696eef913e02839e0dda42ca12d012539f78bbfcedb2304c2aa2ba27fad54487",
+      "character": "关羽",
+      "source_crop_320": [
+        78,
+        26,
+        214,
+        176
+      ]
+    },
+    {
+      "path": "characters/zhang_fei.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "sha256": "2e937830a128f65a348c17763b321c8b312961f9fd2396a11becc897a5f7c6ce",
+      "character": "张飞",
+      "enemy": false,
+      "pivot": [
+        360,
+        660
+      ],
+      "pivot_note": "台座中心设计坐标150,275，非可见像素边界",
+      "refined": true
+    },
+    {
+      "path": "portraits/zhang_fei.png",
+      "size": [
+        320,
+        320
+      ],
+      "mode": "RGBA",
+      "sha256": "11f7c189696793ff5d4374353065d152a30692d2c528e3c7af23268f2cee11e8",
+      "character": "张飞",
+      "source_crop_320": [
+        78,
+        26,
+        214,
+        176
+      ]
+    },
+    {
+      "path": "characters/zhao_yun.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "sha256": "121bf2a4c514eecdf6abdfbd664fa13740bc8f72de3a3f57b890bcb74c4bce69",
+      "character": "赵云",
+      "enemy": false,
+      "pivot": [
+        360,
+        660
+      ],
+      "pivot_note": "台座中心设计坐标150,275，非可见像素边界",
+      "refined": true
+    },
+    {
+      "path": "portraits/zhao_yun.png",
+      "size": [
+        320,
+        320
+      ],
+      "mode": "RGBA",
+      "sha256": "bd51da5b1b6a3e645b5291865d6788340c15e6c6cede80dcd90c3ade040a344a",
+      "character": "赵云",
+      "source_crop_320": [
+        78,
+        26,
+        214,
+        176
+      ]
+    },
+    {
+      "path": "characters/zhou_yu.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "sha256": "43e386429e98feb41d292902bf4a873c92be6a66ae7efadfb86b344d72c4922c",
+      "character": "周瑜",
+      "enemy": false,
+      "pivot": [
+        360,
+        660
+      ],
+      "pivot_note": "台座中心设计坐标150,275，非可见像素边界",
+      "refined": true
+    },
+    {
+      "path": "portraits/zhou_yu.png",
+      "size": [
+        320,
+        320
+      ],
+      "mode": "RGBA",
+      "sha256": "f5bfc847d33ffaf6cdb5a6ec78bb20169d5045f752bf03aa5d9c89368a66eb55",
+      "character": "周瑜",
+      "source_crop_320": [
+        78,
+        26,
+        214,
+        176
+      ]
+    },
+    {
+      "path": "characters/zhuge_liang.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "sha256": "2b668998ac28de17b4c380418567da4f1032d14f218a081c226a77754a52eecf",
+      "character": "诸葛亮",
+      "enemy": false,
+      "pivot": [
+        360,
+        660
+      ],
+      "pivot_note": "台座中心设计坐标150,275，非可见像素边界",
+      "refined": true
+    },
+    {
+      "path": "portraits/zhuge_liang.png",
+      "size": [
+        320,
+        320
+      ],
+      "mode": "RGBA",
+      "sha256": "e592ae9784d4465d18b034c867f29e29a21f95147461a71a396b4deed096c696",
+      "character": "诸葛亮",
+      "source_crop_320": [
+        78,
+        26,
+        214,
+        176
+      ]
+    },
+    {
+      "path": "characters/huang_zhong.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "sha256": "fadaa4d595f594e3f83873d28435b06ecc8724c3818a0ca078200b596ce3f11d",
+      "character": "黄忠",
+      "enemy": false,
+      "pivot": [
+        360,
+        660
+      ],
+      "pivot_note": "台座中心设计坐标150,275，非可见像素边界",
+      "refined": true
+    },
+    {
+      "path": "portraits/huang_zhong.png",
+      "size": [
+        320,
+        320
+      ],
+      "mode": "RGBA",
+      "sha256": "3ea5b264e42ae8e82e69bee1a9dd19eb4122a7c02c72b10725c45f4f0d0d5996",
+      "character": "黄忠",
+      "source_crop_320": [
+        78,
+        26,
+        214,
+        176
+      ]
+    },
+    {
+      "path": "characters/lv_bu.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "sha256": "09c7256771e71e5dd27fcd2d8e2d02ed5d9277799146332aa2ea41339d89c1f6",
+      "character": "吕布",
+      "enemy": true,
+      "pivot": [
+        360,
+        660
+      ],
+      "pivot_note": "台座中心设计坐标150,275，非可见像素边界",
+      "refined": true
+    },
+    {
+      "path": "portraits/lv_bu.png",
+      "size": [
+        320,
+        320
+      ],
+      "mode": "RGBA",
+      "sha256": "22c064a43f8acc8e00334c7e2b9e13dd6be6a84d36fb6d572c35776f093b5384",
+      "character": "吕布",
+      "source_crop_320": [
+        42,
+        0,
+        250,
+        202
+      ]
+    },
+    {
+      "path": "maps/hulao_pass.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGBA",
+      "sha256": "9a6514882b13bdb57c3dff16046b4d4f684fdb23cc679f4dafa034843043286b",
+      "logical_size": [
+        1920,
+        1080
+      ],
+      "empty_slots": [
+        [
+          190,
+          250
+        ],
+        [
+          365,
+          250
+        ],
+        [
+          550,
+          280
+        ],
+        [
+          715,
+          290
+        ],
+        [
+          895,
+          270
+        ],
+        [
+          1080,
+          280
+        ],
+        [
+          1250,
+          295
+        ],
+        [
+          1430,
+          290
+        ],
+        [
+          1555,
+          340
+        ],
+        [
+          200,
+          460
+        ],
+        [
+          345,
+          470
+        ],
+        [
+          525,
+          520
+        ],
+        [
+          655,
+          520
+        ],
+        [
+          850,
+          400
+        ],
+        [
+          1100,
+          600
+        ],
+        [
+          1250,
+          690
+        ],
+        [
+          1395,
+          695
+        ],
+        [
+          1515,
+          780
+        ],
+        [
+          1705,
+          740
+        ],
+        [
+          1830,
+          735
+        ],
+        [
+          200,
+          620
+        ],
+        [
+          300,
+          615
+        ],
+        [
+          430,
+          600
+        ],
+        [
+          200,
+          810
+        ],
+        [
+          365,
+          820
+        ],
+        [
+          535,
+          765
+        ],
+        [
+          680,
+          780
+        ],
+        [
+          830,
+          745
+        ],
+        [
+          990,
+          735
+        ],
+        [
+          1120,
+          790
+        ]
+      ],
+      "deployed_slots": [
+        [
+          1030,
+          407
+        ],
+        [
+          1365,
+          458
+        ],
+        [
+          810,
+          560
+        ],
+        [
+          1585,
+          690
+        ]
+      ]
+    },
+    {
+      "path": "buildings/hulao_gate.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "sha256": "ea06ae8b2e54bd0aa04253f9a67986b5e056d3668bc417a5b7ae91c10f0dc578"
+    },
+    {
+      "path": "buildings/camp_tent.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "56cc8fc06fb1184cdf66aa23f53e119e6480a7326715b55d086967034375f317"
+    },
+    {
+      "path": "effects/recruit/00.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "b6127c83dbb2ee0791cc870dc2c935ed71a3f01dd4982effcb3ad1a139c5eb4d"
+    },
+    {
+      "path": "effects/recruit/01.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "4b1715b4b827f43702e8d04a585d3a889e004f83275f1b4db8b7c9224544e9bf"
+    },
+    {
+      "path": "effects/recruit/02.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "5d2deadfe8e922dac8c9542fba12886e6b6540c41278df7a1360df7f15b1d44d"
+    },
+    {
+      "path": "effects/recruit/03.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "7567246510dfef5d1ab09de2630fd05d00584eacc905b0b5b325138107adea00"
+    },
+    {
+      "path": "effects/recruit/04.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "ae5ba30f211da945b272694a4ed158e73df80547ccf4835649633a0c6622f911"
+    },
+    {
+      "path": "effects/recruit/05.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "193c4f56983be889711f23445c0334717b3bc27e39e622c8c7c31307c909a50a"
+    },
+    {
+      "path": "effects/recruit/06.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "ba8f3feff31317da21d9655f47b3f283c3e428dca2a41276c35dc761fe907175"
+    },
+    {
+      "path": "effects/recruit/07.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "5b3153ba4186b4422986e71a9ce61eedce4735fcbd4766e94e1d9e0252f3ef58"
+    },
+    {
+      "path": "effects/recruit_atlas.png",
+      "size": [
+        2048,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "077e6eb75ccb93c1980f9c0ed247de273021338138fa277b6adeb3cd4e3c4c7a"
+    },
+    {
+      "path": "effects/slash/00.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "9392562c9ba224210dffecb69849c9be718b7f0c1629f0b9d362a3bdac54d062"
+    },
+    {
+      "path": "effects/slash/01.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "6d881140d17df7070e9bb69be8c8fc3b0f9c53e764e8a3777024c1c79e5d117f"
+    },
+    {
+      "path": "effects/slash/02.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "a70424380142b035e557f5ae6db7a5cf4c5921fef9404ce0163d4f3e264e401a"
+    },
+    {
+      "path": "effects/slash/03.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "0a4cb5e4399905bff1733f78104a1b58fa868a1af5410f6ca0b00cbd46ea4a82"
+    },
+    {
+      "path": "effects/slash/04.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "da6907b7cd07a0bba23521b0de56fc2bcc09bad60d87a994da7eaad538ea5e70"
+    },
+    {
+      "path": "effects/slash/05.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "d97cfcae462830769ef4a1665c72083a883f5720b19a51f4d1f9b00f533b4ca8"
+    },
+    {
+      "path": "effects/slash/06.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "5e5938b6dcb8b35f22fcc4b6889e3f823de9f75c0631aea5b4d50c539f08cac1"
+    },
+    {
+      "path": "effects/slash/07.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "da061c341097164feadc6467da4dfb4813acdcac472f483937269f2894f0df10"
+    },
+    {
+      "path": "effects/slash_atlas.png",
+      "size": [
+        2048,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "96ab39a8f3c63789739cbf0ebb17c7f5cb3309816ac6c6880d3a46724f399d31"
+    },
+    {
+      "path": "effects/fire/00.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "37f2c83b49a2644b50554f8b514a0fd2d96f340ded566716b12e53ec7c486b45"
+    },
+    {
+      "path": "effects/fire/01.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "d9c9698c20f41c384ce59c2c1a85132ee6c618197ecb34b5f6ee90b8d85c1f11"
+    },
+    {
+      "path": "effects/fire/02.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "83964b7d6e43775b9eee2df56c040fb80d81715561f82c0f6f0102261f83ca25"
+    },
+    {
+      "path": "effects/fire/03.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "e01fba6904e39ee74d7ee61a3c8d3c1eb3f82e05e77f3a9c8fd3d3cc804526aa"
+    },
+    {
+      "path": "effects/fire/04.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "9e577dbd6435fc41d8deb2a9d0cba5c8015464e50ae5b1c51c4eddfb642b9251"
+    },
+    {
+      "path": "effects/fire/05.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "e40b80d01b19c4af4707dc2612df7d792854a448d05f497562a49c3bd559079b"
+    },
+    {
+      "path": "effects/fire/06.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "6b9c78bfe9ef7b4599babfba86282a348919bd296a1216ff18f5e3a5df289df3"
+    },
+    {
+      "path": "effects/fire/07.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "300e233b75d245f6ccc133d87973626f5004d8429ad3e0b828b5ca80d7d68907"
+    },
+    {
+      "path": "effects/fire_atlas.png",
+      "size": [
+        2048,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "cc91caecf5487a93c19dea057718c238f3eee788f57604ccd73f860bf215b945"
+    },
+    {
+      "path": "effects/boss_warning/00.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "40064b743bb929c967ba1904430a68d5604e48badd6b61a4ad4d0d6383178441"
+    },
+    {
+      "path": "effects/boss_warning/01.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "590e70dcc5fbbe4b26834b98ddc1f9511f8a359590db6a25e3ae317d30d7e7c9"
+    },
+    {
+      "path": "effects/boss_warning/02.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "e1599eaf9006083c876a96a21e093b21368571583bd28c03c52e744217ad1999"
+    },
+    {
+      "path": "effects/boss_warning/03.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "c5851d493e476d0cbccf14895685affb898f13119196e39c35ef3a0112c1912d"
+    },
+    {
+      "path": "effects/boss_warning/04.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "c1e711e97370eab48c8eb6ffafc1a06f2c0b993360d07971dfc5f514f5493307"
+    },
+    {
+      "path": "effects/boss_warning/05.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "2152515259c37211584f3dc96046d9eea174be0bcaa0b0c5ed7c2c9750aa4d3f"
+    },
+    {
+      "path": "effects/boss_warning/06.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "566fe2c5fc5ac3816611e8f618540c7ec789b4838d752658b075f8642197198f"
+    },
+    {
+      "path": "effects/boss_warning/07.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "34154cdeea79ee2c44791df052659ba3a42574eb9399b953f43d82bda0b955a0"
+    },
+    {
+      "path": "effects/boss_warning_atlas.png",
+      "size": [
+        2048,
+        256
+      ],
+      "mode": "RGBA",
+      "sha256": "0797cf3c18ba53d1fe4393422e1a86fdacf90e7a9a1175d394a847ca20ee5c20"
+    }
+  ]
+}

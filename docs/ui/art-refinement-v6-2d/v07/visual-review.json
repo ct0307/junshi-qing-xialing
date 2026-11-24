@@ -1,0 +1,60 @@
+{
+  "Revision": "v07",
+  "Stage": "用户已否决的2D历史样稿，不接入游戏，不作为推荐方向确认稿",
+  "UserFeedback": {
+    "Date": "2026-11-08",
+    "Decision": "rejected",
+    "OriginalQuote": "感觉不如原版,改了之后像简单的色块拼接",
+    "Meaning": "用户否决v07整体观感；先前对参考方向的认可不等于对该实现的认可。"
+  },
+  "Reviewers": [
+    "主代理（v07差异复核）",
+    "独立视觉复核代理（v06完整复核）"
+  ],
+  "Inspected": [
+    "完整对比板",
+    "关羽与赵云768x768透明原图及约113像素缩略图",
+    "地图1920原图",
+    "按(38,144)-(1882,842)裁切的1280静态战场预览",
+    "v07技术验证清单及正式黄巾路线／阵位数据"
+  ],
+  "HistoricalVisualAssessment": {
+    "Status": "保留当时的内部复核记录，不作为当前美术通过结论。",
+    "ReferenceDirection": "延续用户确认的明快手绘2D与Q版方向；地图采用草绿、暖橙棕道路、农景和入口／目标焦点。",
+    "Characters": "人物沿用v06已经复核的图像；约113像素下关羽的长髯、偃月刀与赵云银甲、红缨枪可区分。",
+    "CompositionChange": "东侧中层菜圃上移32像素，打破中层田块接近同一水平带的排列；实际裁切中仍保持与树木、路线和阵位的视觉间隔。",
+    "MapCrop": "西北营寨与西南关楼完整可见，正式U形道路连续，阵位清晰。",
+    "RemainingGap": "地图的有机笔触和地表细节密度仍低于用户参考图，场景保留较多可操作留白；该留白符合塔防部署需要。"
+  },
+  "CurrentAssessment": {
+    "ArtAccepted": false,
+    "Ground": "低频地色叠加32个阵位周围的矩形地表清空，使低对比草土变化不连续，主体呈现大面积平涂。",
+    "Crops": "封闭田界与底板先形成完整色块，田内细线在纵向压缩及1280预览缩放后失效，缩小后只剩卡片状田块。",
+    "Characters": "通用渐变与等粗封边覆盖不同材质，衣甲缺少布料、金属及皮肤各自的转折与搭接。",
+    "NextScope": "仅计划以原版为基底进行小范围材质研究，尚未完成；不生成v08完整素材，不接入正式资源。"
+  },
+  "TechnicalReview": {
+    "Status": "以下为生成时的技术检查记录，不是美术验收通过。",
+    "InputFiles": 15,
+    "PngFiles": 6,
+    "FormalProjectFilesUnchanged": 407,
+    "RoutePoints": 70,
+    "Slots": 32,
+    "AcceptedDecorations": 37,
+    "RejectedOptionalDecorations": 2,
+    "AcceptedGrassClumps": 23,
+    "CharacterAlphaBounds": {
+      "guan_yu": [130, 26, 681, 683],
+      "zhao_yun": [184, 24, 689, 683]
+    },
+    "TransparentMargins": "pass",
+    "IdentityAt113px": "pass",
+    "VisibleMapCropAndRoadContinuity": "pass",
+    "RoadAndSlotClearance": "pass"
+  },
+  "RuntimeUiTestedWithNewArt": false,
+  "NewGameBuildCreated": false,
+  "DeviceTested": false,
+  "UserApprovedFinalArt": false,
+  "Conclusion": "用户已否决v07：不如原版，像简单色块拼接。该版本仅留作历史失败样稿，不接入，不作为推荐方向确认稿；历史技术检查通过不能替代美术验收。后续小范围材质研究尚未完成。"
+}

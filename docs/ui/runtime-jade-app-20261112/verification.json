@@ -1,0 +1,2015 @@
+{
+  "Status": "Passed",
+  "StartedAtUtc": "2026-11-12T03:11:55.8909684Z",
+  "CompletedAtUtc": "2026-11-12T03:12:15.9219761Z",
+  "FinalEvidenceVerifiedAtUtc": "2026-11-12T03:58:42.148331+00:00",
+  "UnityVersion": "6000.3.28f1",
+  "Log": {
+    "ExitCode": 0,
+    "Log": {
+      "Path": "C:\\Users\\chentao\\Desktop\\移动应用开发\\UnityGame\\Builds\\JadeApp-20261112\\Logs\\build-app.log",
+      "SizeBytes": 52197,
+      "Sha256": "282f5e25089f29bc478d9f772dcb6b7cf1bbfed438b278553e4a8750b80f965f"
+    }
+  },
+  "Screenshots": {
+    "Count": 247,
+    "CountBySize": {
+      "1280x720": 76,
+      "1920x1080": 100,
+      "2400x1080": 71
+    },
+    "PngIntegrityPassed": true,
+    "TextManifestMatches": true,
+    "AllWrittenWithinUiRun": true,
+    "Files": [
+      {
+        "Path": "app/audio-menu-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 138495,
+        "Sha256": "fe16bf4845afa8db98fb228511120ca6a87520666546e980bb8837cbb1b1e77b",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.955898+00:00"
+      },
+      {
+        "Path": "app/audio-menu-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 213716,
+        "Sha256": "756ee9ada52d24554ce5325f407f75c980d13b8131522b8fb00afdbfcf3121e2",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.014360+00:00"
+      },
+      {
+        "Path": "app/audio-menu-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 224057,
+        "Sha256": "d3c9c4537093b1c5e53f2f6428726e0dc374d222d23a98f368dc1ff6de20ef94",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.073289+00:00"
+      },
+      {
+        "Path": "app/audio-paused-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 160971,
+        "Sha256": "4642fed34ca1a6a1d1689133db2749e1e72e957c901fdb01360496f2c451ab4c",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.806489+00:00"
+      },
+      {
+        "Path": "app/audio-paused-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 251644,
+        "Sha256": "8fc7dd9dc82bc7a2530d5dc4263831bfd27b7e4d4260feebec1058fbec81a369",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.859010+00:00"
+      },
+      {
+        "Path": "app/audio-paused-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 263220,
+        "Sha256": "66ef0bcf736179c6e6c36207a2bd9970bbd465da04ed1119b47b9ceb5a5d7fa9",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.922804+00:00"
+      },
+      {
+        "Path": "app/content-error-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 46052,
+        "Sha256": "6cae885e8196fc6ec13d169391240d968e0c8043e9d365fe8027c22107e2e882",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.121723+00:00"
+      },
+      {
+        "Path": "app/content-error-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 76913,
+        "Sha256": "bb0b0fef31eb4b57713bfbc62c7f04d7763b42f3823d24411a1065537d40c675",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.166950+00:00"
+      },
+      {
+        "Path": "app/content-error-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 84917,
+        "Sha256": "960589c2304fca93ccfc26db1ef3de378e67dc8bb32571c5005bb994973a1851",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.224143+00:00"
+      },
+      {
+        "Path": "app/intel-chibi-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 260909,
+        "Sha256": "4ceea048b5ab20bde9dc1c9e2630fcd07a2b34ad14e4a2a2d50c1280046350e1",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.789692+00:00"
+      },
+      {
+        "Path": "app/intel-chibi-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 444850,
+        "Sha256": "b799a7b44a799493e12ba8fe8bdc412c67f5dfd9adfa11c50e1b7b25727b8e1a",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.853925+00:00"
+      },
+      {
+        "Path": "app/intel-chibi-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 456989,
+        "Sha256": "83d7a0b8c665198cd6cad95bd6193645faf0e18b3d6f51ae729e895859c69d6a",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.924157+00:00"
+      },
+      {
+        "Path": "app/intel-finale-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 305407,
+        "Sha256": "d0aea39fb31130e5cbd35ee2ae5ce916bf6b2590dfdb9e7fc87d672f76a14290",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.961472+00:00"
+      },
+      {
+        "Path": "app/intel-finale-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 525812,
+        "Sha256": "d775509ef8f665912d2c7655d590edc5797b9fb0aa8b6760d3dc5b1f194b54c1",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.026809+00:00"
+      },
+      {
+        "Path": "app/intel-finale-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 537732,
+        "Sha256": "3879f9d4866e1d79ee8b668e3e96c6ef9807b0c8025f1c145c7611818026e697",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.104279+00:00"
+      },
+      {
+        "Path": "app/intel-guandu-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 261179,
+        "Sha256": "185a3fdcf2756519e2fe9182c34720e3556d7e9632af677ed8209820dba281de",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.588321+00:00"
+      },
+      {
+        "Path": "app/intel-guandu-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 450225,
+        "Sha256": "9844d77ad724ff47beea9bad8c23fa1b4794f6ab76d03894460e863e4f9cffb9",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.654067+00:00"
+      },
+      {
+        "Path": "app/intel-guandu-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 463285,
+        "Sha256": "3c3dd59303c165df632150163e52dca07dbc4c416ce8ef45e635586e383f8247",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.748048+00:00"
+      },
+      {
+        "Path": "app/intel-huangjin-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 235300,
+        "Sha256": "6d925d227f7130a7805ec398d4aa406110b5d65fcccad7496c980c36fa93dc7c",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.417117+00:00"
+      },
+      {
+        "Path": "app/intel-huangjin-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 401272,
+        "Sha256": "a60d95641f068532abc86e34ece0bb10bf17be473fa36ec5c9a290bd28795554",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.478575+00:00"
+      },
+      {
+        "Path": "app/intel-huangjin-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 414270,
+        "Sha256": "f26e4ada662a7ebed611353f33ab6c49b5be239daa378cacac1e4b86890db095",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.550329+00:00"
+      },
+      {
+        "Path": "app/intel-hulao-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 277002,
+        "Sha256": "908c903cc82b93a61bbc8b518a333ac02e27d2d6ecdc19867a17c9bd22461a8a",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.256520+00:00"
+      },
+      {
+        "Path": "app/intel-hulao-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 476699,
+        "Sha256": "9c301cd39ad11d5be55b1947cb1f56d9ef79a2ef71c53e6067ff84523c325cad",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.316177+00:00"
+      },
+      {
+        "Path": "app/intel-hulao-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 490417,
+        "Sha256": "555b0ff88a03a4f19030e84d95c42626f03c7766900f8f7f19f7b632bb4efd5f",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.385700+00:00"
+      },
+      {
+        "Path": "app/levels-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 219333,
+        "Sha256": "258abf840a48db8f700b6d1fce40f5a33cb8aab1ca98289ec5b5b57ffdfa92ba",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.095529+00:00"
+      },
+      {
+        "Path": "app/levels-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 363558,
+        "Sha256": "7a2bb81776e115060427ff00904ad42434d4dae21692648ad78d156d1dd4ed95",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.151758+00:00"
+      },
+      {
+        "Path": "app/levels-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 377498,
+        "Sha256": "ac8508eae50968b3f1c1bfb271baf4881cfa02e437a41e517434efc3931d1390",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.219576+00:00"
+      },
+      {
+        "Path": "app/long-intel-fixture-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 379544,
+        "Sha256": "53e3ed290875564b074f23c0d9227629e84755a5d9dc425c3cd54bebc332f6a7",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.293305+00:00"
+      },
+      {
+        "Path": "app/long-intel-fixture-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 639070,
+        "Sha256": "8f14f932e589ac2ad558521f59986358574a3b8e3ed1ad2186e7cbbc47cb9776",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.355233+00:00"
+      },
+      {
+        "Path": "app/long-intel-fixture-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 655204,
+        "Sha256": "f2383958006557e4942051ea889e343ad7b2235138498972962e845cf7142493",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.429816+00:00"
+      },
+      {
+        "Path": "app/main-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 245002,
+        "Sha256": "2cdf96d21d56fbf43c81f19396df14f4d696f71934c1ada80d6f97544549f261",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.926384+00:00"
+      },
+      {
+        "Path": "app/main-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 391908,
+        "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.982553+00:00"
+      },
+      {
+        "Path": "app/main-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 404321,
+        "Sha256": "e56dc3184b567c5ea495c13a0031fa3a23d8856ebe19e7858889e749c2532882",
+        "ModifiedAtUtc": "2026-11-12T03:11:59.052176+00:00"
+      },
+      {
+        "Path": "app/pause-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 225024,
+        "Sha256": "26e6350582f0130b98ebc8d2be08a5976eaa4623ec74d2acad1665966047a949",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.655118+00:00"
+      },
+      {
+        "Path": "app/pause-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 353476,
+        "Sha256": "d2d2a5d3bdf96ca17aad3bf5340c1288c14aa5a46f792fe6f22d8341dfeea2f6",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.707023+00:00"
+      },
+      {
+        "Path": "app/pause-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 366398,
+        "Sha256": "a7698158775d9d3450582d4807faa66655e72cca2f037414f9e0af83a761065f",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.773298+00:00"
+      },
+      {
+        "Path": "app/preparation-exit-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 227865,
+        "Sha256": "0f467a5cd7375cd6e42a980e90458ac343331c4db08a2a65ca39bd032980d543",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.496238+00:00"
+      },
+      {
+        "Path": "app/preparation-exit-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 356912,
+        "Sha256": "3e4d741597d631da4f277d875ca80c83f9d3882f65049d36f56b6fae19ec96ef",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.551463+00:00"
+      },
+      {
+        "Path": "app/preparation-exit-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 370069,
+        "Sha256": "8e39addd3d02c5209ef55cd7d2f51a0c3e29125be8a2189562a4f07d839c20c5",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.621617+00:00"
+      },
+      {
+        "Path": "app/roster-empty-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 178716,
+        "Sha256": "9f178edd05e66701b82f24241c301af01600bf1aad36bf673af0c52f7855206a",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.166615+00:00"
+      },
+      {
+        "Path": "app/roster-empty-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 290837,
+        "Sha256": "5387d1e0c7982f314e0408d64b80e76b5efcb008bdcbd7cbf8c8f6b0df56e943",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.218382+00:00"
+      },
+      {
+        "Path": "app/roster-empty-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 302519,
+        "Sha256": "3121ffc9140ed270fccf54faa530d72cc1517c99a1bc9b185c3a5ad05ab05351",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.282741+00:00"
+      },
+      {
+        "Path": "app/roster-selected-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 214851,
+        "Sha256": "a3b5f2925d1da492a9972c80ec8a37e0aad4d4281dec9427bd4dc186083c476a",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.317020+00:00"
+      },
+      {
+        "Path": "app/roster-selected-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 344020,
+        "Sha256": "d9c33adcea2598874d9a21645e1b374ef39950c8ef035209f73a160822a15939",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.370216+00:00"
+      },
+      {
+        "Path": "app/roster-selected-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 356494,
+        "Sha256": "e146c1b4bfc28b4643f0d6ea527c3c6760db0289ac0e3046e6942d581af5d46a",
+        "ModifiedAtUtc": "2026-11-12T03:12:00.433647+00:00"
+      },
+      {
+        "Path": "battle-deployed-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 362435,
+        "Sha256": "ee63577bf861e546ee0f0dfa8e616891151c1ca4cae6272b03d526b193dd23b9",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.074387+00:00"
+      },
+      {
+        "Path": "battle-deployed-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 601621,
+        "Sha256": "865a7cbf8df6527e0c36732b5b4926ca3ba25f1c465a4efecb828d0678d12061",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.138404+00:00"
+      },
+      {
+        "Path": "battle-deployed-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 618438,
+        "Sha256": "7294e228061436fd32a0f1d0cce7f4dd07deb59afb823d2aa086f77a3015e996",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.215221+00:00"
+      },
+      {
+        "Path": "battle-empty-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 357631,
+        "Sha256": "5b39b511a9d9c7336d3566909f5b8577623f956374b0b88ee236ce7fecae1a4b",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.710743+00:00"
+      },
+      {
+        "Path": "battle-empty-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 584926,
+        "Sha256": "d8d4622470488291b6b3539936f2d2fbd32fe53fd7f6854f64bbb16c5c07ccec",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.771162+00:00"
+      },
+      {
+        "Path": "battle-empty-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 600933,
+        "Sha256": "47bbd8a3408f0c78681a7b708c0fc19de147a7bf45c7bd051a592b71b5f905a0",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.844634+00:00"
+      },
+      {
+        "Path": "battle-placement-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 364812,
+        "Sha256": "0a19e48dfb9a4f2812931f099bdda6d03ab96a024b01c845787663d733971518",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.887644+00:00"
+      },
+      {
+        "Path": "battle-placement-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 601280,
+        "Sha256": "c789f11a8314e8225d1da84438533833c784a5fc30061fe54847234205ebeb77",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.948147+00:00"
+      },
+      {
+        "Path": "battle-placement-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 617532,
+        "Sha256": "a843d2e807698ee2b080fb4e5bf2e480da75da3fd88833e531e163e6cb6d7966",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.020593+00:00"
+      },
+      {
+        "Path": "battle-rules-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 186690,
+        "Sha256": "1e6d493f1f157d6e3a80d439366cf508e7d80f096134bdf4fc9ffcccfb6698ed",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.894400+00:00"
+      },
+      {
+        "Path": "battle-rules-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 285302,
+        "Sha256": "b26ed6bd72de020c710d1e33eb70553f389e3815dd96a2659eead09c19deb46a",
+        "ModifiedAtUtc": "2026-11-12T03:12:01.950286+00:00"
+      },
+      {
+        "Path": "battle-rules-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 299324,
+        "Sha256": "4564152bcb2e173d07b691c6a36d3176a79b800e8c4047babb6c83f1314d83e2",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.016087+00:00"
+      },
+      {
+        "Path": "battle-running-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 387883,
+        "Sha256": "571add404d6c08c1158cf4fbff7e43330ed4f7cf72c6db9f559c6b7279311ff2",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.442264+00:00"
+      },
+      {
+        "Path": "battle-running-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 645904,
+        "Sha256": "dab559d211f37dea6141b73e5553c95c24a283188746e15e2b1295cbf2aa65e2",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.509166+00:00"
+      },
+      {
+        "Path": "battle-running-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 662463,
+        "Sha256": "6cbf7219b713b61ba9c7855f376b1ce1cc89911e5f5cd57b078c7c241bdc5d63",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.583353+00:00"
+      },
+      {
+        "Path": "battle-unaffordable-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 385852,
+        "Sha256": "f092e1c71cfc4b06fbf8c0ed94b5e4ae0d344cb3fc24ec32d613037d93157bff",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.262942+00:00"
+      },
+      {
+        "Path": "battle-unaffordable-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 644737,
+        "Sha256": "9f4e07f383f70a002238097c0b215b02ec29f9b85ef5972afc9d6d71c8da3767",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.327394+00:00"
+      },
+      {
+        "Path": "battle-unaffordable-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 659553,
+        "Sha256": "542831edf5c1f63bb17dc75381e261a7c47074741c861a1ea1c3c54b7e7f19de",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.401495+00:00"
+      },
+      {
+        "Path": "boss-breach/after-breach-paused-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 202262,
+        "Sha256": "f1d8782e9179d350f36b057dc03539e8fbd8be128dd15ee017e0209ded9103ca",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.787015+00:00"
+      },
+      {
+        "Path": "boss-breach/after-breach-paused-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 320748,
+        "Sha256": "0e9ef9119cf35a26c7cd761f5acb59b207a2a56984afb406e13a0e5cd5db2dcf",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.757214+00:00"
+      },
+      {
+        "Path": "boss-breach/after-breach-paused-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 334604,
+        "Sha256": "2fcc413c7f32c084a5c67d8b4f01a1791bc0f33e2f443417b42e07ab3b7ae342",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.854887+00:00"
+      },
+      {
+        "Path": "boss-breach/after-breach-reinforced-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 344439,
+        "Sha256": "49401d41e68e1037ba7aa3482b932ad2534f04b5e54b7178a4b4c803154ed744",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.972065+00:00"
+      },
+      {
+        "Path": "boss-breach/after-breach-reinforced-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 571894,
+        "Sha256": "4b13e8f268f0a4a505b4824e05d876a1b5563e6add89510327b63776ab3eff50",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.939682+00:00"
+      },
+      {
+        "Path": "boss-breach/after-breach-reinforced-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 587848,
+        "Sha256": "867f31e253c9ba7be64b71fc21c87dec4342e908dbb28e059de578fa7fabddb6",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.045331+00:00"
+      },
+      {
+        "Path": "boss-breach/chibi-intel-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 260907,
+        "Sha256": "c8b7553343963de2792d644eae333757b138e49c676f50646b393d0fbdf05a7c",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.195303+00:00"
+      },
+      {
+        "Path": "boss-breach/chibi-intel-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 444850,
+        "Sha256": "b799a7b44a799493e12ba8fe8bdc412c67f5dfd9adfa11c50e1b7b25727b8e1a",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.167285+00:00"
+      },
+      {
+        "Path": "boss-breach/chibi-intel-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 456989,
+        "Sha256": "83d7a0b8c665198cd6cad95bd6193645faf0e18b3d6f51ae729e895859c69d6a",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.263678+00:00"
+      },
+      {
+        "Path": "boss-breach/final-breach-victory-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 224966,
+        "Sha256": "696a4a0ef6d933916ea19f7315ce1857784062f48e0eb036990aa44620133026",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.170311+00:00"
+      },
+      {
+        "Path": "boss-breach/final-breach-victory-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 350188,
+        "Sha256": "69d7d63beb47d012cdd6361de696b98f5272f2141830f6ebacae3ebb68447fb0",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.137125+00:00"
+      },
+      {
+        "Path": "boss-breach/final-breach-victory-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 363376,
+        "Sha256": "470c67a46ee746dc3a6875bda1775479f3ee07c9ada208d80d84277e88b08b93",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.235515+00:00"
+      },
+      {
+        "Path": "boss-breach/finale-intel-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 305452,
+        "Sha256": "68d60c61183bba4052369a8b2f456f82516fdb3d28147f21708081f137221f26",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.359581+00:00"
+      },
+      {
+        "Path": "boss-breach/finale-intel-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 525812,
+        "Sha256": "d775509ef8f665912d2c7655d590edc5797b9fb0aa8b6760d3dc5b1f194b54c1",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.329331+00:00"
+      },
+      {
+        "Path": "boss-breach/finale-intel-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 537732,
+        "Sha256": "3879f9d4866e1d79ee8b668e3e96c6ef9807b0c8025f1c145c7611818026e697",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.428282+00:00"
+      },
+      {
+        "Path": "boss-breach/first-breach-continues-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 333978,
+        "Sha256": "dd7f3fdf5c2ff40231118216f19e833faabe29b266c0ae0ec2ce2898581355f7",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.632862+00:00"
+      },
+      {
+        "Path": "boss-breach/first-breach-continues-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 552123,
+        "Sha256": "f7c6a611e963967cfd0c9d6a08d273d8fdef06951002a6e6c25036df1a781416",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.601663+00:00"
+      },
+      {
+        "Path": "boss-breach/first-breach-continues-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 566964,
+        "Sha256": "e2463a654809bcd45b236691ac4eb572a7e7cf81907190b83038c4b931b2601a",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.701704+00:00"
+      },
+      {
+        "Path": "boss-breach/guandu-intel-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 261188,
+        "Sha256": "63d948fe8067e42416ce26f5593336e5348107abad7c2e86d10fb7ad325480bc",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.031769+00:00"
+      },
+      {
+        "Path": "boss-breach/guandu-intel-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 450225,
+        "Sha256": "9844d77ad724ff47beea9bad8c23fa1b4794f6ab76d03894460e863e4f9cffb9",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.002126+00:00"
+      },
+      {
+        "Path": "boss-breach/guandu-intel-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 463285,
+        "Sha256": "3c3dd59303c165df632150163e52dca07dbc4c416ce8ef45e635586e383f8247",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.103253+00:00"
+      },
+      {
+        "Path": "boss-breach/huangjin-intel-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 235307,
+        "Sha256": "a1e213fe7689cbcbebb0d2386c2d0e4c6ebe02982cfb4215a4b14726760cd4e2",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.873211+00:00"
+      },
+      {
+        "Path": "boss-breach/huangjin-intel-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 401272,
+        "Sha256": "a60d95641f068532abc86e34ece0bb10bf17be473fa36ec5c9a290bd28795554",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.844026+00:00"
+      },
+      {
+        "Path": "boss-breach/huangjin-intel-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 414270,
+        "Sha256": "f26e4ada662a7ebed611353f33ab6c49b5be239daa378cacac1e4b86890db095",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.939904+00:00"
+      },
+      {
+        "Path": "boss-breach/hulao-intel-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 277004,
+        "Sha256": "be31c706caa5f0026385a5012256daa4914734d5a68193ba6bdf6d7fee9b0302",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.699714+00:00"
+      },
+      {
+        "Path": "boss-breach/hulao-intel-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 476699,
+        "Sha256": "9c301cd39ad11d5be55b1947cb1f56d9ef79a2ef71c53e6067ff84523c325cad",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.667996+00:00"
+      },
+      {
+        "Path": "boss-breach/hulao-intel-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 490417,
+        "Sha256": "555b0ff88a03a4f19030e84d95c42626f03c7766900f8f7f19f7b632bb4efd5f",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.768268+00:00"
+      },
+      {
+        "Path": "boss-breach/low-castle-defeat-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 217871,
+        "Sha256": "d51cadc8cf3dec85a27b97e6fb373d5ead9270311a24cd38662f84d2945b857e",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.535098+00:00"
+      },
+      {
+        "Path": "boss-breach/low-castle-defeat-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 339086,
+        "Sha256": "d9d79e0c07da3ef9fbcdb0c4b02182d64df7df5c12341c4f5ab093cfc0054df8",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.507569+00:00"
+      },
+      {
+        "Path": "boss-breach/low-castle-defeat-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 351625,
+        "Sha256": "1b6e7277c409082b217d866acbaf88ec2414f0248bcccfe881f77dd5092d94f1",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.597479+00:00"
+      },
+      {
+        "Path": "boss-breach/second-breach-defeat-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 218539,
+        "Sha256": "a776e42752b29ea3af31e8d822c77e7a93378c1f5bdbaf078e85a4c2a6751221",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.361068+00:00"
+      },
+      {
+        "Path": "boss-breach/second-breach-defeat-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 340756,
+        "Sha256": "b6f46b2395cc3ed1adde3875bdb2622c8c5638f8a7e1c695ce13bea642c42779",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.333720+00:00"
+      },
+      {
+        "Path": "boss-breach/second-breach-defeat-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 353499,
+        "Sha256": "4fba05436f5cd2af8c6ceeff482514598ec6e1aa430ff6c52839f850da21fdf3",
+        "ModifiedAtUtc": "2026-11-12T03:12:11.421946+00:00"
+      },
+      {
+        "Path": "chibi-deployed.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 607003,
+        "Sha256": "af5b47d8f470c64e2b14386cc11a6b35f40a065aa0cd19686cc690663de4107c",
+        "ModifiedAtUtc": "2026-11-12T03:12:04.584099+00:00"
+      },
+      {
+        "Path": "finale-deployed.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 680149,
+        "Sha256": "d70d84f90de2825fde28082c0bde13e37fdd1c76b6187cfda8f61aca723640d4",
+        "ModifiedAtUtc": "2026-11-12T03:12:04.806707+00:00"
+      },
+      {
+        "Path": "flow-content-error.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 80159,
+        "Sha256": "e60f1bbe2ac724342ca6be16b1b47dcc30a59b4aa2eccf4a9a1a27e8ce96d003",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.516133+00:00"
+      },
+      {
+        "Path": "flow-defeat.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 369637,
+        "Sha256": "f723a6d8a0ab266759cfcd1cfbcc3562ab0688f9e6bf733366fb2effb7c58fc0",
+        "ModifiedAtUtc": "2026-11-12T03:12:09.542195+00:00"
+      },
+      {
+        "Path": "flow-intel.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 401272,
+        "Sha256": "a60d95641f068532abc86e34ece0bb10bf17be473fa36ec5c9a290bd28795554",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.345167+00:00"
+      },
+      {
+        "Path": "flow-levels.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 363558,
+        "Sha256": "7a2bb81776e115060427ff00904ad42434d4dae21692648ad78d156d1dd4ed95",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.279777+00:00"
+      },
+      {
+        "Path": "flow-main.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 391908,
+        "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.035249+00:00"
+      },
+      {
+        "Path": "flow-pause.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 353476,
+        "Sha256": "d2d2a5d3bdf96ca17aad3bf5340c1288c14aa5a46f792fe6f22d8341dfeea2f6",
+        "ModifiedAtUtc": "2026-11-12T03:12:09.176177+00:00"
+      },
+      {
+        "Path": "flow-preparation-exit.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 375691,
+        "Sha256": "982f165db6573925dfaf24e06e04f2364d92f52e4631c4c4f4725a9f0c443620",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.995005+00:00"
+      },
+      {
+        "Path": "flow-roster.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 332342,
+        "Sha256": "bdf39c274accbc2faf4281b1ead8355cfadbe97a3313a48bbb2301d0e43f4c4a",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.694458+00:00"
+      },
+      {
+        "Path": "flow-victory.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 414876,
+        "Sha256": "d77a608124d2f9114eeb40860064e272004fdf8b3803f5cd2da0f8249d453e86",
+        "ModifiedAtUtc": "2026-11-12T03:12:10.372486+00:00"
+      },
+      {
+        "Path": "gameplay/battle-info-deployed.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 302627,
+        "Sha256": "15448c8d163de24b57c2b7a2c76aa7eb44ca43016db1bb0b694074d1d94fa875",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.972415+00:00"
+      },
+      {
+        "Path": "gameplay/battle-info-lv_bu.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 181363,
+        "Sha256": "199e912308e1ffc030cf56c1324106859aadd3b6c211b803222f296414890a1b",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.805147+00:00"
+      },
+      {
+        "Path": "gameplay/battle-info-lv_meng.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 179716,
+        "Sha256": "44c4bf28d87e5fe3be350654c067d30193e70d0309ab973db394ee7d0d7cf519",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.886645+00:00"
+      },
+      {
+        "Path": "gameplay/battle-info-xun_yu.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 184391,
+        "Sha256": "1cb9a33729c1edf241310a018e1e13883b830aaf14dae82fc4e9330cd07283ed",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.846038+00:00"
+      },
+      {
+        "Path": "gameplay/battle-info-zhang_fei.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 189502,
+        "Sha256": "b373713a08d4fff3d768cf80bfa9a71b2afdaf3d66468192c5031b384b5e6935",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.764752+00:00"
+      },
+      {
+        "Path": "gameplay/defeat-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 236495,
+        "Sha256": "08da123bee03fe5ed08d19b2fb4ae404faa29461aed7f82be40e91b18841f478",
+        "ModifiedAtUtc": "2026-11-12T03:12:09.419160+00:00"
+      },
+      {
+        "Path": "gameplay/defeat-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 369637,
+        "Sha256": "f723a6d8a0ab266759cfcd1cfbcc3562ab0688f9e6bf733366fb2effb7c58fc0",
+        "ModifiedAtUtc": "2026-11-12T03:12:09.391302+00:00"
+      },
+      {
+        "Path": "gameplay/defeat-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 382937,
+        "Sha256": "fed017e4b32daa16ef3475c60c43861f6f67c4f12fa1f3f7dd0f364978024709",
+        "ModifiedAtUtc": "2026-11-12T03:12:09.486604+00:00"
+      },
+      {
+        "Path": "gameplay/guide-preparation-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 357643,
+        "Sha256": "a9037fcce66bebbd9dc8b3352519be9e0100a4c1bda670ca0237b4a4638904da",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.073951+00:00"
+      },
+      {
+        "Path": "gameplay/guide-preparation-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 600933,
+        "Sha256": "47bbd8a3408f0c78681a7b708c0fc19de147a7bf45c7bd051a592b71b5f905a0",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.146041+00:00"
+      },
+      {
+        "Path": "gameplay/guide-wave-1.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 623592,
+        "Sha256": "6f7e4026d167ad4720ca3f105460419502c3cbecba4934020f11d79ffe50282e",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.261353+00:00"
+      },
+      {
+        "Path": "gameplay/guide-wave-2.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 653439,
+        "Sha256": "b9ea4eed5a26e88bd4531314dff186f9f82f27af253cff26717d75135cce061f",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.406033+00:00"
+      },
+      {
+        "Path": "gameplay/guide-wave-3.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 676927,
+        "Sha256": "289ab0b2f915dfa7e5214fa6c4522fdc5faef0c6726f2677ab2e9c0da3a61244",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.546076+00:00"
+      },
+      {
+        "Path": "gameplay/guide-wave-4.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 673683,
+        "Sha256": "04298f6356359c5fecf4ecbeb4228cb9e7ffed808b66fcbdc8af5d9fd293b345",
+        "ModifiedAtUtc": "2026-11-12T03:12:07.663156+00:00"
+      },
+      {
+        "Path": "gameplay/hero-lv_bu.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 318465,
+        "Sha256": "43f41e4ab2123170bcaffac4eceaf57aa6fc92a575db150be3867f7ffb5da741",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.529653+00:00"
+      },
+      {
+        "Path": "gameplay/hero-lv_meng.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 313374,
+        "Sha256": "9c889694fe08076bdf3269218b1e0794d9411e91d0e06bc95c5d9f31bdce0a8d",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.634885+00:00"
+      },
+      {
+        "Path": "gameplay/hero-xun_yu.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 317766,
+        "Sha256": "e8b310a9f69512d79df496f0e0ed4ab13ff3ed549c6123b4779bb8c39ee626cc",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.583126+00:00"
+      },
+      {
+        "Path": "gameplay/hero-zhang_fei.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 319857,
+        "Sha256": "18dcba233b1748174ce9b81623d1b130ce2605e479c016ccda1eef387161886c",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.475323+00:00"
+      },
+      {
+        "Path": "gameplay/levels-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 219358,
+        "Sha256": "b9f81eea4e515bbfad8d7db41f9f5658913f9c3cb87ffb4d42ff638e7db723bd",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.223248+00:00"
+      },
+      {
+        "Path": "gameplay/move-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 362770,
+        "Sha256": "3fb7b9d2187e4ad95cd07154c7516bbd84b6062161248551ee938b5aef23248f",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.848762+00:00"
+      },
+      {
+        "Path": "gameplay/move-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 602720,
+        "Sha256": "ba95184fcd7f3a21b97c4f075ac86482c9c1ed279bbcee79a0cc903c64e1710a",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.816559+00:00"
+      },
+      {
+        "Path": "gameplay/move-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 619731,
+        "Sha256": "4d1970b3b5c7678338282e9566175e37ba8e8d22b884061793afba56fd6b41a3",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.921351+00:00"
+      },
+      {
+        "Path": "growth/battle-loss-continues-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 316245,
+        "Sha256": "1f90d7831472012c04b5cfbe851d0b8b4b457f274a9d9e1b80154a8427ed0b97",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.608272+00:00"
+      },
+      {
+        "Path": "growth/battle-loss-continues-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 528890,
+        "Sha256": "5fb00aac0f337068d50891bdbaddfd031f7ed69f0e1d6a7cb8a96dfadceab519",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.669205+00:00"
+      },
+      {
+        "Path": "growth/battle-loss-continues-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 546237,
+        "Sha256": "9aaf61079a6e32f72b03fb921bb401e74d168a946f74f98ea6822e19c7e7f119",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.741963+00:00"
+      },
+      {
+        "Path": "growth/growth-full-details-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 184549,
+        "Sha256": "52b687865a3a9caf1d2ba4093748219624408fe082cb558f83434ed5fa8d1efc",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.742702+00:00"
+      },
+      {
+        "Path": "growth/growth-full-details-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 290593,
+        "Sha256": "38453700c5c32dcd0023ed0b1bf66470aa9d77f6c364b1d3e4ddd3a66d4bc0e5",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.793671+00:00"
+      },
+      {
+        "Path": "growth/growth-full-details-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 304371,
+        "Sha256": "d36e08e153dc72e934988f64f35722eb194db61d00c6826580354e147cfc4241",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.855063+00:00"
+      },
+      {
+        "Path": "growth/levels-empty-records-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 219358,
+        "Sha256": "b9f81eea4e515bbfad8d7db41f9f5658913f9c3cb87ffb4d42ff638e7db723bd",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.646286+00:00"
+      },
+      {
+        "Path": "growth/levels-empty-records-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 363558,
+        "Sha256": "7a2bb81776e115060427ff00904ad42434d4dae21692648ad78d156d1dd4ed95",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.698027+00:00"
+      },
+      {
+        "Path": "growth/levels-empty-records-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 377498,
+        "Sha256": "ac8508eae50968b3f1c1bfb271baf4881cfa02e437a41e517434efc3931d1390",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.760400+00:00"
+      },
+      {
+        "Path": "growth/menu-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 244979,
+        "Sha256": "a4d5580ae786a488e9e68d6e3d421156548d5d0c9b79ab3ed5eb1644a2305064",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.476867+00:00"
+      },
+      {
+        "Path": "growth/menu-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 391908,
+        "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.531622+00:00"
+      },
+      {
+        "Path": "growth/menu-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 404321,
+        "Sha256": "e56dc3184b567c5ea495c13a0031fa3a23d8856ebe19e7858889e749c2532882",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.606379+00:00"
+      },
+      {
+        "Path": "growth/paused-clock-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 229679,
+        "Sha256": "3e8426fabb2197108faa270e2f85df111c97643f49664682ea4f9d0c69614701",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.016446+00:00"
+      },
+      {
+        "Path": "growth/paused-clock-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 365756,
+        "Sha256": "57ca94ec6d98140c52c03ff8d5775ff7d01726d15154bacdf713a14d16bac0e6",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.070470+00:00"
+      },
+      {
+        "Path": "growth/paused-clock-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 378852,
+        "Sha256": "0c1b233790858e2bffee676cba6753f6c8078d62acf1cf61bd7ea952bcc8240f",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.140529+00:00"
+      },
+      {
+        "Path": "growth/record-defeat-unchanged-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 203440,
+        "Sha256": "ed156c682b19694c880f42d88feffb195b9e52d52ebd44b4a5fba33e05dcb46e",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.781276+00:00"
+      },
+      {
+        "Path": "growth/record-defeat-unchanged-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 319671,
+        "Sha256": "8aba21eb66fc90feb1814f0c8ba8c3dc87bfefb56805b63a80dbfc3b20cb4e40",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.835700+00:00"
+      },
+      {
+        "Path": "growth/record-defeat-unchanged-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 332549,
+        "Sha256": "68145c2ee789410b977f52c5a843a7359c98ea66a6bdd009636703fec8fb82f0",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.902523+00:00"
+      },
+      {
+        "Path": "growth/record-first-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 220890,
+        "Sha256": "8a7db22571bf6fd9ae11d5e6802e0afb49d876d011e38d7dfb76bb3df2039fae",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.013697+00:00"
+      },
+      {
+        "Path": "growth/record-first-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 347028,
+        "Sha256": "1a9bff8ceb0b92936de029251f8712b6e87b8d3bf17ee8916ea4c7d2ad1e6f53",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.068499+00:00"
+      },
+      {
+        "Path": "growth/record-first-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 359694,
+        "Sha256": "f719ddf53e200c9b5d3d2a412ef18f5dfe8c4f7666c6ef8fac2a6a6d7379ff8c",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.134148+00:00"
+      },
+      {
+        "Path": "growth/record-improved-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 222209,
+        "Sha256": "f4d248f666f9a639b5cfb056d12d49458804a65c01f7d342d0658a5d623980c2",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.206353+00:00"
+      },
+      {
+        "Path": "growth/record-improved-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 349075,
+        "Sha256": "a06b58b477d8dd829381c1f0e7345c088049d3cb509828ffaf0de1f0cc806e62",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.262697+00:00"
+      },
+      {
+        "Path": "growth/record-improved-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 361844,
+        "Sha256": "77c8a133bb5842ce5efbec37c9d75a808087b4e76a993af79c559011ab8c3fbc",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.329361+00:00"
+      },
+      {
+        "Path": "growth/record-slower-keeps-best-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 221754,
+        "Sha256": "36303975332005b12dfaf5ad8a5efe2b2eb883a71b57b3e6e81f51aca9d5fc76",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.406182+00:00"
+      },
+      {
+        "Path": "growth/record-slower-keeps-best-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 348379,
+        "Sha256": "b78f58fbfb1b0c446a684797eaa9b2305f4e1ab4d1d63f4b5dbfed6af5b31797",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.460741+00:00"
+      },
+      {
+        "Path": "growth/record-slower-keeps-best-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 361008,
+        "Sha256": "0491e0ac13fbdaab6088ed067992efbc4ed840a5fe6769641cd7831672d24b0f",
+        "ModifiedAtUtc": "2026-11-12T03:12:15.534165+00:00"
+      },
+      {
+        "Path": "growth/roster-details-do-not-select-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 205587,
+        "Sha256": "bf36685a4ce51e46ec5ab83a3332b15307b158e13a762f942d79542dba668b3c",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.828729+00:00"
+      },
+      {
+        "Path": "growth/roster-details-do-not-select-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 330146,
+        "Sha256": "90f23c20e1633ddac5ee771931353e9cc96db1e21e99697b4df546371e7271ae",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.881809+00:00"
+      },
+      {
+        "Path": "growth/roster-details-do-not-select-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 342448,
+        "Sha256": "46e40d14b48d0148b3b8e50fbd5620f0a77f25d4934a9aa8e715d67be6c1c019",
+        "ModifiedAtUtc": "2026-11-12T03:12:12.944274+00:00"
+      },
+      {
+        "Path": "growth/shape-lv-bu-tier-1-to-2-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 363200,
+        "Sha256": "061fc1228ec184c08f39dd40fcfd5a23734b377532b7d3ad42aa94df2b85fe1d",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.102920+00:00"
+      },
+      {
+        "Path": "growth/shape-lv-bu-tier-1-to-2-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 612661,
+        "Sha256": "9074713d89f31c58a6cb69159c3de58664b04f510f859fcda14bd102a05f4022",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.169082+00:00"
+      },
+      {
+        "Path": "growth/shape-lv-bu-tier-1-to-2-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 627553,
+        "Sha256": "c6d68e3b4d8b2574edcb90a7bce9a19b298b08f6e9863dbc464d8f4fbc2a1042",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.241523+00:00"
+      },
+      {
+        "Path": "growth/shape-lv-bu-tier-2-to-3-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 364471,
+        "Sha256": "be9cf8c24caf6f81964da078d9252a9a0b1390c1e8e8f6c347cb1964580b24c1",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.279092+00:00"
+      },
+      {
+        "Path": "growth/shape-lv-bu-tier-2-to-3-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 615168,
+        "Sha256": "05dbc7291c20e1e7fd188b3e02ec50ec2d8fa3decb9481be571995be95a70abd",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.346935+00:00"
+      },
+      {
+        "Path": "growth/shape-lv-bu-tier-2-to-3-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 631400,
+        "Sha256": "a9f3e5e4fffe5687d5c2827603186c9abd7d1ba443333d2684447e564189cee7",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.422739+00:00"
+      },
+      {
+        "Path": "growth/shape-zhao-yun-tier-1-to-2-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 356318,
+        "Sha256": "18cafba8ed72bd85d3517bca0303a81dd3359eb884ce29701e1c4a50ed644756",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.904721+00:00"
+      },
+      {
+        "Path": "growth/shape-zhao-yun-tier-1-to-2-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 596295,
+        "Sha256": "fd619dcf5f99da11b0ba99a6f3be68849549a37bef923c7eace0d0382f017569",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.977343+00:00"
+      },
+      {
+        "Path": "growth/shape-zhao-yun-tier-1-to-2-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 614454,
+        "Sha256": "bb97ef38f7d9bef7c8de840a1755d146439643afbdcd7fa018840b3135d88af8",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.050251+00:00"
+      },
+      {
+        "Path": "growth/upgrade-supply-advance-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 327508,
+        "Sha256": "292805cdf73e8e7e1d57ededf9a1723dce0c24fd5296039cf261ce2dda318822",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.794352+00:00"
+      },
+      {
+        "Path": "growth/upgrade-supply-advance-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 554323,
+        "Sha256": "6e862321c2668ee6b08f3e733fa232928553eee7d332083d10d89bbfb9cc1691",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.857221+00:00"
+      },
+      {
+        "Path": "growth/upgrade-supply-advance-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 570476,
+        "Sha256": "5f9f824ef1adb9dbb45e8b8cedabecc14056b3a3d10b686a0a456e27ea77c599",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.932038+00:00"
+      },
+      {
+        "Path": "growth/upgrade-tier-1-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 347874,
+        "Sha256": "955199e6b6967da606e125b1e77803333baf3324015e6de018cf3912e26b44dc",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.237911+00:00"
+      },
+      {
+        "Path": "growth/upgrade-tier-1-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 582158,
+        "Sha256": "52086b00955914fdccb91d444a247876e4108a6fbbcf9ad9551afc5c106f7135",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.299707+00:00"
+      },
+      {
+        "Path": "growth/upgrade-tier-1-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 598309,
+        "Sha256": "a2ffc96dd132df923c845cd2d9e6da6db515593d63f3f8acbe27002e2741f196",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.376348+00:00"
+      },
+      {
+        "Path": "growth/upgrade-tier-2-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 355856,
+        "Sha256": "cccf9f650467d6ff40d704ddd6db2dab189f69b06f740ed8fdfd1a2ab04d8b40",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.411214+00:00"
+      },
+      {
+        "Path": "growth/upgrade-tier-2-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 597188,
+        "Sha256": "5bb118f228dbb4b069d618d7dd102cf88dadcb2b19edec165a61b5171519312e",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.471310+00:00"
+      },
+      {
+        "Path": "growth/upgrade-tier-2-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 613319,
+        "Sha256": "4a918a9397804a43117a84aab7103d66677a7d05c335f3f19482bf1002712749",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.544449+00:00"
+      },
+      {
+        "Path": "growth/upgrade-tier-3-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 352722,
+        "Sha256": "c477af5ec325fc96271b9e768d3469b36419491b7bcf5f45749c98b300f759eb",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.581183+00:00"
+      },
+      {
+        "Path": "growth/upgrade-tier-3-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 590376,
+        "Sha256": "ebe262f50bd0c2dd37557ebe8e955eb329fc7740108e7ecc278d3e9ff63942af",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.640900+00:00"
+      },
+      {
+        "Path": "growth/upgrade-tier-3-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 606736,
+        "Sha256": "465604dfdbe49f9f5342a46089a34199b1ba37bd3e42d65df7c83c19495fb96c",
+        "ModifiedAtUtc": "2026-11-12T03:12:13.711940+00:00"
+      },
+      {
+        "Path": "growth/upgrade-unaffordable-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 310882,
+        "Sha256": "b47a05af5cb5f6bdab9d975dd2e0cbdb2bb07b02285c9ce2d65b6cc413f213db",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.544483+00:00"
+      },
+      {
+        "Path": "growth/upgrade-unaffordable-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 522422,
+        "Sha256": "ca3c06d7684844bf5e8c1cdcd487cc4cd4429086b9749a9d2fe0fffe6a49c357",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.609227+00:00"
+      },
+      {
+        "Path": "growth/upgrade-unaffordable-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 538803,
+        "Sha256": "786fe34f36a9882c0d4ce1252d5fb09d5b57bc771712ef640026edec3f8aea92",
+        "ModifiedAtUtc": "2026-11-12T03:12:14.681386+00:00"
+      },
+      {
+        "Path": "guandu-deployed.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 684920,
+        "Sha256": "fae340d409e4d7e753fc452262c49923afdefe765d0d51f3b817cccfa18bd65b",
+        "ModifiedAtUtc": "2026-11-12T03:12:04.386014+00:00"
+      },
+      {
+        "Path": "huangjin-between-waves.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 644004,
+        "Sha256": "947b47734252f2bed1a8afcc86644d1653cd811ff16f88bdd2326a3f1948edd9",
+        "ModifiedAtUtc": "2026-11-12T03:12:05.219302+00:00"
+      },
+      {
+        "Path": "huangjin-boss-warning.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 728264,
+        "Sha256": "2ea39e7b63185fb7fe82ad0b1ee70ce972126c714e84567c0d03337514f1c175",
+        "ModifiedAtUtc": "2026-11-12T03:12:06.286189+00:00"
+      },
+      {
+        "Path": "huangjin-boss.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 742802,
+        "Sha256": "48e06c07130146a0d698c0e5230485fc6dea00c5634a8eb090642f07e0700f98",
+        "ModifiedAtUtc": "2026-11-12T03:12:06.358819+00:00"
+      },
+      {
+        "Path": "huangjin-combat.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 651102,
+        "Sha256": "6d85066751dc42e1f6eec021e8485d696631f20de412a2d370086c79d277363e",
+        "ModifiedAtUtc": "2026-11-12T03:12:05.078105+00:00"
+      },
+      {
+        "Path": "huangjin-defeat-result.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 370775,
+        "Sha256": "924e526ef4cc12afb46772adbaf7f6a5fba2331439eedd0792713575a0d4ce2f",
+        "ModifiedAtUtc": "2026-11-12T03:12:06.926219+00:00"
+      },
+      {
+        "Path": "huangjin-density-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 411302,
+        "Sha256": "9b898840ad6f7ec74db1f434f6ca235a6da92bfd20e056c83d32d77b4a28326e",
+        "ModifiedAtUtc": "2026-11-12T03:12:05.510263+00:00"
+      },
+      {
+        "Path": "huangjin-density-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 698876,
+        "Sha256": "a6395e3ec2d2936fcd85bbf1351c13890ce918aed36588b68cf3cc83aef46f79",
+        "ModifiedAtUtc": "2026-11-12T03:12:05.581188+00:00"
+      },
+      {
+        "Path": "huangjin-density-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 716296,
+        "Sha256": "aa8887c6f7ce68f8566f06a3423ac29c77777db2bbd6200a8c0d8728a653894a",
+        "ModifiedAtUtc": "2026-11-12T03:12:05.678257+00:00"
+      },
+      {
+        "Path": "huangjin-deployed.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 621277,
+        "Sha256": "3210f8a119476f27ddb184b46a67fd50e7d2944afad04efb5b216a977b7057eb",
+        "ModifiedAtUtc": "2026-11-12T03:12:04.007274+00:00"
+      },
+      {
+        "Path": "huangjin-empty-army.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 585018,
+        "Sha256": "2e29f519d02bf093712aadea5487313cc4bae2b3d603e43391dc814dc9368c91",
+        "ModifiedAtUtc": "2026-11-12T03:12:06.614742+00:00"
+      },
+      {
+        "Path": "huangjin-empty.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 585018,
+        "Sha256": "2e29f519d02bf093712aadea5487313cc4bae2b3d603e43391dc814dc9368c91",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.897985+00:00"
+      },
+      {
+        "Path": "huangjin-max-level.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 631428,
+        "Sha256": "5f59749a273a05db6af3ad80421e8f41887feaba13058cca7b6a2ed6ce2490c8",
+        "ModifiedAtUtc": "2026-11-12T03:12:04.242215+00:00"
+      },
+      {
+        "Path": "huangjin-mobile.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 374781,
+        "Sha256": "845bb085151ea45d39ed65cd920fe4b8e86969533409cc3a6f565f48bfbf508d",
+        "ModifiedAtUtc": "2026-11-12T03:12:04.040620+00:00"
+      },
+      {
+        "Path": "huangjin-placement-preview.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 600995,
+        "Sha256": "7f9b41de9f3b839e287712747e67b26d49f25b95f2ecfdc89d415a85fa384ba9",
+        "ModifiedAtUtc": "2026-11-12T03:12:04.950878+00:00"
+      },
+      {
+        "Path": "huangjin-victory-mobile.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 260514,
+        "Sha256": "6df05314efb435a0a463a8a3bc8b38d4f77f127744493eb23defeb005e3a977a",
+        "ModifiedAtUtc": "2026-11-12T03:12:06.524432+00:00"
+      },
+      {
+        "Path": "huangjin-victory-result.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 412637,
+        "Sha256": "dcbdbe1a2e2969d1726aac51cc9ab624aa0cdecf5c849897016cb02c0f85d0b2",
+        "ModifiedAtUtc": "2026-11-12T03:12:06.496288+00:00"
+      },
+      {
+        "Path": "huangjin-wide.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 637146,
+        "Sha256": "f693c33bf0d716cf274135fb34d6e9eb3cf8d4cdd54ab0b5d79280b9538d8bb5",
+        "ModifiedAtUtc": "2026-11-12T03:12:04.118453+00:00"
+      },
+      {
+        "Path": "hulao-deployed.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 657166,
+        "Sha256": "05a14f21812daf7df246918495869598c65b4b89aaaa2033fa13653546b1d239",
+        "ModifiedAtUtc": "2026-11-12T03:12:03.734480+00:00"
+      },
+      {
+        "Path": "levels-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 219363,
+        "Sha256": "f7d5a9d2ca7a97e61552fe5f7539f51ef202863d578f984a3c4574cc1544654b",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.202548+00:00"
+      },
+      {
+        "Path": "levels-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 363558,
+        "Sha256": "7a2bb81776e115060427ff00904ad42434d4dae21692648ad78d156d1dd4ed95",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.254823+00:00"
+      },
+      {
+        "Path": "levels-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 377498,
+        "Sha256": "ac8508eae50968b3f1c1bfb271baf4881cfa02e437a41e517434efc3931d1390",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.320234+00:00"
+      },
+      {
+        "Path": "main-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 244995,
+        "Sha256": "69a7215e440ec0fffb470115e3dde3d2b9a7a21210f6778c57fb7cc6049969eb",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.048392+00:00"
+      },
+      {
+        "Path": "main-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 391908,
+        "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.101137+00:00"
+      },
+      {
+        "Path": "main-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 404321,
+        "Sha256": "e56dc3184b567c5ea495c13a0031fa3a23d8856ebe19e7858889e749c2532882",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.165085+00:00"
+      },
+      {
+        "Path": "name/main-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 244979,
+        "Sha256": "a4d5580ae786a488e9e68d6e3d421156548d5d0c9b79ab3ed5eb1644a2305064",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.118235+00:00"
+      },
+      {
+        "Path": "name/main-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 391908,
+        "Sha256": "7154c0676fe14084d343d39fca112e7126c6a3db9548efca6748c7b570715b1e",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.091073+00:00"
+      },
+      {
+        "Path": "name/main-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 404321,
+        "Sha256": "e56dc3184b567c5ea495c13a0031fa3a23d8856ebe19e7858889e749c2532882",
+        "ModifiedAtUtc": "2026-11-12T03:12:08.185238+00:00"
+      },
+      {
+        "Path": "results/result-defeat-default-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 209631,
+        "Sha256": "b6c4c5ebad6779ec0af198740d6638f239162b6b51bfda371bf5cbaa04d216d1",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.597383+00:00"
+      },
+      {
+        "Path": "results/result-defeat-default-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 331416,
+        "Sha256": "96e588aad6322b4b9c232a437e545abc3b1acf1c1cfe4a6a357be04bf990a59c",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.653636+00:00"
+      },
+      {
+        "Path": "results/result-defeat-default-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 345338,
+        "Sha256": "f1aa039a296824695da8d7804381f2fedd85719a31d34b6e93bd00c65cd67ecb",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.720621+00:00"
+      },
+      {
+        "Path": "results/result-defeat-details-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 229347,
+        "Sha256": "a68af14707e81b9d17fd06c0d90177aa467fe88aa6b91d7750c62491de1298ff",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.754860+00:00"
+      },
+      {
+        "Path": "results/result-defeat-details-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 360397,
+        "Sha256": "f4993c262df2c6be8a2f5a8a789ba0641b70691f29212b855d5ffb8e7b9fbb9f",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.815399+00:00"
+      },
+      {
+        "Path": "results/result-defeat-details-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 373742,
+        "Sha256": "f0d8774d05c9d67db2a3873bf6458740dd7267507cfa1d7d761aa56882cc9de6",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.885025+00:00"
+      },
+      {
+        "Path": "results/result-equal-default-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 210349,
+        "Sha256": "f6197de91262f55d496c0e7cc380fea6c1636121f36d998b8611fca401521f97",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.840784+00:00"
+      },
+      {
+        "Path": "results/result-equal-default-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 329968,
+        "Sha256": "9942e32dc334967cdd9a76f0da1c36e532804a41cd80bda0fad42757d90348bf",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.901800+00:00"
+      },
+      {
+        "Path": "results/result-equal-default-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 344342,
+        "Sha256": "4dbbab92e10c2b3d3eb19dbedddbd56798c35b1192256a93ab63213c99d596cf",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.976238+00:00"
+      },
+      {
+        "Path": "results/result-equal-details-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 229243,
+        "Sha256": "dc27c8f4a37cc626cc21485e47e8139609142618f0140599be2845550dd23218",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.009923+00:00"
+      },
+      {
+        "Path": "results/result-equal-details-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 358662,
+        "Sha256": "60eea7ab689dcaef7b06ff934b73872de809b2e8479a73bab3e63695aa4d1fd6",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.073685+00:00"
+      },
+      {
+        "Path": "results/result-equal-details-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 371963,
+        "Sha256": "6e68cf948e66f765dbd952df6db91f3fc012b42b3859a122158221c8696ed807",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.145225+00:00"
+      },
+      {
+        "Path": "results/result-first-default-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 208240,
+        "Sha256": "f5ba20cadc5b035f2d12f0ca0a9d7d79eec66776ff04a40cdc55a14096102419",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.126040+00:00"
+      },
+      {
+        "Path": "results/result-first-default-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 327335,
+        "Sha256": "bb04efbeb0c64af881cd8ac7a9d1777b50443d306a357c7c7c65ea08b5e623dd",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.178423+00:00"
+      },
+      {
+        "Path": "results/result-first-default-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 341967,
+        "Sha256": "18819e1e442860b797b1e292910c4a9801c877f0e4085349cc423122b463d53c",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.252805+00:00"
+      },
+      {
+        "Path": "results/result-first-details-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 227218,
+        "Sha256": "34ebfc7d1a84f10a237a025d6b76cc0da7d4c5d26e60e33db7d97e99bf997baf",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.285053+00:00"
+      },
+      {
+        "Path": "results/result-first-details-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 356385,
+        "Sha256": "3f7133946188c406a1640645d77390760dc5c35abc797ccbf35c3a10134f8a75",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.339379+00:00"
+      },
+      {
+        "Path": "results/result-first-details-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 369487,
+        "Sha256": "22913a0da7a9f461d7c3061cfbad95bb50a722f9e6e07d99a6131d8f72712e21",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.407794+00:00"
+      },
+      {
+        "Path": "results/result-improved-default-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 209256,
+        "Sha256": "44e243c95b08fd3c598e7a9ed4d23e12858277495f30b50d633390eadfc22447",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.219042+00:00"
+      },
+      {
+        "Path": "results/result-improved-default-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 328814,
+        "Sha256": "634b4e02fc46224d49a0c9bd4995ebe50fae062a72f4b55eea981ea66f30b991",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.279804+00:00"
+      },
+      {
+        "Path": "results/result-improved-default-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 343113,
+        "Sha256": "5931e8601a391c08749b67208938ae80b3604bc6a00bab3989bf2d1d0f513ce2",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.349922+00:00"
+      },
+      {
+        "Path": "results/result-improved-details-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 228138,
+        "Sha256": "19f71f3f62288705f02a3721a4b05ab9b5156e90d558ce6e70ddc469059e6725",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.381464+00:00"
+      },
+      {
+        "Path": "results/result-improved-details-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 357954,
+        "Sha256": "5cbbac8e0d99f31373bb3f23148d42d3e134440a26db357956340af0a5f576ed",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.450099+00:00"
+      },
+      {
+        "Path": "results/result-improved-details-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 370981,
+        "Sha256": "4d6f2605026663f37f52d855d550934d06574222dbc5c7a73a1ce31c352301db",
+        "ModifiedAtUtc": "2026-11-12T03:11:58.517543+00:00"
+      },
+      {
+        "Path": "results/result-slower-default-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 209254,
+        "Sha256": "abe8c64a546d040d363dce84941e52a4d5ab997f684f353b21462b4f536af88f",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.481241+00:00"
+      },
+      {
+        "Path": "results/result-slower-default-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 329059,
+        "Sha256": "b0f9cfe67c387a00c22fcfe3feb1d63cdd92cdb81096a76f2f9c1e890675dfcc",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.538613+00:00"
+      },
+      {
+        "Path": "results/result-slower-default-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 343464,
+        "Sha256": "778cece246b6a349fa9c2d1d984624a18ce67f8d7a2d4e156fb31c827612da47",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.607139+00:00"
+      },
+      {
+        "Path": "results/result-slower-details-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 228163,
+        "Sha256": "b038f1a0c7aa5a0d81ab71ba3c22ffc2b01bd63de69e5dd87e7db0223d03012f",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.642461+00:00"
+      },
+      {
+        "Path": "results/result-slower-details-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 357886,
+        "Sha256": "14f44dd85acead302924650adbad1b4b589e2dcd7e6277b1debceefa7b5898ba",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.701820+00:00"
+      },
+      {
+        "Path": "results/result-slower-details-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 370999,
+        "Sha256": "d134eedfb56ea79684a9a1a81d3e70946181d1ea6f354bc22295152464e2d7dc",
+        "ModifiedAtUtc": "2026-11-12T03:11:57.774353+00:00"
+      },
+      {
+        "Path": "roster-empty-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 178692,
+        "Sha256": "64837858395b663d96f0b626f566c6be86141b8d85a411e1c79ad65813b8edf2",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.382138+00:00"
+      },
+      {
+        "Path": "roster-empty-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 290837,
+        "Sha256": "5387d1e0c7982f314e0408d64b80e76b5efcb008bdcbd7cbf8c8f6b0df56e943",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.430434+00:00"
+      },
+      {
+        "Path": "roster-empty-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 302519,
+        "Sha256": "3121ffc9140ed270fccf54faa530d72cc1517c99a1bc9b185c3a5ad05ab05351",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.492556+00:00"
+      },
+      {
+        "Path": "roster-focus-1280.png",
+        "Width": 1280,
+        "Height": 720,
+        "SizeBytes": 209336,
+        "Sha256": "5e56fa76ff9ea93de9ba05f368806b1d02e0b92400ed64338802978bbdf58fa0",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.521333+00:00"
+      },
+      {
+        "Path": "roster-focus-1920.png",
+        "Width": 1920,
+        "Height": 1080,
+        "SizeBytes": 336003,
+        "Sha256": "a4a1db91046827a3945f03a47a4fe9ccaebe4ac942dcdd68b11197c5f42aba6d",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.573100+00:00"
+      },
+      {
+        "Path": "roster-focus-2400.png",
+        "Width": 2400,
+        "Height": 1080,
+        "SizeBytes": 348001,
+        "Sha256": "580582956bb410836e59f795a7430cadbff0a91204fe180d1f304fc4cd458502",
+        "ModifiedAtUtc": "2026-11-12T03:12:02.649678+00:00"
+      }
+    ]
+  },
+  "ValidationBoundary": {
+    "ManualWindowsPlaytest": "用户已试玩并反馈还行，解压感仍不足；未逐项验证五关、听感或跨进程存档",
+    "AssistantWindowsGuiCheck": "已启动；Computer Use被用户实体Esc中止，未完成实际交互",
+    "ManualPhonePlaytest": false,
+    "PhoneTouchVerified": false,
+    "PhonePerformanceVerified": false,
+    "ManualAudioListeningVerified": false,
+    "CrossProcessPlayerSaveVerified": false,
+    "AllFiveStagesManualPlaytestVerified": false,
+    "FixtureBoundary": "短路线及数秒结算为隔离夹具，不代表正式关卡时长、难度或人工体验"
+  }
+}

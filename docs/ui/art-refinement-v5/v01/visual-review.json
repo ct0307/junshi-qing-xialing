@@ -1,0 +1,11 @@
+{
+  "Accepted": false,
+  "Stage": "首轮诊断稿，禁止正式接入",
+  "Issues": [
+    "赵云台座跨场景材质失效，出现紫红色",
+    "地图照明过亮，草土与道路材质被冲淡",
+    "人物面部神态偏闭眼，衣甲接缝与衣摆仍需精修"
+  ],
+  "NextRevision": "v02",
+  "RuntimeAssetsModified": false
+}

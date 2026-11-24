@@ -1,0 +1,54 @@
+{
+  "Revision": "v03",
+  "ReviewedOn": "2026-11-08",
+  "Stage": "国风2D风格样稿",
+  "ReadyForVisualFeedback": true,
+  "UserApprovedFinalArt": false,
+  "CommercialArtFinalized": false,
+  "IndependentReviewCompleted": true,
+  "ReviewedAtThisRevision": [
+    "huangjin.png",
+    "gameplay-art-sample-1280.png",
+    "comparison-overview.png"
+  ],
+  "UnchangedCharactersReviewedAtPreviousRevision": [
+    "guan_yu.png",
+    "zhao_yun.png"
+  ],
+  "ObservedCharacterImprovements": [
+    "关羽和赵云眉眼、嘴形有区分，首轮同构坏笑已去",
+    "持械手补出手指与杆的前后遮挡",
+    "肩肘前臂转折和长髯分束已修改",
+    "银白甲、披风与翠绿袍的身份色明确"
+  ],
+  "AddressedMapP2": [
+    "道路明度降低，抢眼程度减弱",
+    "草地增加克制的可见色块，未重现灰黑模糊脏污",
+    "田树组合错开高度、尺度和内容，机械横排感减轻",
+    "关楼扩大并补旗与台阶，左下焦点更明确"
+  ],
+  "NewBlockingIssuesObserved": [],
+  "PreviewChecks": [
+    "未见新增明显裁切或部署遮挡",
+    "两张新头像未裁字、未遮挡文字或残留旧头像",
+    "静态合成标注清楚"
+  ],
+  "OpenArtConsiderations": [
+    "风格样稿仍可继续精修笔触与材质细节",
+    "人物神态、比例及地图美感需由用户对具体图像反馈，不以技术合格代替审美认可"
+  ],
+  "TechnicalReview": {
+    "InputsMatchingManifest": 15,
+    "PngHashesAndSizesMatched": 6,
+    "FormalSourceFilesUnchanged": 407,
+    "CharactersByteIdenticalToV02": true,
+    "RoutePointCount": 70,
+    "SlotCount": 32,
+    "DecorationsPassingClearance": 34
+  },
+  "PreviewIsStaticComposite": true,
+  "RuntimeAssetsModified": false,
+  "NewGameBuildCreated": false,
+  "RuntimeUiTestedWithNewArt": false,
+  "AndroidDeviceTestedWithNewArt": false
+}

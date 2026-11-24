@@ -1,0 +1,52 @@
+{
+  "Revision": "v03",
+  "ReviewedOn": "2026-11-08",
+  "Stage": "首批2.5D方向样稿，未接入正式游戏",
+  "AcceptedForSamplePresentation": true,
+  "AcceptedAsProductionArt": false,
+  "UserDecision": "已否决：用户认为外观太丑，要求改回好看的2D",
+  "ApprovedForRuntimeIntegration": false,
+  "SupersededByDirection": "国风2D重绘，见art-refinement-v6-2d",
+  "IndependentReviewCompleted": true,
+  "ReviewedImages": [
+    "guan_yu.png",
+    "zhao_yun.png",
+    "huangjin.png",
+    "comparison-overview.png",
+    "gameplay-art-sample-1280.png"
+  ],
+  "VisualFindings": [
+    "未见明显紫红材质、透明暗边或裁切",
+    "人物眼睛已打开，旧衣甲接缝问题未见",
+    "约113像素方框下可分辨关羽绿袍长髯与刀、赵云银盔与长枪",
+    "地图道路连续，部署区域留白充足"
+  ],
+  "BlockingP1P2": [],
+  "RemainingIssues": [
+    {
+      "Priority": "P3",
+      "Issue": "人物眼球仍偏玩偶，视线略向下；暗部及银甲亮度仍可打磨",
+      "NextStep": "调整神态与明暗后继续在真实显示尺寸复核"
+    },
+    {
+      "Priority": "P3",
+      "Issue": "地图中央地表较均匀，完整场景偏空",
+      "NextStep": "在保留道路与阵位清晰的前提下增加低频地表层次"
+    }
+  ],
+  "TechnicalReview": {
+    "RenderScriptsMatchingManifest": 4,
+    "DatabaseHashMatchesManifest": true,
+    "LogHashMatchesManifest": true,
+    "PngFilesMatchingVerification": 6,
+    "FormalSourceFilesMatchingBaseline": 407,
+    "RenderExitCode": 0,
+    "CharacterAnchor": [360, 660],
+    "MapReferencePointMaxErrorPixels": 0.02
+  },
+  "PreviewIsStaticComposite": true,
+  "RuntimeAssetsModified": false,
+  "NewGameBuildCreated": false,
+  "RuntimeUiTestedWithNewArt": false,
+  "AndroidDeviceTestedWithNewArt": false
+}

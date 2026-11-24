@@ -1,0 +1,940 @@
+{
+  "SchemaVersion": 1,
+  "State": "Unity运行时首版内容，等待实际试玩调参",
+  "HeroCount": 25,
+  "LevelCount": 5,
+  "EnemyCount": 14,
+  "ResourceCount": 73,
+  "DatabaseSha256": "f39305b01e0f4261a75c8d761559a42166ef5b9d3c544703ebdac65e38487acf",
+  "LogicalCanvas": [
+    1920,
+    1080
+  ],
+  "Origin": "左上角，Y向下",
+  "CharacterSize": [
+    768,
+    768
+  ],
+  "CharacterPivotPixels": [
+    360,
+    660
+  ],
+  "CharacterPivotUnity": [
+    0.46875,
+    0.140625
+  ],
+  "PreservedRefined": [
+    "guan_yu",
+    "huang_zhong",
+    "lv_bu",
+    "zhang_fei",
+    "zhao_yun",
+    "zhou_yu",
+    "zhuge_liang"
+  ],
+  "PreservedDedicated": [
+    "cao_cao",
+    "diao_chan",
+    "hua_tuo",
+    "pang_tong",
+    "zhang_liao"
+  ],
+  "NewDedicated": [
+    "guo_jia",
+    "jiang_wei",
+    "lu_su",
+    "lu_xun",
+    "lv_meng",
+    "ma_chao",
+    "sima_yi",
+    "sun_shangxiang",
+    "taishi_ci",
+    "xu_chu",
+    "xun_yu",
+    "yuan_shao",
+    "zhang_jiao"
+  ],
+  "Effects": [
+    {
+      "Id": "recruit",
+      "Resource": "Game/Effects/recruit_atlas",
+      "FrameSize": [
+        256,
+        256
+      ],
+      "FrameCount": 8,
+      "label": "招募入阵",
+      "duration_ms": 480,
+      "loop": false,
+      "pivot": [
+        128,
+        200
+      ]
+    },
+    {
+      "Id": "slash",
+      "Resource": "Game/Effects/slash_atlas",
+      "FrameSize": [
+        256,
+        256
+      ],
+      "FrameCount": 8,
+      "label": "青龙斩击",
+      "duration_ms": 240,
+      "loop": false,
+      "pivot": [
+        128,
+        128
+      ]
+    },
+    {
+      "Id": "fire",
+      "Resource": "Game/Effects/fire_atlas",
+      "FrameSize": [
+        256,
+        256
+      ],
+      "FrameCount": 8,
+      "label": "火攻余焰",
+      "duration_ms": 640,
+      "loop": true,
+      "pivot": [
+        128,
+        200
+      ]
+    },
+    {
+      "Id": "boss_warning",
+      "Resource": "Game/Effects/boss_warning_atlas",
+      "FrameSize": [
+        256,
+        256
+      ],
+      "FrameCount": 8,
+      "label": "敌将入场",
+      "duration_ms": 800,
+      "loop": false,
+      "pivot": [
+        128,
+        200
+      ]
+    }
+  ],
+  "Levels": [
+    {
+      "Id": "hulao",
+      "Name": "虎牢合战",
+      "Slots": 34,
+      "Routes": 2,
+      "Waves": 10,
+      "Bosses": [
+        "zhang_liao",
+        "lv_bu"
+      ],
+      "Castle": [
+        1752,
+        560
+      ]
+    },
+    {
+      "Id": "huangjin",
+      "Name": "黄巾演武",
+      "Slots": 30,
+      "Routes": 1,
+      "Waves": 8,
+      "Bosses": [
+        "zhang_jiao"
+      ],
+      "Castle": [
+        180,
+        700
+      ]
+    },
+    {
+      "Id": "guandu",
+      "Name": "官渡沙盘",
+      "Slots": 36,
+      "Routes": 2,
+      "Waves": 9,
+      "Bosses": [
+        "yuan_shao"
+      ],
+      "Castle": [
+        1752,
+        510
+      ]
+    },
+    {
+      "Id": "chibi",
+      "Name": "赤壁两岸",
+      "Slots": 36,
+      "Routes": 2,
+      "Waves": 8,
+      "Bosses": [
+        "xu_chu",
+        "cao_cao"
+      ],
+      "Castle": [
+        1752,
+        520
+      ]
+    },
+    {
+      "Id": "finale",
+      "Name": "群雄终局",
+      "Slots": 40,
+      "Routes": 3,
+      "Waves": 8,
+      "Bosses": [
+        "guan_yu",
+        "lv_bu",
+        "sima_yi"
+      ],
+      "Castle": [
+        1080,
+        520
+      ]
+    }
+  ],
+  "Notes": [
+    "所有地图不烘焙阵位、文字或作战人物",
+    "虎牢沿用已认可全部34阵位，其中(810,560)在原稿即距南路中心13像素，其余新增图阵位距路中心至少45像素",
+    "6位v4己方全身图与4组特效图集逐字节拷贝；吕布按同一v4绘图源以己方浅色台座重新导出",
+    "Characters下25位均为己方浅色台座；实际8位Boss单独导出到Bosses并使用朱砂台座",
+    "只重生成本脚本拥有的输出，不清理Fonts或其他目录",
+    "现有Windows字体仅用于检视图栅格渲染，不复制字体文件",
+    "波间StartDelay以清空上一波为起点，单局时长需用实际Domain及手机试玩复核"
+  ],
+  "LegacyFingerprints": {
+    "docs\\ui\\assets-v4\\manifest.json": "b71b12c9702f2bb3847189c960d9490aac5678cab0a845af6bb75be64c22caec",
+    "docs\\ui\\assets-v4\\README.md": "fe2ce9da4ecc3ee773e3f1eaa55fcf9727e77f058b988a22dda5101b06d801a6",
+    "docs\\ui\\assets-v4\\buildings\\camp_tent.png": "56cc8fc06fb1184cdf66aa23f53e119e6480a7326715b55d086967034375f317",
+    "docs\\ui\\assets-v4\\buildings\\hulao_gate.png": "ea06ae8b2e54bd0aa04253f9a67986b5e056d3668bc417a5b7ae91c10f0dc578",
+    "docs\\ui\\assets-v4\\characters\\guan_yu.png": "d5ed163a6dc328520124758e2bf70a820f888ccb38917176c97ba034ac49c80a",
+    "docs\\ui\\assets-v4\\characters\\huang_zhong.png": "fadaa4d595f594e3f83873d28435b06ecc8724c3818a0ca078200b596ce3f11d",
+    "docs\\ui\\assets-v4\\characters\\lv_bu.png": "09c7256771e71e5dd27fcd2d8e2d02ed5d9277799146332aa2ea41339d89c1f6",
+    "docs\\ui\\assets-v4\\characters\\zhang_fei.png": "2e937830a128f65a348c17763b321c8b312961f9fd2396a11becc897a5f7c6ce",
+    "docs\\ui\\assets-v4\\characters\\zhao_yun.png": "121bf2a4c514eecdf6abdfbd664fa13740bc8f72de3a3f57b890bcb74c4bce69",
+    "docs\\ui\\assets-v4\\characters\\zhou_yu.png": "43e386429e98feb41d292902bf4a873c92be6a66ae7efadfb86b344d72c4922c",
+    "docs\\ui\\assets-v4\\characters\\zhuge_liang.png": "2b668998ac28de17b4c380418567da4f1032d14f218a081c226a77754a52eecf",
+    "docs\\ui\\assets-v4\\effects\\boss_warning_atlas.png": "0797cf3c18ba53d1fe4393422e1a86fdacf90e7a9a1175d394a847ca20ee5c20",
+    "docs\\ui\\assets-v4\\effects\\fire_atlas.png": "cc91caecf5487a93c19dea057718c238f3eee788f57604ccd73f860bf215b945",
+    "docs\\ui\\assets-v4\\effects\\recruit_atlas.png": "077e6eb75ccb93c1980f9c0ed247de273021338138fa277b6adeb3cd4e3c4c7a",
+    "docs\\ui\\assets-v4\\effects\\slash_atlas.png": "96ab39a8f3c63789739cbf0ebb17c7f5cb3309816ac6c6880d3a46724f399d31",
+    "docs\\ui\\assets-v4\\maps\\hulao_pass.png": "9a6514882b13bdb57c3dff16046b4d4f684fdb23cc679f4dafa034843043286b",
+    "docs\\ui\\assets-v4\\portraits\\guan_yu.png": "696eef913e02839e0dda42ca12d012539f78bbfcedb2304c2aa2ba27fad54487",
+    "docs\\ui\\assets-v4\\portraits\\huang_zhong.png": "3ea5b264e42ae8e82e69bee1a9dd19eb4122a7c02c72b10725c45f4f0d0d5996",
+    "docs\\ui\\assets-v4\\portraits\\lv_bu.png": "22c064a43f8acc8e00334c7e2b9e13dd6be6a84d36fb6d572c35776f093b5384",
+    "docs\\ui\\assets-v4\\portraits\\zhang_fei.png": "11f7c189696793ff5d4374353065d152a30692d2c528e3c7af23268f2cee11e8",
+    "docs\\ui\\assets-v4\\portraits\\zhao_yun.png": "bd51da5b1b6a3e645b5291865d6788340c15e6c6cede80dcd90c3ade040a344a",
+    "docs\\ui\\assets-v4\\portraits\\zhou_yu.png": "f5bfc847d33ffaf6cdb5a6ec78bb20169d5045f752bf03aa5d9c89368a66eb55",
+    "docs\\ui\\assets-v4\\portraits\\zhuge_liang.png": "e592ae9784d4465d18b034c867f29e29a21f95147461a71a396b4deed096c696",
+    "docs\\ui\\assets-v4\\effects\\boss_warning\\00.png": "40064b743bb929c967ba1904430a68d5604e48badd6b61a4ad4d0d6383178441",
+    "docs\\ui\\assets-v4\\effects\\boss_warning\\01.png": "590e70dcc5fbbe4b26834b98ddc1f9511f8a359590db6a25e3ae317d30d7e7c9",
+    "docs\\ui\\assets-v4\\effects\\boss_warning\\02.png": "e1599eaf9006083c876a96a21e093b21368571583bd28c03c52e744217ad1999",
+    "docs\\ui\\assets-v4\\effects\\boss_warning\\03.png": "c5851d493e476d0cbccf14895685affb898f13119196e39c35ef3a0112c1912d",
+    "docs\\ui\\assets-v4\\effects\\boss_warning\\04.png": "c1e711e97370eab48c8eb6ffafc1a06f2c0b993360d07971dfc5f514f5493307",
+    "docs\\ui\\assets-v4\\effects\\boss_warning\\05.png": "2152515259c37211584f3dc96046d9eea174be0bcaa0b0c5ed7c2c9750aa4d3f",
+    "docs\\ui\\assets-v4\\effects\\boss_warning\\06.png": "566fe2c5fc5ac3816611e8f618540c7ec789b4838d752658b075f8642197198f",
+    "docs\\ui\\assets-v4\\effects\\boss_warning\\07.png": "34154cdeea79ee2c44791df052659ba3a42574eb9399b953f43d82bda0b955a0",
+    "docs\\ui\\assets-v4\\effects\\fire\\00.png": "37f2c83b49a2644b50554f8b514a0fd2d96f340ded566716b12e53ec7c486b45",
+    "docs\\ui\\assets-v4\\effects\\fire\\01.png": "d9c9698c20f41c384ce59c2c1a85132ee6c618197ecb34b5f6ee90b8d85c1f11",
+    "docs\\ui\\assets-v4\\effects\\fire\\02.png": "83964b7d6e43775b9eee2df56c040fb80d81715561f82c0f6f0102261f83ca25",
+    "docs\\ui\\assets-v4\\effects\\fire\\03.png": "e01fba6904e39ee74d7ee61a3c8d3c1eb3f82e05e77f3a9c8fd3d3cc804526aa",
+    "docs\\ui\\assets-v4\\effects\\fire\\04.png": "9e577dbd6435fc41d8deb2a9d0cba5c8015464e50ae5b1c51c4eddfb642b9251",
+    "docs\\ui\\assets-v4\\effects\\fire\\05.png": "e40b80d01b19c4af4707dc2612df7d792854a448d05f497562a49c3bd559079b",
+    "docs\\ui\\assets-v4\\effects\\fire\\06.png": "6b9c78bfe9ef7b4599babfba86282a348919bd296a1216ff18f5e3a5df289df3",
+    "docs\\ui\\assets-v4\\effects\\fire\\07.png": "300e233b75d245f6ccc133d87973626f5004d8429ad3e0b828b5ca80d7d68907",
+    "docs\\ui\\assets-v4\\effects\\recruit\\00.png": "b6127c83dbb2ee0791cc870dc2c935ed71a3f01dd4982effcb3ad1a139c5eb4d",
+    "docs\\ui\\assets-v4\\effects\\recruit\\01.png": "4b1715b4b827f43702e8d04a585d3a889e004f83275f1b4db8b7c9224544e9bf",
+    "docs\\ui\\assets-v4\\effects\\recruit\\02.png": "5d2deadfe8e922dac8c9542fba12886e6b6540c41278df7a1360df7f15b1d44d",
+    "docs\\ui\\assets-v4\\effects\\recruit\\03.png": "7567246510dfef5d1ab09de2630fd05d00584eacc905b0b5b325138107adea00",
+    "docs\\ui\\assets-v4\\effects\\recruit\\04.png": "ae5ba30f211da945b272694a4ed158e73df80547ccf4835649633a0c6622f911",
+    "docs\\ui\\assets-v4\\effects\\recruit\\05.png": "193c4f56983be889711f23445c0334717b3bc27e39e622c8c7c31307c909a50a",
+    "docs\\ui\\assets-v4\\effects\\recruit\\06.png": "ba8f3feff31317da21d9655f47b3f283c3e428dca2a41276c35dc761fe907175",
+    "docs\\ui\\assets-v4\\effects\\recruit\\07.png": "5b3153ba4186b4422986e71a9ce61eedce4735fcbd4766e94e1d9e0252f3ef58",
+    "docs\\ui\\assets-v4\\effects\\slash\\00.png": "9392562c9ba224210dffecb69849c9be718b7f0c1629f0b9d362a3bdac54d062",
+    "docs\\ui\\assets-v4\\effects\\slash\\01.png": "6d881140d17df7070e9bb69be8c8fc3b0f9c53e764e8a3777024c1c79e5d117f",
+    "docs\\ui\\assets-v4\\effects\\slash\\02.png": "a70424380142b035e557f5ae6db7a5cf4c5921fef9404ce0163d4f3e264e401a",
+    "docs\\ui\\assets-v4\\effects\\slash\\03.png": "0a4cb5e4399905bff1733f78104a1b58fa868a1af5410f6ca0b00cbd46ea4a82",
+    "docs\\ui\\assets-v4\\effects\\slash\\04.png": "da6907b7cd07a0bba23521b0de56fc2bcc09bad60d87a994da7eaad538ea5e70",
+    "docs\\ui\\assets-v4\\effects\\slash\\05.png": "d97cfcae462830769ef4a1665c72083a883f5720b19a51f4d1f9b00f533b4ca8",
+    "docs\\ui\\assets-v4\\effects\\slash\\06.png": "5e5938b6dcb8b35f22fcc4b6889e3f823de9f75c0631aea5b4d50c539f08cac1",
+    "docs\\ui\\assets-v4\\effects\\slash\\07.png": "da061c341097164feadc6467da4dfb4813acdcac472f483937269f2894f0df10",
+    "docs\\ui\\battle-ui-concept-v3.png": "8bb067419141494eb4f9c3928399ff0a090f36226cc7fe2544ea4299806820c5",
+    "docs\\ui\\character-study-v3.png": "0dd02f1a2b922f88745388e88ff8b0c473128cde0784d6c6570ad996e8bcde04",
+    "docs\\ui\\terrain_art_v4.py": "cad6dc57eb6566240dcd4899e995902e0c68b195c43d3e03ce7eaff2d7a1a8cd",
+    "docs\\ui\\terrain_art_v3.py": "6035b6f41c904f86d52b042f1de002c03ba835b768f7a3b93083c1531bd1d109",
+    "docs\\ui\\portrait_art_v4.py": "32fed2561d929e6f5ad49b9f17828d3ff2d12c372af2ea7465086b5700248aca",
+    "docs\\ui\\portrait_art_v3.py": "ad4c55f076bd0346177e71521d907859738406313d07a99f0b860e53a09ba485"
+  },
+  "Assets": [
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/cao_cao.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "b928951790bca77947634991eff2e8c3fde473463d80a3e3e080393e3c9b0bf4"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/diao_chan.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "c2a35606e94722aedabccc7d8d7794aa9c995cd22ed404d795725cc29b4d6c95"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/guan_yu.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "d5ed163a6dc328520124758e2bf70a820f888ccb38917176c97ba034ac49c80a"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/guo_jia.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "5078222be2ac4575564dabc783d785d66e5a428cc82c55392efe2390b6229b47"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/hua_tuo.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "2232b68a43f5ea0e5a2219319e0cce613b53ae1b0341fade38a2e79ef482f96c"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/huang_zhong.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "fadaa4d595f594e3f83873d28435b06ecc8724c3818a0ca078200b596ce3f11d"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/jiang_wei.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "cf529e18468e88431afdf5b0c39c831e0796318b62b232e9c56dd23e07dd7e0b"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/lu_su.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "8ccb050ec57cd8004ecb3a5480eed4987a9a59b083cb327b31389e16d513844f"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/lu_xun.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "430424996f1a31cdcda5faece051e131a2c800a0c1ba57f44e27876842d1b5d2"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/lv_bu.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "33468c72360119db6a6c75d71e027ceca82ab6cad6d52a707d726abc74c4f594"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/lv_meng.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "bae41ca186d76e5a098a0d074211fdf4859bea9da866441c0084968b0ca59f48"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/ma_chao.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "9d9411c25d84ae985ac52fd6e8199bb52d64b159adc6f548accfa704874297d6"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/pang_tong.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "2c8cc69b9123b7b592730896c0b3a351b49f4ebb78a4bb72849f72cec76d30f6"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/sima_yi.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "0320fcb8c2686e2150e7d6bb69748c58ac8076abd2ed21477b4040469a28f5f6"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/sun_shangxiang.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "cbe9521398808ba3374404cc81dd9ce0bca6f1d90acbaee484d89f1e04ae5442"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/taishi_ci.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "d5897ef2cbf5f3692ad44de13a441f5149a473145286ed1056bf93761af7e1b6"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/xu_chu.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "348e3cd88999e61f0e84bff446d5a6d612833f555e38105f1939016f628c3f37"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/xun_yu.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "1bf55509b9c2b8a83d199f2d98650421b151e3253c431ced072a3c8975b71c3a"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/yuan_shao.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "579ae2b11ec2c11ad471c78e683ba7f1c91345a830d201d661481a8c33519170"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/zhang_fei.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "2e937830a128f65a348c17763b321c8b312961f9fd2396a11becc897a5f7c6ce"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/zhang_jiao.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "8d37e473a8a23c1e062414b30b8079f2f1c2995cfa0ef82160e6d58eedd02e0d"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/zhang_liao.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "e983d9b6c447f9765861fcd76a28d61fa6a75aea344d8f5901e490975419d276"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/zhao_yun.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "121bf2a4c514eecdf6abdfbd664fa13740bc8f72de3a3f57b890bcb74c4bce69"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/zhou_yu.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "43e386429e98feb41d292902bf4a873c92be6a66ae7efadfb86b344d72c4922c"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/zhuge_liang.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "2b668998ac28de17b4c380418567da4f1032d14f218a081c226a77754a52eecf"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/cao_cao.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "fad64cd3190f0567d871fec88698d2f2852b4c90d298f7c66e00bf969e04db82"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/diao_chan.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "c4b493a5cfc73688eee99cf78354762a2d120077016a6c5bb24a877d83e657f4"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/guan_yu.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "dd37af370d153801cf6d01cb4da6af17323b985ddc257ba77e766ae364deed8c"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/guo_jia.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "2a1ca2e347231685846a927551ad14e5ef8b3d02bd914e1273716fef327b76dd"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/hua_tuo.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "a58f21d6205fc1826c612c8d2a908ad522fbfd1915956c98636a077eccb65351"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/huang_zhong.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "2b071537aa77b93ba434a8c6a2e3a76bff768e410fcfea5c41b2816fd4686162"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/jiang_wei.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "485be068cd1bd3367d4731546f91b15f5a81654df5aaa7cc829aa4ed099f14f5"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/lu_su.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "2e395200f7666ebbfafd06b28a17cbea10c79851c0d73a423c86ebbaef4ef678"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/lu_xun.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "6ba555032316ed49fee2ad94e965506f115e48dbb349280e9f0d5be6eaab873e"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/lv_bu.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "22c064a43f8acc8e00334c7e2b9e13dd6be6a84d36fb6d572c35776f093b5384"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/lv_meng.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "4aa4e869fca560286c61cf339bd730057a4657c4839757453edf59725e4a313c"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/ma_chao.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "74e0b50892eb7959c609790fc7ade6810861dd8f8e845cf46ae5dec2b2bc37bf"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/pang_tong.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "fbc0aa748c8d9d301ca4d30eff56937a0e819f1ab500f169bc3db7b1ed1733c2"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/sima_yi.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "117b8e8496abe03bc6f103c9e459466d7ecb864293abfe20ed4b25a6e1a8c8dc"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/sun_shangxiang.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "6ccf9dd208606e2c66f36383bb178761aff6bf70257f6e58186abe1d2e4a0c41"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/taishi_ci.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "aac6f4597d9fc5141768d5dc6ed294d95563034e598086f20402f9e3eba22df4"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/xu_chu.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "50d5e64f06bb267b4b08cf01a283bfa9b96681e83a0820f6143e0862d3fe9fca"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/xun_yu.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "360bacf04b0dcf7b965f59fd2b96cb3b7c2c9d71f2d359a81c18562119fe18e3"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/yuan_shao.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "4ad891fc4f8d9c3d5ada23f0c8deecb3269b03398c73fdc7f5d5f74ffb149fc1"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/zhang_fei.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "f445af59a0e44e70bf86fb4ffccfd8af6f3bd8caf25b29604eeaaab353fdc475"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/zhang_jiao.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "ca06a644844eebd9a8ed0604c57a7aab2b73b329e7122b7508f6b923314ba703"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/zhang_liao.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "bb64b253be45659908582389f60622c9e873d0333bb49840ef462760d0d7d14f"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/zhao_yun.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "ae2652001d41ccd51c99488b0d73a31babf8fbb64006b24b0c84f838b7d65468"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/zhou_yu.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "bfca3e62aab90fef3bf1d75ac53ef1f1cd03f3af7d1365f63dd0337d84137836"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Portraits/zhuge_liang.png",
+      "Size": [
+        320,
+        320
+      ],
+      "Mode": "RGBA",
+      "Sha256": "ca20118eec7401e73f32773b5c36a7143fbf172ee3a19425cb8f87a6a0ecd292"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Bosses/cao_cao.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "ec4c2c0dcf3254b60ac768c8609c4ff3eff55a15cf4a6957fd95cc0bb68ed12a"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Bosses/guan_yu.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "0ea91a850cfd0ff3929abd356a85179d83115dcc110c53447bf2c9a9d7b8690e"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Bosses/lv_bu.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "09c7256771e71e5dd27fcd2d8e2d02ed5d9277799146332aa2ea41339d89c1f6"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Bosses/sima_yi.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "9840dda2d9b7a825f18cb5a09bc1940baaa9ba1acc202822550cf774953561c5"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Bosses/xu_chu.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "08d91b64ce47e09335ec93d062c1e0b0b7e257fafae6fdcd74ca9964b5ef0823"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Bosses/yuan_shao.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "0e53532d6bf45d122fcef70feb7d564a1d925a621ee54dd75929ae4e7321c76d"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Bosses/zhang_jiao.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "9615c7c7b545fa93b788a1da85d04fdd1b48855956d4815fc657f9afb56f1c89"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Bosses/zhang_liao.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "d8249be6d0876dc77ce85389430cba97f49b8338d7d22d35b24b15973688f823"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Enemies/archer.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "526af7ef7152040c6fd61a682553d5d2e439cc49bbebec33adafb9bf8f831f7a"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Enemies/cavalry.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "2bcc28cedcd618462535863b4d1c36a4f0c749f3adde7515fece8a26a294a2d3"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Enemies/elite.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "70844c95620835b2fd82790b5c7318eda8b936a703e5e5a84d9b55c24183b6d6"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Enemies/healer.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "20ba466f19e9bf0e40725fe048910dab1a0b21e2f69abcc9b417f1a2ecdbb65d"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Enemies/infantry.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "50fff2ba987cc0b96a5933007cf48fe5753b43f8ed39527d4943891b06b5cbc9"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Enemies/shield.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Mode": "RGBA",
+      "Sha256": "ce4b0a3d981273cd8fd12fe32041e70f00211042c79ee2b2cf3c27676b11938e"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Maps/chibi.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Mode": "RGBA",
+      "Sha256": "b78b0aa0299ebcbc6b157a7a22fee1011cc52467e5437604f34aa00eb6a01fe9"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Maps/finale.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Mode": "RGBA",
+      "Sha256": "68964354393df66aceff44384b130630f0a0033b7588f69734316cbebd42f6e2"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Maps/guandu.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Mode": "RGBA",
+      "Sha256": "e9a06819afc4d2882ad29820f5bddb05197d28569654ef735cfca9192ee7c7c9"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Maps/huangjin.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Mode": "RGBA",
+      "Sha256": "54e13a34d0b472af5462ea1f0c9d7b16d7091056c635809f54f477aa12d3c202"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Maps/hulao.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Mode": "RGBA",
+      "Sha256": "c33e96048ae93206830236534c6692cbef0570f3be81bd25fb507b15f7d1cf12"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Effects/boss_warning_atlas.png",
+      "Size": [
+        2048,
+        256
+      ],
+      "Mode": "RGBA",
+      "Sha256": "0797cf3c18ba53d1fe4393422e1a86fdacf90e7a9a1175d394a847ca20ee5c20"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Effects/fire_atlas.png",
+      "Size": [
+        2048,
+        256
+      ],
+      "Mode": "RGBA",
+      "Sha256": "cc91caecf5487a93c19dea057718c238f3eee788f57604ccd73f860bf215b945"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Effects/recruit_atlas.png",
+      "Size": [
+        2048,
+        256
+      ],
+      "Mode": "RGBA",
+      "Sha256": "077e6eb75ccb93c1980f9c0ed247de273021338138fa277b6adeb3cd4e3c4c7a"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Effects/slash_atlas.png",
+      "Size": [
+        2048,
+        256
+      ],
+      "Mode": "RGBA",
+      "Sha256": "96ab39a8f3c63789739cbf0ebb17c7f5cb3309816ac6c6880d3a46724f399d31"
+    }
+  ],
+  "ReviewFiles": [
+    {
+      "Path": "docs/engineering/content-roster.png",
+      "Sha256": "7081c32381e342dfa6f09cfd62eda63ed6ddb4f7850e9a90f9ad474595396a71"
+    },
+    {
+      "Path": "docs/engineering/maps-review.png",
+      "Sha256": "11abe4dc4561ab0d8a03fb654e638d10738403d9bacfe2808394154b235a2c22"
+    }
+  ]
+}

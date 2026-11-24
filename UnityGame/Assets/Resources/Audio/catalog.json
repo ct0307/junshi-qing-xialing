@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "Cues": [
+    {
+      "Id": "music.menu",
+      "Paths": [
+        "Audio/Music/mus_menu_an_shang_shan_he_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.0,
+      "Priority": 50,
+      "Loop": true
+    },
+    {
+      "Id": "music.battle.hulao",
+      "Paths": [
+        "Audio/Music/mus_battle_hulao_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.0,
+      "Priority": 50,
+      "Loop": true
+    },
+    {
+      "Id": "music.battle.huangjin",
+      "Paths": [
+        "Audio/Music/mus_battle_huangjin_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.0,
+      "Priority": 50,
+      "Loop": true
+    },
+    {
+      "Id": "music.battle.guandu",
+      "Paths": [
+        "Audio/Music/mus_battle_guandu_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.0,
+      "Priority": 50,
+      "Loop": true
+    },
+    {
+      "Id": "music.battle.chibi",
+      "Paths": [
+        "Audio/Music/mus_battle_chibi_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.0,
+      "Priority": 50,
+      "Loop": true
+    },
+    {
+      "Id": "music.battle.finale",
+      "Paths": [
+        "Audio/Music/mus_battle_finale_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.0,
+      "Priority": 50,
+      "Loop": true
+    },
+    {
+      "Id": "music.boss",
+      "Paths": [
+        "Audio/Music/mus_boss_lin_zhen_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.0,
+      "Priority": 50,
+      "Loop": true
+    },
+    {
+      "Id": "music.victory",
+      "Paths": [
+        "Audio/Music/mus_result_victory_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.0,
+      "Priority": 100,
+      "Loop": false
+    },
+    {
+      "Id": "music.defeat",
+      "Paths": [
+        "Audio/Music/mus_result_defeat_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.0,
+      "Priority": 100,
+      "Loop": false
+    },
+    {
+      "Id": "ui.click",
+      "Paths": [
+        "Audio/Sfx/sfx_ui_click_v01",
+        "Audio/Sfx/sfx_ui_click_v02",
+        "Audio/Sfx/sfx_ui_click_v03"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.035,
+      "Priority": 50,
+      "Loop": false
+    },
+    {
+      "Id": "ui.reject",
+      "Paths": [
+        "Audio/Sfx/sfx_ui_reject_v01",
+        "Audio/Sfx/sfx_ui_reject_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 50,
+      "Loop": false
+    },
+    {
+      "Id": "action.recruit",
+      "Paths": [
+        "Audio/Sfx/sfx_action_recruit_v01",
+        "Audio/Sfx/sfx_action_recruit_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 65,
+      "Loop": false
+    },
+    {
+      "Id": "action.upgrade",
+      "Paths": [
+        "Audio/Sfx/sfx_action_upgrade_v01",
+        "Audio/Sfx/sfx_action_upgrade_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 65,
+      "Loop": false
+    },
+    {
+      "Id": "attack.melee",
+      "Paths": [
+        "Audio/Sfx/sfx_attack_melee_v01",
+        "Audio/Sfx/sfx_attack_melee_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.07,
+      "Priority": 30,
+      "Loop": false
+    },
+    {
+      "Id": "attack.bow",
+      "Paths": [
+        "Audio/Sfx/sfx_attack_bow_v01",
+        "Audio/Sfx/sfx_attack_bow_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.07,
+      "Priority": 30,
+      "Loop": false
+    },
+    {
+      "Id": "attack.fire",
+      "Paths": [
+        "Audio/Sfx/sfx_attack_fire_v01",
+        "Audio/Sfx/sfx_attack_fire_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.07,
+      "Priority": 30,
+      "Loop": false
+    },
+    {
+      "Id": "attack.control",
+      "Paths": [
+        "Audio/Sfx/sfx_attack_control_v01",
+        "Audio/Sfx/sfx_attack_control_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.07,
+      "Priority": 30,
+      "Loop": false
+    },
+    {
+      "Id": "attack.tactic",
+      "Paths": [
+        "Audio/Sfx/sfx_attack_tactic_v01",
+        "Audio/Sfx/sfx_attack_tactic_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.07,
+      "Priority": 30,
+      "Loop": false
+    },
+    {
+      "Id": "attack.support",
+      "Paths": [
+        "Audio/Sfx/sfx_attack_support_v01",
+        "Audio/Sfx/sfx_attack_support_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.07,
+      "Priority": 30,
+      "Loop": false
+    },
+    {
+      "Id": "combat.hit",
+      "Paths": [
+        "Audio/Sfx/sfx_combat_hit_v01",
+        "Audio/Sfx/sfx_combat_hit_v02",
+        "Audio/Sfx/sfx_combat_hit_v03"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.07,
+      "Priority": 30,
+      "Loop": false
+    },
+    {
+      "Id": "enemy.defeat",
+      "Paths": [
+        "Audio/Sfx/sfx_enemy_defeat_v01",
+        "Audio/Sfx/sfx_enemy_defeat_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 30,
+      "Loop": false
+    },
+    {
+      "Id": "castle.leak",
+      "Paths": [
+        "Audio/Sfx/sfx_castle_leak_v01",
+        "Audio/Sfx/sfx_castle_leak_v02"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 75,
+      "Loop": false
+    },
+    {
+      "Id": "wave.start",
+      "Paths": [
+        "Audio/Sfx/sfx_wave_start_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 65,
+      "Loop": false
+    },
+    {
+      "Id": "boss.warning",
+      "Paths": [
+        "Audio/Sfx/sfx_boss_warning_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 90,
+      "Loop": false
+    },
+    {
+      "Id": "boss.phase",
+      "Paths": [
+        "Audio/Sfx/sfx_boss_phase_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 90,
+      "Loop": false
+    },
+    {
+      "Id": "identity.lv_bu",
+      "Paths": [
+        "Audio/Sfx/sfx_identity_lv_bu_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 65,
+      "Loop": false
+    },
+    {
+      "Id": "identity.zhang_fei",
+      "Paths": [
+        "Audio/Sfx/sfx_identity_zhang_fei_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 65,
+      "Loop": false
+    },
+    {
+      "Id": "identity.zhuge_liang",
+      "Paths": [
+        "Audio/Sfx/sfx_identity_zhuge_liang_v01"
+      ],
+      "Gain": 1.0,
+      "Cooldown": 0.12,
+      "Priority": 65,
+      "Loop": false
+    }
+  ]
+}

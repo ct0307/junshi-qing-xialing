@@ -1,0 +1,31 @@
+{
+  "Revision": "v02",
+  "Status": "继续修改地图，非最终交付稿",
+  "UserApprovedFinalArt": false,
+  "CharacterFixesObserved": [
+    "坏笑与同构眉眼已调整",
+    "持械手补出指节和遮挡关系",
+    "肘臂及分束长髯已修改"
+  ],
+  "MapFixesObserved": [
+    "大块模糊暗污已消除",
+    "田块大小与作物已有差异",
+    "村落院地、关楼分层已补"
+  ],
+  "RemainingIssues": [
+    {
+      "Priority": "P2",
+      "Issue": "景物仍偏横排、大片草地层次薄，U形道路仍占据最强重心，关楼焦点偏弱",
+      "Action": "降低道路色差、强化自然地表与组合疏密，调整关楼后重新出图复核"
+    }
+  ],
+  "TechnicalReview": {
+    "InputHashesMatchedAtReview": 15,
+    "PngHashesAndSizesMatched": 6,
+    "FormalSourceFilesUnchanged": 407,
+    "NewPortraitsInStaticPreviewChecked": true
+  },
+  "PreviewIsStaticComposite": true,
+  "RuntimeUiTestedWithNewArt": false,
+  "NextRevision": "v03"
+}

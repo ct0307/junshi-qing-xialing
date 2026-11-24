@@ -1,0 +1,1401 @@
+{
+  "Status": "Passed",
+  "StartedAtUtc": "2026-11-12T01:44:47.7676249Z",
+  "CompletedAtUtc": "2026-11-12T01:45:05.2852156Z",
+  "VerifiedAtUtc": "2026-11-12T01:48:06.529619+00:00",
+  "UnityVersion": "6000.3.28f1",
+  "Command": "./tools/Build-Game.ps1 -Target Harmony",
+  "UnityExitCode": 0,
+  "HistoryUiAndDomainFilesUnchanged": 671,
+  "ExistingGameplayAndResourceFilesUnchanged": 174,
+  "FontFamily": [
+    "Source Han Serif CN Medium",
+    "思源宋体 CN Medium"
+  ],
+  "FontSha256": "f7906890686d17e122980efd2d6097d1caefed76312994baeaf220819e818f3a",
+  "FontLicense": "SIL Open Font License 1.1",
+  "FontSource": "UnityGame/Assets/Resources/Game/Fonts/ChineseDisplay-source.json",
+  "Screenshots": [
+    {
+      "Path": "battle-deployed-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "726bf9332fc66e423bf94243aca451f5d611fca72439ff3b3ab5781d9f0ced3e"
+    },
+    {
+      "Path": "battle-deployed-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "441479e03bb338f6cbed1baac77a49f809938bd4043d831e798eea1c0f521683"
+    },
+    {
+      "Path": "battle-deployed-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "f673ee0df170b11084d7329b43bf59a2ffc97614a67f504e88627b3516aff9cd"
+    },
+    {
+      "Path": "battle-empty-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "3e0ed5d547ea280ca19597ca96a9b92844c4ab858e21ce7c4bd8df168bd26914"
+    },
+    {
+      "Path": "battle-empty-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "ff6b23ad9e962801d4c8af0a4748a15fada09e6de6fdb299ca5693b9e431f965"
+    },
+    {
+      "Path": "battle-empty-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "410ef26b142799b94fc9a85cce1a6881776f4ac7e4d59cf60d0d60cb0fc1e4f9"
+    },
+    {
+      "Path": "battle-placement-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "5c5dfcaf49cbd31bf994a7c69e4a6fdf9044f65a16c21f21f2c67caa9371995c"
+    },
+    {
+      "Path": "battle-placement-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "293aee4ad3be1d0f7afde69725ce7b55276c555e9fd03d8e51397fd734bb51bb"
+    },
+    {
+      "Path": "battle-placement-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "d779931fb3aeaa292c54c5f508cab5801fb667acb0f15e0caa009ebdffd0dc2e"
+    },
+    {
+      "Path": "battle-rules-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "9c8d1391ac3fee9b8d39ca616e2da000bca48727e30d3a71cbd1f57d079adbf0"
+    },
+    {
+      "Path": "battle-rules-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "cc02220ab2b0c75e0c22e31248caae2fbcea34a81b7db7eb7ead90a597e6297d"
+    },
+    {
+      "Path": "battle-rules-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "ca3805832026a728968053ea7425633a7f8a6fe4007956e6ded992374a94b671"
+    },
+    {
+      "Path": "battle-running-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "a05ea450978bcfa718a72c25998eb6776f56a34da21a5565b7d1662160e4f960"
+    },
+    {
+      "Path": "battle-running-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "8ec12c06b985d183b7923d47dfbfbc877ff5a2aacc4095029a748c1f715b12cd"
+    },
+    {
+      "Path": "battle-running-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "f14aea0cb4a1f387ec8115acbb12bb43f4d8b9f96439b1934d24d7f9dbb5633a"
+    },
+    {
+      "Path": "battle-unaffordable-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "4962d53a8c6609f6d3f72e4e14fea6dd10bfdeb4b83ac75930ed2753b96acea7"
+    },
+    {
+      "Path": "battle-unaffordable-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "f066e54d89ee6e61e3897ba5cc80559b4598c36eccd249ef2272cb7d2b45e190"
+    },
+    {
+      "Path": "battle-unaffordable-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "e80ff72efcaf1d4016ca3f6090723a90d3aa459be28dadd9bc276e423d334605"
+    },
+    {
+      "Path": "boss-breach/after-breach-paused-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "5b56aa31784510e92275ef822fdc38d5fe625d878413a14a8eb0e1aec0ce9692"
+    },
+    {
+      "Path": "boss-breach/after-breach-paused-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "968fbcf8c0e34b9b37c3afc4c2a6284021be85469eafc282ca894c64b2e80040"
+    },
+    {
+      "Path": "boss-breach/after-breach-paused-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "9b7488514d8964d67127a2f336a15724cbd569adfdc291872270186a1f81f261"
+    },
+    {
+      "Path": "boss-breach/after-breach-reinforced-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "4020777fd985864a9d3f88d50674d4e250e6d1878940f41987342d99a22fc092"
+    },
+    {
+      "Path": "boss-breach/after-breach-reinforced-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "b2036b6f938600e08144a88ea0f2ff7863f204524d8c9a34145c4871462ad5f8"
+    },
+    {
+      "Path": "boss-breach/after-breach-reinforced-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "98ccc4fd732003e418163f1ab869d75069db82c8a723b2830f383301d2392549"
+    },
+    {
+      "Path": "boss-breach/chibi-intel-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "48c0ea97373855717426378b3cb4084e121d09798af4b333aae72e91bebb12ee"
+    },
+    {
+      "Path": "boss-breach/chibi-intel-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "c7bf7f077c03f973529ca5fccf4bfb90275094b766ebb58848f7567909fe3d29"
+    },
+    {
+      "Path": "boss-breach/chibi-intel-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "d2abf6f7e752ae7f9b2669ea28371aac3fceb5159f0c8981c8f776e7c9f777e0"
+    },
+    {
+      "Path": "boss-breach/final-breach-victory-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "bad4f99dd6f340ed28d37e7d155b3d27200958098e56329fabca8fde3fe5b623"
+    },
+    {
+      "Path": "boss-breach/final-breach-victory-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "e7b2f4b9599e57eed8c81c935eb111cf8661936dd9ed5941f8d451fbb4d657d7"
+    },
+    {
+      "Path": "boss-breach/final-breach-victory-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "ed276c870aa99b081435bfd0f0882c154c8ea1b36304141395de5f9d7161967f"
+    },
+    {
+      "Path": "boss-breach/finale-intel-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "d6bb0d25d024d686ee5bc71ae4acd7ac0fafb5d7faf9408bf8d55386e3b6a815"
+    },
+    {
+      "Path": "boss-breach/finale-intel-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "26eccef14b6cf68121b99ba5a24c12b4b840b5753d0e19d4abbf6deb306edd4c"
+    },
+    {
+      "Path": "boss-breach/finale-intel-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "389f42bd079ce38b8b0884ee2aa9e63719030b593ac72ed8b4bb335a82099b0d"
+    },
+    {
+      "Path": "boss-breach/first-breach-continues-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "915df91ce366870e8d788164c21cf11d6066263159f5c69f10ff8c98d134d3f2"
+    },
+    {
+      "Path": "boss-breach/first-breach-continues-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "5a60a46bfdc10f36981a7687f638e0fe9d6722ff622048836d8d3b969e2e5d82"
+    },
+    {
+      "Path": "boss-breach/first-breach-continues-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "3f0aceb8a19a0c39385b2c8e4272a31c984683b86b44fa44f8262783b2f2e87c"
+    },
+    {
+      "Path": "boss-breach/guandu-intel-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "9df0b3f71403d54cd29bb852f61b04600d95d226c22e942e6b6be863171daf9d"
+    },
+    {
+      "Path": "boss-breach/guandu-intel-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "57d0516d0a1526277f68b86d6b3376dacfd63cc270916835e919178646387446"
+    },
+    {
+      "Path": "boss-breach/guandu-intel-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "2bbfd74ad69cb6827516ff14477136c965b62cd49ba17f5e19f3361e028b459d"
+    },
+    {
+      "Path": "boss-breach/huangjin-intel-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "2deb1d2b2c1702e907a61374eec01da5197fc43cfd255e55d342f0f1e9e81d5b"
+    },
+    {
+      "Path": "boss-breach/huangjin-intel-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "10945d6d1f2394098e85fe647d751a37f93d5b6034a1c30a7f8ac7a60e45ee88"
+    },
+    {
+      "Path": "boss-breach/huangjin-intel-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "4a9c48eaff063ba7ce35fafb32ad8d5e131ffeab0b9cc0c11fc23a87aa946fcd"
+    },
+    {
+      "Path": "boss-breach/hulao-intel-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "8416f88cbe19442d35c014b4b7f3258fab5bae37e1432e1f6805b2dbd2c2e6d9"
+    },
+    {
+      "Path": "boss-breach/hulao-intel-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "686f1cfe543a3cde8a5e6c1b2948d47cb4e20a51dc4d034477a155b6b6647b3d"
+    },
+    {
+      "Path": "boss-breach/hulao-intel-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "da6b0547698b61fd42ae838b2d9edb70fcca1cc682de4f76ac7899f7ea91d726"
+    },
+    {
+      "Path": "boss-breach/low-castle-defeat-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "e0d9f32b5e0456363c06ae59834a22ec5bd9129b477954ab29d2a6b2b3cb3b01"
+    },
+    {
+      "Path": "boss-breach/low-castle-defeat-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "1aad667279728ea4f45455d24f07d9db98ce9d930a0c5370de19681649776732"
+    },
+    {
+      "Path": "boss-breach/low-castle-defeat-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "89ee35c9a91a4c76af7c314cb491f4b107988c0893f51689ac27eba2934de24e"
+    },
+    {
+      "Path": "boss-breach/second-breach-defeat-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "84a8de7734d4b015e0123cfd6dc19fa2ab4f86a89e9a7a1ba5cb67012840fe52"
+    },
+    {
+      "Path": "boss-breach/second-breach-defeat-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "6b701969786b4500db80969a8ba40be95d47aca183d6529c156085404d884e8d"
+    },
+    {
+      "Path": "boss-breach/second-breach-defeat-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "022749c99b96660174a33eacf8bd2bb7a3a37bbc4ece75a7bf57118902450abb"
+    },
+    {
+      "Path": "chibi-deployed.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "023185e51fc4e97108055aad96d74ed4bf6ae294112199f8fdb2c1bf20ffd07a"
+    },
+    {
+      "Path": "finale-deployed.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "9ff1acf6e1c1bac2a7f22b6799243e06feb0d52a547e062f55be903758c5df0e"
+    },
+    {
+      "Path": "flow-content-error.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "93531c6bdba0a81dc927af455c800835e38a20767ec6447c0477dd61cdd1c6d3"
+    },
+    {
+      "Path": "flow-defeat.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "729506d30006403ce103c56f1ff24f86ad7c29359e4ec860511f021b47aaf97b"
+    },
+    {
+      "Path": "flow-intel.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "10945d6d1f2394098e85fe647d751a37f93d5b6034a1c30a7f8ac7a60e45ee88"
+    },
+    {
+      "Path": "flow-levels.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "e052616f9b8dae11a0fd60093c2d9349419f0b36d234d576682a9e70270ba57a"
+    },
+    {
+      "Path": "flow-main.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "d15fbd3d99e2be7ce75567623df2f88a35cf6df9e186ca68bdb31bfa0e69919c"
+    },
+    {
+      "Path": "flow-pause.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "14715af76b5062a2441e9a184dccb1a2551882f8d67c28cc4e3311efd9a14920"
+    },
+    {
+      "Path": "flow-preparation-exit.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "741fb48e8acd5895c4855a3b1f09999c0eeefa8b033beb9344ca136b98de8b88"
+    },
+    {
+      "Path": "flow-roster.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "a08acd5ca5fc713da302c32440d9a4b6dd930269bdf126c81cc5475a737cf325"
+    },
+    {
+      "Path": "flow-victory.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "721b90d3d8de27378f21426cdbe8794dee3c62d9a80d9f0c46151ee270ab2abf"
+    },
+    {
+      "Path": "gameplay/battle-info-deployed.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "8973cbe5bdd1b7ceadb69c302516c555061085a580124a8d8a496580fe805331"
+    },
+    {
+      "Path": "gameplay/battle-info-lv_bu.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "753f4a939ad944e92a380154455072413bfc08ac1406f6c4cff6eb2c86ef0d27"
+    },
+    {
+      "Path": "gameplay/battle-info-lv_meng.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "3a20de53f0e23bcebbe5caa403e72fe7d837a89ec1f6bf79b67c741eff2d942b"
+    },
+    {
+      "Path": "gameplay/battle-info-xun_yu.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "47503ca2f50087333957a48d9080fb2ca278ed094bcbcd0a688ddd3e04bb52f8"
+    },
+    {
+      "Path": "gameplay/battle-info-zhang_fei.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "cd2c5fb7fd405d8f4667a76c112dde9006d4cf5982d9ef45a043939d320adcac"
+    },
+    {
+      "Path": "gameplay/defeat-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "3ecd4b3ab1364c874d96d71f16174ec544f07cf08dffaa5bf415d8bc12407d3b"
+    },
+    {
+      "Path": "gameplay/defeat-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "729506d30006403ce103c56f1ff24f86ad7c29359e4ec860511f021b47aaf97b"
+    },
+    {
+      "Path": "gameplay/defeat-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "000bd23e133a58f2a82dfe9b91f1bcf783fc9cebfafc841f713b6643b10480fb"
+    },
+    {
+      "Path": "gameplay/guide-preparation-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "afed9d931b79d5a5d6c244a769c6de2057dc78030075c6c587a0b3b89fa6ce19"
+    },
+    {
+      "Path": "gameplay/guide-preparation-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "410ef26b142799b94fc9a85cce1a6881776f4ac7e4d59cf60d0d60cb0fc1e4f9"
+    },
+    {
+      "Path": "gameplay/guide-wave-1.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "bd09dcfc12ee4b6311b744fd5e2a7dd4aaf055b8970228903b73a6fce467d86d"
+    },
+    {
+      "Path": "gameplay/guide-wave-2.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "df7bc9d0b83334c173905ce1b01b7bc8b47bce85a0838195739234d973ddf068"
+    },
+    {
+      "Path": "gameplay/guide-wave-3.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "b14d597a0f1a3bd10f0b1be760df41bdc77369c51ca783b851cac16f07e3d8ee"
+    },
+    {
+      "Path": "gameplay/guide-wave-4.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "d1fc76b34a9f18a5fa8acfbb80418fc429a5a4e59a49f2a96b0ed5a5fce711b8"
+    },
+    {
+      "Path": "gameplay/hero-lv_bu.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "d89e661d491145181dc41083c2c6aa4c2423431c1e7e6ea5eebd70e54f5e5609"
+    },
+    {
+      "Path": "gameplay/hero-lv_meng.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "7c5a7a76c9efa887386b0a888e62fd2ec55d1aff50827c1897ba32930259c46a"
+    },
+    {
+      "Path": "gameplay/hero-xun_yu.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "4a0a8f1ad3cd4cb617297e450a53112a9f97e49b849b61ddbb7136090395fc00"
+    },
+    {
+      "Path": "gameplay/hero-zhang_fei.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "831abd56b4b8a6da39aaa5b714a25f1f2fa7ab00994008d7900ee7eab1777f88"
+    },
+    {
+      "Path": "gameplay/levels-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "9418b097faa316e381b69ef22127fe3c96600b1f73a693d8e81368df2b7adbc2"
+    },
+    {
+      "Path": "gameplay/move-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "39b42676207876c217e41b1b123027f398f3f9d2941842bd1a7a90f9d3e854e6"
+    },
+    {
+      "Path": "gameplay/move-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "fbd9fd7bd27c5d373db3c9ba8ef1f7d047eff2898ed65aee44ecb9c6a106c01a"
+    },
+    {
+      "Path": "gameplay/move-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "72c5264fa5d9c0b9a029e5a087434a9bc88de9489c4e91b3d458f79d8fc4d9ec"
+    },
+    {
+      "Path": "growth/battle-loss-continues-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "9ae5ca9286c66efe47e045923866346ad0552f0c53006db02bb2bdfb1129c276"
+    },
+    {
+      "Path": "growth/battle-loss-continues-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "ca8b299264bddb01d6cb4d6c55a27a9131b6dce4a32402c5f0b86aaacb332229"
+    },
+    {
+      "Path": "growth/battle-loss-continues-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "97c7d1847eb9ea3b4099d6323b36387d350c85fb0370a9ff0cf1e41480904b7d"
+    },
+    {
+      "Path": "growth/growth-full-details-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "5cf318c179b06736ad7d50fcbca9f16fbe8c5c61fea58c8901173198e63516c0"
+    },
+    {
+      "Path": "growth/growth-full-details-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "80f566239600ec97959b1f0ae6a9e37b8bf8808a6114f3401c44aba90b8818cc"
+    },
+    {
+      "Path": "growth/growth-full-details-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "e859492f3294b8fbb43177dbb8daad664ff8b3334f74b40a88c8cd6d7296eca5"
+    },
+    {
+      "Path": "growth/levels-empty-records-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "9418b097faa316e381b69ef22127fe3c96600b1f73a693d8e81368df2b7adbc2"
+    },
+    {
+      "Path": "growth/levels-empty-records-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "e052616f9b8dae11a0fd60093c2d9349419f0b36d234d576682a9e70270ba57a"
+    },
+    {
+      "Path": "growth/levels-empty-records-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "cc67448eb399cb062083f543b11c08666dd8bebbd7b455a913a87d3665f38b5b"
+    },
+    {
+      "Path": "growth/menu-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "d4829a4f76aba50791c7a3a0847ba93e7f8514e86cc3dfd664366dbd25259e6f"
+    },
+    {
+      "Path": "growth/menu-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "d15fbd3d99e2be7ce75567623df2f88a35cf6df9e186ca68bdb31bfa0e69919c"
+    },
+    {
+      "Path": "growth/menu-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "0417b2254428d7f7fbcd2d211f4be946466667002fe0a31d3402c9a95725b4bc"
+    },
+    {
+      "Path": "growth/paused-clock-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "775af8e12d140ad645f15ca3f266e005e9ce0fb7ca484b2136ff9ef312f52e60"
+    },
+    {
+      "Path": "growth/paused-clock-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "802e82fff3f56d6aa26480a17f0bb1c09b27d075565c953d253aedae45aa242f"
+    },
+    {
+      "Path": "growth/paused-clock-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "716f45dec43902aa268141c8a4c773a958b04d0e4ccc783caf3423ada3fed28b"
+    },
+    {
+      "Path": "growth/record-defeat-unchanged-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "0aef4107c54701aa87a8d61e582ccf4c7026dce044e70026862c4358fbc148c7"
+    },
+    {
+      "Path": "growth/record-defeat-unchanged-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "351fd211001ff845b6392f9d76d81b0ddd336f50d29ce9dc23d5e63d9265c9a5"
+    },
+    {
+      "Path": "growth/record-defeat-unchanged-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "849795603fdaf4eb644cc828a112f8ae29d103177d7192d7e23241ee27bd6016"
+    },
+    {
+      "Path": "growth/record-first-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "3403c2a8c6037dbf2dc38cd86e6e700d2e49a4e0fd8f4390f0e19598b0f9006a"
+    },
+    {
+      "Path": "growth/record-first-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "f445e97fb1d92a252f9460075f6fea5fbecdaf1b1902ea77993708fff1543972"
+    },
+    {
+      "Path": "growth/record-first-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "0943477deb2dbd7995b758103b1705149f39427a62e9694474c2fc096a4d6fb7"
+    },
+    {
+      "Path": "growth/record-improved-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "4ca8a5228af4cce2bb74438ee9703d485ae9db754c970b1878fdca41995f2398"
+    },
+    {
+      "Path": "growth/record-improved-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "41dbc1311d2344d7dc1b21324844e55b18da9fcb37145f6f88ce2d9a718fda57"
+    },
+    {
+      "Path": "growth/record-improved-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "7f3c03f160bbef21ebda9684ace0198dc8af498c4dbae5668b2409d8465dd70d"
+    },
+    {
+      "Path": "growth/record-slower-keeps-best-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "a0a353f041998cf076bf281e4d0540579a003cd25c212c5e4c86258c833ac447"
+    },
+    {
+      "Path": "growth/record-slower-keeps-best-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "432ef6d53e5b58c645561c4e1e6823d38f2e9eebb425a81fcfd92f5d800f7668"
+    },
+    {
+      "Path": "growth/record-slower-keeps-best-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "b6e7d446734eed9c584a17a356192c8f1278e63e074917e9e2c8f87d998b888f"
+    },
+    {
+      "Path": "growth/roster-details-do-not-select-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "8c4b48da2b0e97863edf81ce9cbe527ffde91c59e896d93b5544abbac51bc708"
+    },
+    {
+      "Path": "growth/roster-details-do-not-select-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "bcc5061cd44a41aebacee799b3ee1912fef02a529d1c9dd16c48190fcf6b33d7"
+    },
+    {
+      "Path": "growth/roster-details-do-not-select-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "979972b37db7fb6cbbce58d2800b3058a1abe9718874d1dc15c9e39a368aa90a"
+    },
+    {
+      "Path": "growth/shape-lv-bu-tier-1-to-2-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "272fb831906509a60ac9d326e34c1df720b42e296b4d6b5e685cbcfacaeaaf68"
+    },
+    {
+      "Path": "growth/shape-lv-bu-tier-1-to-2-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "91773458ab3200231023d56d435aceb480ba593faab70e2051d5bdcfbcb21a5d"
+    },
+    {
+      "Path": "growth/shape-lv-bu-tier-1-to-2-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "8eafbbea62ad504d2ba130c1102676b001bc7a6cb07eceb2c127b69d2a9b2ac9"
+    },
+    {
+      "Path": "growth/shape-lv-bu-tier-2-to-3-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "69c997ad54ce2d08f789c6f0d110c9308f1220cc52ec4fa839a9d529b508d500"
+    },
+    {
+      "Path": "growth/shape-lv-bu-tier-2-to-3-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "837198b51fe3d569ecaa8ddcbd440f9c591ddb6a1c08f822e35ff0e94e47c561"
+    },
+    {
+      "Path": "growth/shape-lv-bu-tier-2-to-3-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "b48025082fe12ca442af1dc0b084535925ce31ed3ac7f5b77abc015511fcdd2d"
+    },
+    {
+      "Path": "growth/shape-zhao-yun-tier-1-to-2-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "7ef57927e02c45d05b4b5a16045fa2effd4001f52e31d6d8c65b05d1e5c88177"
+    },
+    {
+      "Path": "growth/shape-zhao-yun-tier-1-to-2-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "aeb04ee2f3a6f7e6c5cc4db21b34588be03874d6a505f786d0ef81da32096fa7"
+    },
+    {
+      "Path": "growth/shape-zhao-yun-tier-1-to-2-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "a9991d0c2ac533eac3e42bf8c670e8e5d3d7dbfd96410695616d178caecd1b18"
+    },
+    {
+      "Path": "growth/upgrade-supply-advance-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "9bbcb81bb16fe9aaa8666e29f6d5e4af2be72bd097c7ec0b26855c2b64626262"
+    },
+    {
+      "Path": "growth/upgrade-supply-advance-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "57781f43ac4a0b398c63a8931314c80cb92f0bf2462c7f00da3f33d82586097e"
+    },
+    {
+      "Path": "growth/upgrade-supply-advance-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "ce88cce118976a2a1a9347af7de799db9fa84228d80dd70adb609ac5070c968f"
+    },
+    {
+      "Path": "growth/upgrade-tier-1-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "ccf2b716eb58265f3b5f2f8ac1127e276fcf65ec000bd319d754842672976423"
+    },
+    {
+      "Path": "growth/upgrade-tier-1-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "b837e39bdeb3681a3a53d13b700e31fbf3fcb9626ab35a7c8e74d31c198b62b5"
+    },
+    {
+      "Path": "growth/upgrade-tier-1-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "2ca7da5b4f27aa8318e65affc3455783d16a7a06b8b29dce33e5cbc4c1141837"
+    },
+    {
+      "Path": "growth/upgrade-tier-2-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "865d68f76f8dba24e8956ab6c1d7c19e4acc4fd97a6f165efcd0d930a929ac83"
+    },
+    {
+      "Path": "growth/upgrade-tier-2-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "3522f97f03cf7ca0932e947ea1ec0d04feea4832d5cf8f19bea49745b1585757"
+    },
+    {
+      "Path": "growth/upgrade-tier-2-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "252d06a17164f43e0bf74441f82a97eb8dce5953c443bfd444e202969e171350"
+    },
+    {
+      "Path": "growth/upgrade-tier-3-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "d52733314dcec09724bf5be79db0fe7efa1e6ced61ff30e9431d2f7f708473be"
+    },
+    {
+      "Path": "growth/upgrade-tier-3-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "8afea343d78a84ef8c7cb2555433df276818d0fe8445d396c46f6c9e6519e6ec"
+    },
+    {
+      "Path": "growth/upgrade-tier-3-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "db0b3f77269f3c352bb8d18a3b878a13401b2b38d74609731ff3e2c4125ab8c2"
+    },
+    {
+      "Path": "growth/upgrade-unaffordable-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "61e52065ed88e8550603b56e9b8b47e98868f738f69680de393e179a15c5565d"
+    },
+    {
+      "Path": "growth/upgrade-unaffordable-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "f019e78b25aa4914b361b6749cddce6a22359d3ec5152f6968b72514408e8c65"
+    },
+    {
+      "Path": "growth/upgrade-unaffordable-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "5279fd434018bd91adf88e80bd61b9fa7d06b367886adff3926894cc9eb50ad8"
+    },
+    {
+      "Path": "guandu-deployed.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "0d60fc19d6c82cf20f0509812a5b376e41e617207116c302b218551175572836"
+    },
+    {
+      "Path": "huangjin-between-waves.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "de934fb2a1b3831543870ef6c2208c71154d15fba9240bef497e8d9d528eb74e"
+    },
+    {
+      "Path": "huangjin-boss-warning.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "495c77bb3b566c151ad2447c67202ad720571421e4f0a302fc1ad78b3e4e10f7"
+    },
+    {
+      "Path": "huangjin-boss.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "a1e12274851d6972cde7e5bd3b269085e59d0fa7aea51edb2428546d4b8fdf02"
+    },
+    {
+      "Path": "huangjin-combat.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "a696967b7036c67f64ba6a6429254761adfb69d21bcb609e79e441b11f9c2964"
+    },
+    {
+      "Path": "huangjin-defeat-result.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "9c977f1ef9cea23c200a3ce9c5550ef3710bdc1c8b14a9260e50a4256a300453"
+    },
+    {
+      "Path": "huangjin-density-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "dd03e352cdba715e32fb63ac2057063da73ca357f28dae65a14e4ed868e306bb"
+    },
+    {
+      "Path": "huangjin-density-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "903f3549c866d7a0ea8061c55fb7a5b36962e2254aee2d37d810691ba365cf62"
+    },
+    {
+      "Path": "huangjin-density-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "a0c016b0529a4d610c1b2da01eb04c47c797299f311193f260254879d2540b25"
+    },
+    {
+      "Path": "huangjin-deployed.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "7f62ab3d16e028d97000b43333ce17ccfe9d39cc5ecb5992d8518bf0f67ead97"
+    },
+    {
+      "Path": "huangjin-empty-army.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "e3ae6cfd46b781a6bbde4493a66eb631c2608572afbfe59f42314681b0e7f1d7"
+    },
+    {
+      "Path": "huangjin-empty.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "e3ae6cfd46b781a6bbde4493a66eb631c2608572afbfe59f42314681b0e7f1d7"
+    },
+    {
+      "Path": "huangjin-max-level.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "ad67f29a18e5cf5de40df7df2b6a16119749e6eff0a4289bb6098daf4fedb07e"
+    },
+    {
+      "Path": "huangjin-mobile.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "1016ee56119f6a0c41b428043d6ff82206d33071c0f496bcb24e7af018dd3ece"
+    },
+    {
+      "Path": "huangjin-placement-preview.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "fd87933630e34a0155553169f54e5a843c2cc41f9d991544cd2641aded47a71e"
+    },
+    {
+      "Path": "huangjin-victory-mobile.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "420b8f8239ce87fc3f7b9782ee3c7cff8a3450016a93909fda9da7c6c7457387"
+    },
+    {
+      "Path": "huangjin-victory-result.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "5b1f43bf3da61726cd991dca496e43db8eaeb28ca6117751d83da5b6aba8805f"
+    },
+    {
+      "Path": "huangjin-wide.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "d4e678c3a07c011cb98dec6852424dc8182d77ff4c8a1af605315aebcc51f2e1"
+    },
+    {
+      "Path": "hulao-deployed.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "08417480844d16bb2032d73543f0b5effc4a4839ab6c53383ab6fc0f3613eca9"
+    },
+    {
+      "Path": "levels-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "5e71de9072b63d86468f335e057fa6cd2f02423e8d6e783fe344e8cf1bd1a141"
+    },
+    {
+      "Path": "levels-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "e052616f9b8dae11a0fd60093c2d9349419f0b36d234d576682a9e70270ba57a"
+    },
+    {
+      "Path": "levels-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "cc67448eb399cb062083f543b11c08666dd8bebbd7b455a913a87d3665f38b5b"
+    },
+    {
+      "Path": "main-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "d343a2d6e4358e77f44c5802038fbb3b44888e7931478cbe35c3f84be584c003"
+    },
+    {
+      "Path": "main-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "d15fbd3d99e2be7ce75567623df2f88a35cf6df9e186ca68bdb31bfa0e69919c"
+    },
+    {
+      "Path": "main-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "0417b2254428d7f7fbcd2d211f4be946466667002fe0a31d3402c9a95725b4bc"
+    },
+    {
+      "Path": "name/main-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "d4829a4f76aba50791c7a3a0847ba93e7f8514e86cc3dfd664366dbd25259e6f"
+    },
+    {
+      "Path": "name/main-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "d15fbd3d99e2be7ce75567623df2f88a35cf6df9e186ca68bdb31bfa0e69919c"
+    },
+    {
+      "Path": "name/main-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "0417b2254428d7f7fbcd2d211f4be946466667002fe0a31d3402c9a95725b4bc"
+    },
+    {
+      "Path": "roster-empty-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "f70b7b472a3590e797ab8091a2692a9581b339dd1ea816ee21c08bced998e3e0"
+    },
+    {
+      "Path": "roster-empty-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "174a967edefb5a0fc6cb3f34ff5ad7cd3a3538b984a4397cb88101c0c3f15b9a"
+    },
+    {
+      "Path": "roster-empty-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "2d95ceceb11e9d5e8dcfafe4422f58cd706eb0f1985e4217009b3dd1c5c3c2a3"
+    },
+    {
+      "Path": "roster-focus-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "c0eb82a29aacb25d5dcfe66356afdac877d396ebebb76e1d96a0635e0763d2ee"
+    },
+    {
+      "Path": "roster-focus-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "eba3a274873b3a4c14c9eb457d17685cdfd18afff10331b0f7e6c311e93a2163"
+    },
+    {
+      "Path": "roster-focus-2400.png",
+      "Size": [
+        2400,
+        1080
+      ],
+      "Sha256": "4b4b3389b60e1b76406e8c8941e5b208626c36de550dc32c911e95f90ec7c01c"
+    }
+  ],
+  "Comparison": "docs/ui/jade-harmony-comparison-20261112.png",
+  "UnityLog": "unity-harmony.log",
+  "UnityLogSha256": "e3be4c79c384713fedf21c3b937261d57f94e6872a67051b3fa233842bcfe636",
+  "AndroidBuiltThisRound": false,
+  "DeviceTestedThisRound": false
+}

@@ -1,0 +1,26 @@
+﻿{
+    "Revision":  "v03",
+    "UnityVersion":  "6000.3.28f1",
+    "RenderExitCode":  0,
+    "VerifiedAtUtc":  "2026-11-08T06:28:42.6129236Z",
+    "Scripts":  [
+                    {
+                        "Path":  "C:\\Users\\chentao\\Desktop\\移动应用开发\\tools\\artlab\\MiniatureArt.cs",
+                        "Sha256":  "2ba55cbed8dce43a03a94b570a46ebc31ac552a2bf898a1cc7e29a3220206739"
+                    },
+                    {
+                        "Path":  "C:\\Users\\chentao\\Desktop\\移动应用开发\\tools\\artlab\\MiniatureCharacters.cs",
+                        "Sha256":  "4d7af6a87e5c9aeee19f87e727705f258536efdebac3d7205600ce3a69db70db"
+                    },
+                    {
+                        "Path":  "C:\\Users\\chentao\\Desktop\\移动应用开发\\tools\\artlab\\MiniatureMap.cs",
+                        "Sha256":  "81b7eaf41bfac2105141580c85adbcf1070f431f0bde932aa26fb741afda0c13"
+                    },
+                    {
+                        "Path":  "C:\\Users\\chentao\\Desktop\\移动应用开发\\tools\\artlab\\MiniatureRender.cs",
+                        "Sha256":  "d8a92822523d1c253f4da636fedd8a92eff68aafd0e8224933dd88d09a92e4e0"
+                    }
+                ],
+    "DatabaseSha256":  "2ce213decc99263dc6338afc004822f177fb1358b5f1b9bce48ab9776876c55a",
+    "LogSha256":  "9cd4b12beea9687f4e63718780d9fd3e04a8e34126524483b5ce001a7ef12cd1"
+}

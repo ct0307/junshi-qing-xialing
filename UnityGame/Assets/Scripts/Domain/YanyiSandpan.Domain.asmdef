@@ -1,0 +1,7 @@
+{
+  "name": "YanyiSandpan.Domain",
+  "rootNamespace": "YanyiSandpan.Domain",
+  "references": [],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

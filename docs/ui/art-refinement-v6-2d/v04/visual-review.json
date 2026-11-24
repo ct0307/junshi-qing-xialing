@@ -1,0 +1,46 @@
+{
+  "Revision": "v04",
+  "Stage": "2D方向确认样稿，未接入游戏",
+  "Reviewers": [
+    "主代理",
+    "独立视觉复核代理"
+  ],
+  "Inspected": [
+    "完整对比板",
+    "关羽与赵云768x768透明原图",
+    "约113像素人物缩略图",
+    "地图按(38,144)-(1882,842)实际裁切后的1280静态战场合成",
+    "v04技术验证清单与正式黄巾路线／阵位数据"
+  ],
+  "VisualAssessment": {
+    "ReferenceDirection": "适合继续：鲜明草绿、暖橙棕道路、深色轮廓、农田和两端焦点与用户提供的手绘Q版方向一致。",
+    "Characters": "约113像素下仍能区分关羽的红面长髯绿袍与偃月刀、赵云的银白甲与红缨枪；两人线稿和色块体系统一。",
+    "MapCrop": "西北入口营寨与西南目标关楼完整可见，道路连续；阵位清晰，没有被高对比装饰遮盖。",
+    "RelativeToReference": "地图地表留白偏大，田块偏小且横向排列，笔触和景物层次密度不足；人物轮廓与表情对比仍较柔。v04是方向转译样稿，完成度低于参考图。"
+  },
+  "NonBlockingRefinements": [
+    "营寨至西南关楼间浅色软边院径在全图上略像拖影，可收窄并减少柔边。",
+    "静态预览上沿部署带与鲜亮草地有轻微分区感，可统一底色过渡。",
+    "后续增强地表纹理、田块组合疏密和轮廓有机粗细，同时维持正式路线、阵位及实际裁切。"
+  ],
+  "TechnicalReview": {
+    "InputFiles": 15,
+    "PngFiles": 6,
+    "FormalProjectFilesUnchanged": 407,
+    "RoutePoints": 70,
+    "Slots": 32,
+    "AcceptedDecorations": 29,
+    "RejectedOptionalFlowerClumps": 9,
+    "AcceptedGrassClumps": 71,
+    "CharacterTransparentMargins": "pass",
+    "CharacterIdentityAt113px": "pass",
+    "VisibleMapCropAndRoadContinuity": "pass",
+    "RoadAndSlotClearance": "pass",
+    "TerminalGateRoadContact": "allowed; only decoration exception"
+  },
+  "RuntimeUiTestedWithNewArt": false,
+  "NewGameBuildCreated": false,
+  "DeviceTested": false,
+  "UserApprovedFinalArt": false,
+  "Conclusion": "无阻止展示的缺陷，可作为2D方向确认稿交用户审阅；不是运行时验证或最终美术定稿。"
+}

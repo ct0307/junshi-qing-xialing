@@ -1,0 +1,33 @@
+UnityGame/Library/
+UnityGame/Temp/
+UnityGame/Obj/
+UnityGame/Logs/
+UnityGame/UserSettings/
+UnityGame/Builds/
+UnityGame/.vs/
+UnityGame/*.csproj
+UnityGame/*.sln
+UnityGame/Tests/bin/
+UnityGame/Tests/obj/
+__pycache__/
+*.pyc
+.tools/
+
+# 本地日志、临时验收资料和交付安装包不纳入源码仓库。
+/Logs/
+/.planning/
+/delivery/
+*.log
+
+# 本地环境配置、签名材料和 Unity 许可文件。
+.env
+.env.*
+!.env.example
+!.env.sample
+*.keystore
+*.jks
+*.pfx
+*.p12
+*.pem
+*.key
+*.ulf

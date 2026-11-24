@@ -1,0 +1,251 @@
+[
+  {
+    "AtSeconds": 0,
+    "CueId": "music.menu",
+    "ExcerptSeconds": 4.0
+  },
+  {
+    "AtSeconds": 4,
+    "CueId": "music.battle.hulao",
+    "ExcerptSeconds": 4.0
+  },
+  {
+    "AtSeconds": 8,
+    "CueId": "music.battle.huangjin",
+    "ExcerptSeconds": 4.0
+  },
+  {
+    "AtSeconds": 12,
+    "CueId": "music.battle.guandu",
+    "ExcerptSeconds": 4.0
+  },
+  {
+    "AtSeconds": 16,
+    "CueId": "music.battle.chibi",
+    "ExcerptSeconds": 4.0
+  },
+  {
+    "AtSeconds": 20,
+    "CueId": "music.battle.finale",
+    "ExcerptSeconds": 4.0
+  },
+  {
+    "AtSeconds": 24,
+    "CueId": "music.boss",
+    "ExcerptSeconds": 4.0
+  },
+  {
+    "AtSeconds": 28,
+    "CueId": "music.victory",
+    "ExcerptSeconds": 4.0
+  },
+  {
+    "AtSeconds": 32,
+    "CueId": "music.defeat",
+    "ExcerptSeconds": 4.0
+  },
+  {
+    "AtSeconds": 36.0,
+    "CueId": "ui.click",
+    "ResourcePath": "Audio/Sfx/sfx_ui_click_v01",
+    "ExcerptSeconds": 0.065
+  },
+  {
+    "AtSeconds": 36.45775,
+    "CueId": "ui.click",
+    "ResourcePath": "Audio/Sfx/sfx_ui_click_v02",
+    "ExcerptSeconds": 0.06727083333333334
+  },
+  {
+    "AtSeconds": 36.91777,
+    "CueId": "ui.click",
+    "ResourcePath": "Audio/Sfx/sfx_ui_click_v03",
+    "ExcerptSeconds": 0.06954166666666667
+  },
+  {
+    "AtSeconds": 37.38006,
+    "CueId": "ui.reject",
+    "ResourcePath": "Audio/Sfx/sfx_ui_reject_v01",
+    "ExcerptSeconds": 0.145
+  },
+  {
+    "AtSeconds": 37.91781,
+    "CueId": "ui.reject",
+    "ResourcePath": "Audio/Sfx/sfx_ui_reject_v02",
+    "ExcerptSeconds": 0.15008333333333335
+  },
+  {
+    "AtSeconds": 38.46064,
+    "CueId": "action.recruit",
+    "ResourcePath": "Audio/Sfx/sfx_action_recruit_v01",
+    "ExcerptSeconds": 0.33
+  },
+  {
+    "AtSeconds": 39.18339,
+    "CueId": "action.recruit",
+    "ResourcePath": "Audio/Sfx/sfx_action_recruit_v02",
+    "ExcerptSeconds": 0.3415416666666667
+  },
+  {
+    "AtSeconds": 39.91768,
+    "CueId": "action.upgrade",
+    "ResourcePath": "Audio/Sfx/sfx_action_upgrade_v01",
+    "ExcerptSeconds": 0.52
+  },
+  {
+    "AtSeconds": 40.83043,
+    "CueId": "action.upgrade",
+    "ResourcePath": "Audio/Sfx/sfx_action_upgrade_v02",
+    "ExcerptSeconds": 0.5382083333333333
+  },
+  {
+    "AtSeconds": 41.76138,
+    "CueId": "attack.melee",
+    "ResourcePath": "Audio/Sfx/sfx_attack_melee_v01",
+    "ExcerptSeconds": 0.18
+  },
+  {
+    "AtSeconds": 42.33413,
+    "CueId": "attack.melee",
+    "ResourcePath": "Audio/Sfx/sfx_attack_melee_v02",
+    "ExcerptSeconds": 0.18629166666666666
+  },
+  {
+    "AtSeconds": 42.91317,
+    "CueId": "attack.bow",
+    "ResourcePath": "Audio/Sfx/sfx_attack_bow_v01",
+    "ExcerptSeconds": 0.145
+  },
+  {
+    "AtSeconds": 43.45092,
+    "CueId": "attack.bow",
+    "ResourcePath": "Audio/Sfx/sfx_attack_bow_v02",
+    "ExcerptSeconds": 0.15008333333333335
+  },
+  {
+    "AtSeconds": 43.99375,
+    "CueId": "attack.fire",
+    "ResourcePath": "Audio/Sfx/sfx_attack_fire_v01",
+    "ExcerptSeconds": 0.34
+  },
+  {
+    "AtSeconds": 44.7265,
+    "CueId": "attack.fire",
+    "ResourcePath": "Audio/Sfx/sfx_attack_fire_v02",
+    "ExcerptSeconds": 0.35189583333333335
+  },
+  {
+    "AtSeconds": 45.47115,
+    "CueId": "attack.control",
+    "ResourcePath": "Audio/Sfx/sfx_attack_control_v01",
+    "ExcerptSeconds": 0.27
+  },
+  {
+    "AtSeconds": 46.1339,
+    "CueId": "attack.control",
+    "ResourcePath": "Audio/Sfx/sfx_attack_control_v02",
+    "ExcerptSeconds": 0.2794583333333333
+  },
+  {
+    "AtSeconds": 46.8061,
+    "CueId": "attack.tactic",
+    "ResourcePath": "Audio/Sfx/sfx_attack_tactic_v01",
+    "ExcerptSeconds": 0.23
+  },
+  {
+    "AtSeconds": 47.42885,
+    "CueId": "attack.tactic",
+    "ResourcePath": "Audio/Sfx/sfx_attack_tactic_v02",
+    "ExcerptSeconds": 0.23804166666666668
+  },
+  {
+    "AtSeconds": 48.05964,
+    "CueId": "attack.support",
+    "ResourcePath": "Audio/Sfx/sfx_attack_support_v01",
+    "ExcerptSeconds": 0.24
+  },
+  {
+    "AtSeconds": 48.69239,
+    "CueId": "attack.support",
+    "ResourcePath": "Audio/Sfx/sfx_attack_support_v02",
+    "ExcerptSeconds": 0.24839583333333334
+  },
+  {
+    "AtSeconds": 49.33354,
+    "CueId": "combat.hit",
+    "ResourcePath": "Audio/Sfx/sfx_combat_hit_v01",
+    "ExcerptSeconds": 0.075
+  },
+  {
+    "AtSeconds": 49.80129,
+    "CueId": "combat.hit",
+    "ResourcePath": "Audio/Sfx/sfx_combat_hit_v02",
+    "ExcerptSeconds": 0.077625
+  },
+  {
+    "AtSeconds": 50.27166,
+    "CueId": "combat.hit",
+    "ResourcePath": "Audio/Sfx/sfx_combat_hit_v03",
+    "ExcerptSeconds": 0.08025
+  },
+  {
+    "AtSeconds": 50.74466,
+    "CueId": "enemy.defeat",
+    "ResourcePath": "Audio/Sfx/sfx_enemy_defeat_v01",
+    "ExcerptSeconds": 0.19
+  },
+  {
+    "AtSeconds": 51.32741,
+    "CueId": "enemy.defeat",
+    "ResourcePath": "Audio/Sfx/sfx_enemy_defeat_v02",
+    "ExcerptSeconds": 0.19664583333333333
+  },
+  {
+    "AtSeconds": 51.9168,
+    "CueId": "castle.leak",
+    "ResourcePath": "Audio/Sfx/sfx_castle_leak_v01",
+    "ExcerptSeconds": 0.32
+  },
+  {
+    "AtSeconds": 52.62955,
+    "CueId": "castle.leak",
+    "ResourcePath": "Audio/Sfx/sfx_castle_leak_v02",
+    "ExcerptSeconds": 0.3312083333333333
+  },
+  {
+    "AtSeconds": 53.35351,
+    "CueId": "wave.start",
+    "ResourcePath": "Audio/Sfx/sfx_wave_start_v01",
+    "ExcerptSeconds": 0.58
+  },
+  {
+    "AtSeconds": 54.32626,
+    "CueId": "boss.warning",
+    "ResourcePath": "Audio/Sfx/sfx_boss_warning_v01",
+    "ExcerptSeconds": 0.82
+  },
+  {
+    "AtSeconds": 55.539,
+    "CueId": "boss.phase",
+    "ResourcePath": "Audio/Sfx/sfx_boss_phase_v01",
+    "ExcerptSeconds": 1.02
+  },
+  {
+    "AtSeconds": 56.95175,
+    "CueId": "identity.lv_bu",
+    "ResourcePath": "Audio/Sfx/sfx_identity_lv_bu_v01",
+    "ExcerptSeconds": 0.68
+  },
+  {
+    "AtSeconds": 58.0245,
+    "CueId": "identity.zhang_fei",
+    "ResourcePath": "Audio/Sfx/sfx_identity_zhang_fei_v01",
+    "ExcerptSeconds": 0.58
+  },
+  {
+    "AtSeconds": 58.99725,
+    "CueId": "identity.zhuge_liang",
+    "ResourcePath": "Audio/Sfx/sfx_identity_zhuge_liang_v01",
+    "ExcerptSeconds": 0.61
+  }
+]

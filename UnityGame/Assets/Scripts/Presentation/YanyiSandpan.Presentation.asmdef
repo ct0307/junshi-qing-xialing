@@ -1,0 +1,6 @@
+{
+  "name": "YanyiSandpan.Presentation",
+  "rootNamespace": "YanyiSandpan.Presentation",
+  "references": ["YanyiSandpan.Domain", "UnityEngine.UI"],
+  "autoReferenced": true
+}

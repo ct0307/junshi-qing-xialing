@@ -1,0 +1,204 @@
+{
+  "method": "PyMuPDF栅格化 + Pillow像素检查",
+  "files": [
+    {
+      "name": "app-icon-1024.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "opaque": true,
+      "sha256": "972f1d5ad855717662d18844656687a1b224322c2641051c898f72eb793f759d"
+    },
+    {
+      "name": "app-icon-512.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "opaque": true,
+      "sha256": "6971dc2a713873b428da18f22f9ccd78c842fc640dad0b7aefaf82e7e6faaeca"
+    },
+    {
+      "name": "app-icon-192.png",
+      "dimensions": [
+        192,
+        192
+      ],
+      "opaque": true,
+      "sha256": "a48ad71373cd4306bf7c5c675fcffff44eff898befb77e997f617c7651199f02"
+    },
+    {
+      "name": "app-icon-96.png",
+      "dimensions": [
+        96,
+        96
+      ],
+      "opaque": true,
+      "sha256": "71d4fb9cac6b1ee7d04b2e9e03320ebdbdadc6b2b8563efc8df163e6614ce694"
+    },
+    {
+      "name": "app-icon-64.png",
+      "dimensions": [
+        64,
+        64
+      ],
+      "opaque": true,
+      "sha256": "393e989b29127c9dcaddff47e89e4c90ebe7dc596201cc9093be93648f75d3f3"
+    },
+    {
+      "name": "app-icon-48.png",
+      "dimensions": [
+        48,
+        48
+      ],
+      "opaque": true,
+      "sha256": "e73d742e66c763d468519126fe44575cb731b7fc1b9241ae30c8b9dab3dad548"
+    },
+    {
+      "name": "adaptive-foreground-432.png",
+      "dimensions": [
+        432,
+        432
+      ],
+      "opaque": false,
+      "sha256": "284a180eb6bccfae29df483ce78a84027b4ffc64e873b8413027528ae6de41ae"
+    },
+    {
+      "name": "adaptive-background-432.png",
+      "dimensions": [
+        432,
+        432
+      ],
+      "opaque": true,
+      "sha256": "1a097d25de876e4eccc3d359b5491eeee1961e6efb0fd36f1841610be9b75ea8"
+    },
+    {
+      "name": "monochrome-432.png",
+      "dimensions": [
+        432,
+        432
+      ],
+      "opaque": false,
+      "sha256": "a919f61a46bd247feab41b97e627f1de3dd4978dde3202c8e03c219321ae9446"
+    }
+  ],
+  "checks": {
+    "adaptive_safe_circle": {
+      "canvas": 432,
+      "maximum_nontransparent_radius": 120.169,
+      "safe_radius": 132,
+      "pass": true
+    },
+    "jade_background_rendered": {
+      "pixel_0_0_rgba": [
+        46,
+        102,
+        83,
+        255
+      ],
+      "pass": true
+    },
+    "windows_ico_sizes": [
+      [
+        16,
+        16
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        48,
+        48
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        256,
+        256
+      ]
+    ],
+    "platform_integration": "未执行Unity接入、Android打包或真机验证"
+  },
+  "manifest": [
+    {
+      "name": "adaptive-background-432.png",
+      "sha256": "1a097d25de876e4eccc3d359b5491eeee1961e6efb0fd36f1841610be9b75ea8"
+    },
+    {
+      "name": "adaptive-background.svg",
+      "sha256": "68dc97d2595c9fe31041816deb26b2aff929ee2e02317e67075cc043d8280505"
+    },
+    {
+      "name": "adaptive-foreground-432.png",
+      "sha256": "284a180eb6bccfae29df483ce78a84027b4ffc64e873b8413027528ae6de41ae"
+    },
+    {
+      "name": "adaptive-foreground.svg",
+      "sha256": "f4d74a6212066991672cc3cd1a8af8a007e7442d3d0f57aad2662d49aae9845f"
+    },
+    {
+      "name": "adaptive-launcher-composite-preview.png",
+      "sha256": "0a8e1eb227f4b6eb7a928c8ea4a0e85ca5e8c9e2e9ba458d85dbfe31a351e6b0"
+    },
+    {
+      "name": "app-icon-1024.png",
+      "sha256": "972f1d5ad855717662d18844656687a1b224322c2641051c898f72eb793f759d"
+    },
+    {
+      "name": "app-icon-192.png",
+      "sha256": "a48ad71373cd4306bf7c5c675fcffff44eff898befb77e997f617c7651199f02"
+    },
+    {
+      "name": "app-icon-48.png",
+      "sha256": "e73d742e66c763d468519126fe44575cb731b7fc1b9241ae30c8b9dab3dad548"
+    },
+    {
+      "name": "app-icon-512.png",
+      "sha256": "6971dc2a713873b428da18f22f9ccd78c842fc640dad0b7aefaf82e7e6faaeca"
+    },
+    {
+      "name": "app-icon-64.png",
+      "sha256": "393e989b29127c9dcaddff47e89e4c90ebe7dc596201cc9093be93648f75d3f3"
+    },
+    {
+      "name": "app-icon-96.png",
+      "sha256": "71d4fb9cac6b1ee7d04b2e9e03320ebdbdadc6b2b8563efc8df163e6614ce694"
+    },
+    {
+      "name": "app-icon-windows.ico",
+      "sha256": "4f8ec0a10f13773610484c588ce5d4be193c022b8782a2dcb6d749961eef6165"
+    },
+    {
+      "name": "master.svg",
+      "sha256": "12d9897805daaa3af937a847b0d940104254fda2e5503e039b715e7138e5e6aa"
+    },
+    {
+      "name": "monochrome-432.png",
+      "sha256": "a919f61a46bd247feab41b97e627f1de3dd4978dde3202c8e03c219321ae9446"
+    },
+    {
+      "name": "monochrome.svg",
+      "sha256": "8131e6faaa8077529948c353012c83395d21f55d44e733e68b9b798d4f63d22a"
+    },
+    {
+      "name": "preview-board.png",
+      "sha256": "67f44a56e04c09e4c6bc126c07962b904fa0f88fc9379c58c21726c0df1819bd"
+    },
+    {
+      "name": "README.md",
+      "sha256": "e7cf39a749c9f0b6fd5998339d18437b24b4fa3080c469d4889e3449f2952a1a"
+    }
+  ]
+}

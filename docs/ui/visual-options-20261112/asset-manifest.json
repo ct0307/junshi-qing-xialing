@@ -1,0 +1,116 @@
+{
+  "SourcesUnchanged": true,
+  "SourceFiles": {
+    "UnityGame/Assets/Resources/Game/database.json": "2ce213decc99263dc6338afc004822f177fb1358b5f1b9bce48ab9776876c55a",
+    "UnityGame/Assets/Resources/Game/Maps/huangjin.png": "c7a75c6958c94b9b19f2f854a2be71e03b6c64dba20e167b94c8298d37adfffc",
+    "UnityGame/Assets/Resources/Game/Fonts/Chinese.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "UnityGame/Assets/Resources/Game/Characters/guan_yu.png": "d5ed163a6dc328520124758e2bf70a820f888ccb38917176c97ba034ac49c80a",
+    "UnityGame/Assets/Resources/Game/Characters/huang_zhong.png": "fadaa4d595f594e3f83873d28435b06ecc8724c3818a0ca078200b596ce3f11d",
+    "UnityGame/Assets/Resources/Game/Characters/zhao_yun.png": "121bf2a4c514eecdf6abdfbd664fa13740bc8f72de3a3f57b890bcb74c4bce69",
+    "UnityGame/Assets/Resources/Game/Characters/zhou_yu.png": "43e386429e98feb41d292902bf4a873c92be6a66ae7efadfb86b344d72c4922c",
+    "UnityGame/Assets/Resources/Game/Characters/lu_xun.png": "430424996f1a31cdcda5faece051e131a2c800a0c1ba57f44e27876842d1b5d2",
+    "UnityGame/Assets/Resources/Game/Portraits/guan_yu.png": "dd37af370d153801cf6d01cb4da6af17323b985ddc257ba77e766ae364deed8c",
+    "UnityGame/Assets/Resources/Game/Portraits/huang_zhong.png": "2b071537aa77b93ba434a8c6a2e3a76bff768e410fcfea5c41b2816fd4686162",
+    "UnityGame/Assets/Resources/Game/Portraits/zhao_yun.png": "ae2652001d41ccd51c99488b0d73a31babf8fbb64006b24b0c84f838b7d65468",
+    "UnityGame/Assets/Resources/Game/Portraits/zhou_yu.png": "bfca3e62aab90fef3bf1d75ac53ef1f1cd03f3af7d1365f63dd0337d84137836",
+    "UnityGame/Assets/Resources/Game/Portraits/lu_xun.png": "6ba555032316ed49fee2ad94e965506f115e48dbb349280e9f0d5be6eaab873e",
+    "UnityGame/Assets/Resources/Game/Enemies/infantry.png": "50fff2ba987cc0b96a5933007cf48fe5753b43f8ed39527d4943891b06b5cbc9",
+    "UnityGame/Assets/Resources/Game/Enemies/archer.png": "526af7ef7152040c6fd61a682553d5d2e439cc49bbebec33adafb9bf8f831f7a",
+    "UnityGame/Assets/Resources/Game/Fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+  },
+  "MapCrop": [
+    38,
+    144,
+    1882,
+    842
+  ],
+  "RoutePointCount": 70,
+  "SlotCount": 32,
+  "Assets": [
+    {
+      "Path": "assets/characters/guan_yu.png",
+      "Bytes": 159365,
+      "Sha256": "d5ed163a6dc328520124758e2bf70a820f888ccb38917176c97ba034ac49c80a"
+    },
+    {
+      "Path": "assets/characters/huang_zhong.png",
+      "Bytes": 176362,
+      "Sha256": "fadaa4d595f594e3f83873d28435b06ecc8724c3818a0ca078200b596ce3f11d"
+    },
+    {
+      "Path": "assets/characters/lu_xun.png",
+      "Bytes": 119513,
+      "Sha256": "430424996f1a31cdcda5faece051e131a2c800a0c1ba57f44e27876842d1b5d2"
+    },
+    {
+      "Path": "assets/characters/zhao_yun.png",
+      "Bytes": 167663,
+      "Sha256": "121bf2a4c514eecdf6abdfbd664fa13740bc8f72de3a3f57b890bcb74c4bce69"
+    },
+    {
+      "Path": "assets/characters/zhou_yu.png",
+      "Bytes": 150420,
+      "Sha256": "43e386429e98feb41d292902bf4a873c92be6a66ae7efadfb86b344d72c4922c"
+    },
+    {
+      "Path": "assets/chinese.otf",
+      "Bytes": 16437364,
+      "Sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "Path": "assets/data.js",
+      "Bytes": 4853,
+      "Sha256": "a86ae9fd3b0c06105c8234bc3c96d80930684c3d53546061071951d7cdd73c8c"
+    },
+    {
+      "Path": "assets/data.json",
+      "Bytes": 10882,
+      "Sha256": "9c47e8ad59eca29d8b4808f3545298fe060cc16027fc6bd205dbbc31ee4d8e23"
+    },
+    {
+      "Path": "assets/enemies/archer.png",
+      "Bytes": 140148,
+      "Sha256": "526af7ef7152040c6fd61a682553d5d2e439cc49bbebec33adafb9bf8f831f7a"
+    },
+    {
+      "Path": "assets/enemies/infantry.png",
+      "Bytes": 138188,
+      "Sha256": "50fff2ba987cc0b96a5933007cf48fe5753b43f8ed39527d4943891b06b5cbc9"
+    },
+    {
+      "Path": "assets/map.png",
+      "Bytes": 386061,
+      "Sha256": "0c03beeacd57d7eb9686d3d8a849c09390e8c424ad066b59d2e6a465ba89671f"
+    },
+    {
+      "Path": "assets/OFL.txt",
+      "Bytes": 4301,
+      "Sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "Path": "assets/portraits/guan_yu.png",
+      "Bytes": 54268,
+      "Sha256": "dd37af370d153801cf6d01cb4da6af17323b985ddc257ba77e766ae364deed8c"
+    },
+    {
+      "Path": "assets/portraits/huang_zhong.png",
+      "Bytes": 67928,
+      "Sha256": "2b071537aa77b93ba434a8c6a2e3a76bff768e410fcfea5c41b2816fd4686162"
+    },
+    {
+      "Path": "assets/portraits/lu_xun.png",
+      "Bytes": 43742,
+      "Sha256": "6ba555032316ed49fee2ad94e965506f115e48dbb349280e9f0d5be6eaab873e"
+    },
+    {
+      "Path": "assets/portraits/zhao_yun.png",
+      "Bytes": 64242,
+      "Sha256": "ae2652001d41ccd51c99488b0d73a31babf8fbb64006b24b0c84f838b7d65468"
+    },
+    {
+      "Path": "assets/portraits/zhou_yu.png",
+      "Bytes": 56037,
+      "Sha256": "bfca3e62aab90fef3bf1d75ac53ef1f1cd03f3af7d1365f63dd0337d84137836"
+    }
+  ]
+}

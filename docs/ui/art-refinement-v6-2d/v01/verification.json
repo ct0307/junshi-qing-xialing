@@ -1,0 +1,572 @@
+{
+  "Stage": "2D重绘方向样稿，未接入游戏",
+  "Method": "原创可编辑2D曲线及Pillow分层设色",
+  "Inputs": [
+    {
+      "Path": "tools/art2d/characters.py",
+      "Sha256": "beda1472d64ad58da0ee6226b2d0ccf215146152089044be36c74010f6a78dfc"
+    },
+    {
+      "Path": "tools/art2d/terrain.py",
+      "Sha256": "ba12fe6836b610e80f69809e98a113a18b8b35e7f0a97c3d053ab81860682a2a"
+    },
+    {
+      "Path": "tools/build_2d_art_samples.py",
+      "Sha256": "a7a3cda15fb5fdd514134420d062570c758a563b943ee3e848dfb5686648d362"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/database.json",
+      "Sha256": "2ce213decc99263dc6338afc004822f177fb1358b5f1b9bce48ab9776876c55a"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Fonts/Chinese.otf",
+      "Sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/guan_yu.png",
+      "Sha256": "d5ed163a6dc328520124758e2bf70a820f888ccb38917176c97ba034ac49c80a"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Characters/zhao_yun.png",
+      "Sha256": "121bf2a4c514eecdf6abdfbd664fa13740bc8f72de3a3f57b890bcb74c4bce69"
+    },
+    {
+      "Path": "UnityGame/Assets/Resources/Game/Maps/huangjin.png",
+      "Sha256": "c7a75c6958c94b9b19f2f854a2be71e03b6c64dba20e167b94c8298d37adfffc"
+    },
+    {
+      "Path": "docs/ui/runtime-ui-refinement-20261108/battle-deployed-1920.png",
+      "Sha256": "2f46654d16e47f7bdf95ac457b5f795a5d40c9ee0b3c02e0f242cd3aa1f70766"
+    },
+    {
+      "Path": "docs/ui/portrait_art_v2.py",
+      "Sha256": "a271226bce8b26c24d8dedda63243eb4a50a5ae63c3c1fbc75cdeafe28619fc8"
+    },
+    {
+      "Path": "docs/ui/portrait_art_v3.py",
+      "Sha256": "ad4c55f076bd0346177e71521d907859738406313d07a99f0b860e53a09ba485"
+    },
+    {
+      "Path": "docs/ui/portrait_art_v4.py",
+      "Sha256": "32fed2561d929e6f5ad49b9f17828d3ff2d12c372af2ea7465086b5700248aca"
+    },
+    {
+      "Path": "docs/ui/terrain_art_v2.py",
+      "Sha256": "5fff91031f23144bcc6dd096b1b1480120759e9204ee2ddf6bff8d4b9ab43e65"
+    },
+    {
+      "Path": "docs/ui/terrain_art_v3.py",
+      "Sha256": "6035b6f41c904f86d52b042f1de002c03ba835b768f7a3b93083c1531bd1d109"
+    },
+    {
+      "Path": "docs/ui/terrain_art_v4.py",
+      "Sha256": "cad6dc57eb6566240dcd4899e995902e0c68b195c43d3e03ce7eaff2d7a1a8cd"
+    }
+  ],
+  "Characters": [
+    {
+      "Id": "guan_yu",
+      "AlphaBounds": [
+        132,
+        27,
+        680,
+        683
+      ],
+      "DeclaredAnchor": [
+        360,
+        660
+      ]
+    },
+    {
+      "Id": "zhao_yun",
+      "AlphaBounds": [
+        184,
+        25,
+        687,
+        683
+      ],
+      "DeclaredAnchor": [
+        360,
+        660
+      ]
+    }
+  ],
+  "MapLayout": {
+    "Style": "二维青绿手绘郊野",
+    "Decorations": [
+      {
+        "Name": "终点青瓦关楼",
+        "Bounds": [
+          121.0,
+          540.0,
+          243.0,
+          731.0
+        ],
+        "AllowRoad": true,
+        "Role": "terminal_gate"
+      },
+      {
+        "Name": "村落主屋",
+        "Bounds": [
+          60.0,
+          376.5,
+          173.5,
+          492.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "村落侧屋",
+        "Bounds": [
+          187.5,
+          429.0,
+          280.0,
+          523.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "西侧粮屋",
+        "Bounds": [
+          44.5,
+          509.5,
+          113.5,
+          578.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "村中小井",
+        "Bounds": [
+          137.0,
+          506.5,
+          167.5,
+          537.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "村边竹丛",
+        "Bounds": [
+          181.5,
+          347.5,
+          250.0,
+          422.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "西田大片金稻",
+        "Bounds": [
+          457.5,
+          374.0,
+          658.5,
+          443.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "中田小苗圃",
+        "Bounds": [
+          870.0,
+          403.0,
+          986.0,
+          438.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "东田收割稻",
+        "Bounds": [
+          1132.0,
+          388.0,
+          1261.5,
+          435.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "东田收割草束",
+        "Bounds": [
+          1289.5,
+          400.5,
+          1338.0,
+          443.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "田边西树",
+        "Bounds": [
+          372.0,
+          365.0,
+          429.0,
+          445.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "田间榆簇",
+        "Bounds": [
+          709.5,
+          377.0,
+          778.5,
+          452.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "东田榆簇",
+        "Bounds": [
+          1359.5,
+          378.0,
+          1432.5,
+          455.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "东北林簇",
+        "Bounds": [
+          1555.0,
+          168.0,
+          1638.5,
+          254.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "东北浅岩",
+        "Bounds": [
+          1668.5,
+          179.0,
+          1735.0,
+          221.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "西北浅岩",
+        "Bounds": [
+          48.5,
+          197.0,
+          93.5,
+          225.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "西南林簇",
+        "Bounds": [
+          53.0,
+          760.0,
+          123.0,
+          832.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "东南林簇",
+        "Bounds": [
+          1770.0,
+          744.5,
+          1855.5,
+          832.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "东南浅岩",
+        "Bounds": [
+          1659.5,
+          793.5,
+          1720.0,
+          831.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "东岸竹丛",
+        "Bounds": [
+          1815.5,
+          362.0,
+          1867.5,
+          416.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草1",
+        "Bounds": [
+          275.5,
+          395.5,
+          296.0,
+          410.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草4",
+        "Bounds": [
+          799.5,
+          421.5,
+          818.0,
+          434.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草5",
+        "Bounds": [
+          1049.0,
+          414.0,
+          1070.5,
+          429.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草7",
+        "Bounds": [
+          1471.0,
+          465.0,
+          1492.5,
+          480.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草8",
+        "Bounds": [
+          64.0,
+          611.0,
+          84.0,
+          625.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草10",
+        "Bounds": [
+          1802.0,
+          561.0,
+          1823.5,
+          576.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草11",
+        "Bounds": [
+          1836.0,
+          715.0,
+          1858.0,
+          730.5
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草12",
+        "Bounds": [
+          1700.0,
+          739.5,
+          1720.0,
+          754.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草13",
+        "Bounds": [
+          1504.5,
+          203.5,
+          1525.0,
+          218.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草17",
+        "Bounds": [
+          418.5,
+          641.5,
+          435.0,
+          653.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草18",
+        "Bounds": [
+          794.5,
+          640.0,
+          811.0,
+          652.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草19",
+        "Bounds": [
+          1159.0,
+          638.0,
+          1176.5,
+          650.0
+        ],
+        "AllowRoad": false
+      },
+      {
+        "Name": "疏花草20",
+        "Bounds": [
+          1443.0,
+          642.0,
+          1460.5,
+          654.0
+        ],
+        "AllowRoad": false
+      }
+    ],
+    "Rejected": 7,
+    "RejectedDetails": [
+      {
+        "Name": "疏花草2",
+        "Bounds": [
+          443.0,
+          430.0,
+          463.0,
+          444.0
+        ],
+        "Reason": "西田大片金稻"
+      },
+      {
+        "Name": "疏花草3",
+        "Bounds": [
+          654.5,
+          415.5,
+          675.0,
+          430.0
+        ],
+        "Reason": "西田大片金稻"
+      },
+      {
+        "Name": "疏花草6",
+        "Bounds": [
+          1314.5,
+          423.5,
+          1335.0,
+          438.0
+        ],
+        "Reason": "东田收割草束"
+      },
+      {
+        "Name": "疏花草9",
+        "Bounds": [
+          203.5,
+          630.5,
+          224.5,
+          645.0
+        ],
+        "Reason": "终点青瓦关楼"
+      },
+      {
+        "Name": "疏花草14",
+        "Bounds": [
+          1722.5,
+          244.5,
+          1741.0,
+          257.5
+        ],
+        "Reason": "阵位9"
+      },
+      {
+        "Name": "疏花草15",
+        "Bounds": [
+          83.0,
+          365.0,
+          100.5,
+          377.5
+        ],
+        "Reason": "村落主屋"
+      },
+      {
+        "Name": "疏花草16",
+        "Bounds": [
+          195.5,
+          369.5,
+          214.0,
+          382.5
+        ],
+        "Reason": "村边竹丛"
+      }
+    ],
+    "RoutePointCount": 70,
+    "SlotCount": 32,
+    "SlotClearance": [
+      55,
+      42
+    ],
+    "RoadHalfWidth": 43,
+    "VisibleBounds": [
+      38,
+      144,
+      1882,
+      842
+    ]
+  },
+  "FormalSourceFilesUnchanged": 407,
+  "Files": [
+    {
+      "Path": "comparison-overview.png",
+      "Size": [
+        1920,
+        1400
+      ],
+      "Sha256": "ff30dd10c940be3d7657b2a7828fe2c5d61dd021d65480f9ba8934854a557ad6"
+    },
+    {
+      "Path": "gameplay-art-sample-1280.png",
+      "Size": [
+        1280,
+        720
+      ],
+      "Sha256": "8dad8b93f813e7538e9c4a1b02732a4aff6d61964c63739b60a4aa8f8b876634"
+    },
+    {
+      "Path": "gameplay-art-sample-1920.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "3cd56d24716cc3567e4f400367200537bd24373fa0be83cf35c2c9cfaf05c605"
+    },
+    {
+      "Path": "guan_yu.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Sha256": "7b6d58c83c6c0f793e4fdd5afd96ae1f766e786164b916118e20aaad68df63c3"
+    },
+    {
+      "Path": "huangjin.png",
+      "Size": [
+        1920,
+        1080
+      ],
+      "Sha256": "bb41bd23da2a254b4e0e41adfd825a1bd980a19257c488ee49308206731dbdba"
+    },
+    {
+      "Path": "zhao_yun.png",
+      "Size": [
+        768,
+        768
+      ],
+      "Sha256": "2cb49a73880564cf6c85f7ec7dedf6c1ccaf3cba4b604a7a7447c77105ab23f5"
+    }
+  ],
+  "PreviewIsStaticComposite": true,
+  "NewGameBuildCreated": false,
+  "RuntimeUiTestedWithNewArt": false,
+  "AiImageGenerationUsed": false,
+  "NewDependenciesInstalled": false
+}
